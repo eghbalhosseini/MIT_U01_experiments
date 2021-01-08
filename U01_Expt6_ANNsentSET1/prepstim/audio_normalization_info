@@ -1,0 +1,3 @@
+ the start and end of the sound files were clipped and a bandpass filter (30Hz-8KHz) was applied
+
+ normalized sounds to “EBU R 128 target loudness level of -23 LUFS.”

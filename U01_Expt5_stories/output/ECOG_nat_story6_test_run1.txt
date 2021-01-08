@@ -1,0 +1,4 @@
+pretrial 0.025198
+audio 1.091214
+posttrial -141512.016930
+
