@@ -39,9 +39,9 @@
 %-subset of the materials to use (1-3)
 %-run (1-3,
 
-function U01_langloc_vJan2021(subjectID, set, run_number)
+function U01_langloc_vJan2021(subjectID, list)
 
-send_triggers = 1;
+send_triggers = 0;
 
 %Trigger codes
 ExpStart =      1;
@@ -105,7 +105,7 @@ expt_name = 'U01_langloc_vJan2021';
 if ischar(subjectID) == 0
     error('subj_ID must be a string')
 end
-dataFile = [save_path expt_name '_' subjectID '_set' num2str(set) '_run' num2str(run_number)];
+dataFile = [save_path expt_name '_' subjectID '_list' num2str(list)];
 dataFile_csv = [dataFile '.csv'];
 
 t = now; 
@@ -155,7 +155,7 @@ if ~isempty(d)
         %update the name of the output file with new resume number
         dataFile_csv = [dataFile '_resume' num2str(current_resume_number) '.csv'];
 
-        fprintf('Resuming set %d at trial %d', set, start);
+        fprintf('Resuming list %d at trial %d \n', list, start);
     elseif choice == 2 %RESTARTING
         
         %update the name of the output file with new resume number
@@ -163,7 +163,7 @@ if ~isempty(d)
          % get materials for this set
         load('materials.mat')
         %run practice run
-        if (run_number == 0)
+        if (list == 0)
             stimuli = materials.practice_run;
         else
             stimuli = materials.(['run' num2str(set)]);
@@ -173,10 +173,10 @@ if ~isempty(d)
         start = 1;
         writetable(stimuli, dataFile_csv, 'WriteVariableNames', true);
         output = readtable(dataFile_csv); %save template to save output on
-        fprintf('Restarting set %d', set);
+        fprintf('Restarting list %d \n', list);
     
     else %input was anything other than 1 or 2
-        error('Unrecognized input. Press 1 to resume, press 2 to restart. Exiting.');
+        error('Unrecognized input. Press 1 to resume, press 2 to restart. Exiting.\n');
     end
     
 else
@@ -187,10 +187,10 @@ else
     load('materials.mat')
     
     %run practice run
-    if (run_number == 0)
+    if (list == 0)
         stimuli = materials.practice_run;
     else
-        stimuli = materials.(['run' num2str(set)]);
+        stimuli = materials.(['run' num2str(list)]);
     end
     NUM_STIMULI = height(stimuli);
     %set the start at the beginning, not resumed
@@ -202,8 +202,8 @@ else
 end
 
 %input checks
-if set > 3 || set < 0
-    error('USE: U01_langloc_vJan2021(subjectID, set, run_number) -- set must be between 1 and 3')
+if list > 3 || list < 0
+    error('USE: U01_langloc_vJan2021(subjectID, list) -- list must be between 1 and 3')
 end
 
 
@@ -289,7 +289,7 @@ start_onset = stim_onsets(start);
 stim_onsets = stim_onsets - start_onset;
 onsets = on + stim_onsets;
 
-output.planned_onset = stim_onsets;
+%output.planned_onset = stim_onsets;
 
 %put NA as actual onset for any trials that were run previously
 if start>1
@@ -317,7 +317,7 @@ for i = start:NUM_STIMULI
     if(mod(ind-1, 8) == 0 && ind ~= 1) %give a rest every 8 trials
         ind = 1;
         DrawFormattedText(window, 'Take a break \n\n Press the spacebar to continue', 'center', 'center', black);
-        Screen('Flip', window);
+        start_break = Screen('Flip', window);
         
         while 1
             [keyIsDown, seconds, keyCode] = KbCheck(-3);        % -3 = check input from ALL devices
@@ -329,6 +329,11 @@ for i = start:NUM_STIMULI
                 WaitSecs(2);
                 error('Experiment quit by pressing ESCAPE\n');
             elseif ismember(find(keyCode,1), spaceBar)
+                %update onsets
+                break_time = GetSecs() - start_break;
+                onsets = onsets + break_time;
+                stim_onsets = stim_onsets + break_time;
+           
                 break;
             end
             WaitSecs(0.001);
@@ -340,9 +345,10 @@ for i = start:NUM_STIMULI
     
     if pres{1} == '+'       
         DrawFormattedText(window, '+', 'center', 'center', black);
-        Screen('Flip', window, onsets(i));
+        Screen('Flip', window,onsets(i));
         onset_time = GetSecs() - startTask;
         
+        output.planned_onset(i) = stim_onsets(i);
         output.actual_onset(i) = onset_time;
         output.trial_completed(i) = 1;
         output.date_time(i) = date_time;
@@ -517,6 +523,7 @@ for i = start:NUM_STIMULI
         
         ind = ind +1; %increment ind (for breaks every 8 trials)
         
+        output.planned_onset(i) = stim_onsets(i);
         output.actual_onset(i) = onset_time;
         output.trial_completed(i) = 1;
         output.date_time(i) = date_time;
@@ -546,6 +553,8 @@ end
 
 EntireTime = GetSecs - startTask
 sca;
+
+writetable(output, dataFile_csv, 'WriteVariableNames', true);
 
 %clear the keyboard
 KbQueueRelease();

@@ -7,7 +7,7 @@
 % There should be a folder called 'stimuli' in the current directory that
 % stores all of the audio files (10 stories) that this scripts accesses
 %
-% For MGH studies, only stories 2,4,5,5,7,8,9 are available
+% For MGH studies, only stories 2,4,5,6,7,8,9 are available
 % all stories should be run and story 5 should be run twice (on different days)
 
 %%% Author: Idan Blank (based on codes by Eyal Decther, Jason Fischer)

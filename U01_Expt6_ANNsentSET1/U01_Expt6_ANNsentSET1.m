@@ -110,7 +110,7 @@ if ~isempty(d)
             
             subject_output_file = [subject_output '_resume' num2str(current_resume_number) '.csv'];
             
-            fprintf('Resuming list %d at trial %', list, start);
+            fprintf('Resuming list %d at trial % \n', list, start);
         else
             % get materials for this set
             load('all_stimuli.mat')
@@ -135,7 +135,7 @@ if ~isempty(d)
             resume_number = zeros(NUM_STIMULI,1);
             
             subject_output_file = [subject_output '_restart' num2str(current_resume_number) '.csv'];
-            fprintf('Restarting list %d', list);
+            fprintf('Restarting list %d \n', list);
         end
         
     else %input was anything other than 1 or 2
