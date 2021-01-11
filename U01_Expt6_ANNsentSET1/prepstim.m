@@ -16,7 +16,8 @@
 %generate materials for the auditory task
 rootDir = pwd();
 opts = detectImportOptions('final_stimuli.xlsx');
-data = readtable('final_stimuli.xlsx','DataRange','A2','VariableNamesRange','A1');
+data = readtable('final_stimuli.xlsx');
+%,'DataRange','A2','VariableNamesRange','A1');
 
 STIMULI_AUDIO = '/stimuli/';
 
@@ -54,7 +55,7 @@ nonword_counter = 1;
 
 v_names = [string(data.Properties.VariableNames), "list"];
 table_size = [224 7]; 
-v_types = ["string", "string", "string", "string", "uint64","uint64","uint64"];
+v_types = ["string", "string", "string", "string", "string","string","string"];
 
 all_stimuli = table('Size',table_size,'VariableNames',v_names,'VariableType',v_types);
 
@@ -119,6 +120,5 @@ while stim_counter <= NUM_STIMULI
 end
 
 save('all_stimuli.mat', 'all_stimuli')
-save('all_stimuli.csv','all_stimuli')
 
 

@@ -27,6 +27,20 @@ function U01_Expt5_stories(subjID,storynum, run)
 
 %% Initialize Variables
 
+send_triggers = 0; %false when testing without actual trigger machine
+
+%Trigger codes
+Audio =     2;
+Fixation =  3;
+Question =  4;
+Response =  5;
+
+% Create empty structure.
+TrialStruct = struct();
+if(send_triggers)
+    TrialStruct = Setup_DAQ_Stim(TrialStruct);
+end
+
 
 %check parameters
 if ischar(subjID) == 0
@@ -99,14 +113,14 @@ nStimuli = length(stimulusSet);
 timing = zeros(nStimuli,1); % timing of different events in the experiment
 dataDir = ['output', filesep];
 
-if exist([dataDir (strcat(expt_num,'_story',num2str(storynum),'_',subjID,'_run',num2str(run))) '.mat'],'file')
+if exist([dataDir (strcat(expt_name,'_story',num2str(storynum),'_',subjID,'_run',num2str(run))) '.mat'],'file')
     overwrite = input('A file is already saved with this name. Overwrite? (y/n): ','s');
     if overwrite == 'y' %do nothing
     else %anything besides 'y', input new name
         run = input('Enter a new run number: ','s');
     end
 end
-dataFile_mat =[dataDir expt_name '_story' num2str(storynum) '_' subjID, '_run', num2str(run), '.txt'];
+dataFile_mat =[dataDir expt_name '_story' num2str(storynum) '_' subjID, '_run', num2str(run), '.mat'];
 dataFile = [dataDir expt_name '_story' num2str(storynum) '_' subjID, '_run', num2str(run), '.txt'];
 fid = fopen(dataFile, 'a');
 
@@ -220,6 +234,11 @@ while current < nStimuli
             case 'pretrial'
                 
                 % send fixation trigger
+                TriggerCode = zeros(1,8);
+                TriggerCode(Fixation) = 1;
+                if(send_triggers)
+                    SendTrigger( TrialStruct, TriggerCode )
+                end
                 
                 
                 DrawFormattedText(windowPtr, '+', 'center', 'center', 0);
@@ -232,7 +251,13 @@ while current < nStimuli
             case 'audio'
                 
                 % TRIGGER BEGINNING OF AUDIO
-                
+                TriggerCode = zeros(1,8);
+                TriggerCode(Fixation) = 1;
+                TriggerCode(Audio) = 1;
+                if(send_triggers)
+                    SendTrigger( TrialStruct, TriggerCode )
+                end
+
                 
                 DrawFormattedText(windowPtr, '+', 'center', 'center', 0);
                 Screen('Flip',windowPtr);
@@ -245,6 +270,12 @@ while current < nStimuli
                 PsychPortAudio('Close');
                 
                 % TRIGGER END OF AUDIO
+                TriggerCode = zeros(1,8);
+                TriggerCode(Fixation) = 1;
+                TriggerCode(Audio) = 0;
+                if(send_triggers)
+                    SendTrigger( TrialStruct, TriggerCode )
+                end
                 
                 
                 DrawFormattedText(windowPtr, '+', 'center', 'center', 0);
@@ -298,6 +329,12 @@ end
 
 
 %% TRIGGER END OF FIXATION
+TriggerCode = zeros(1,8);
+TriggerCode(Fixation) = 0;
+TriggerCode(Audio) = 0;
+if(send_triggers)
+    SendTrigger( TrialStruct, TriggerCode )
+end
 
 
 %% display the questions
@@ -313,6 +350,13 @@ for i = 1:length(pres_questions)
     stimuli_pres = GetSecs();
     
     %TRIGGER QUESTION
+    TriggerCode = zeros(1,8);
+    TriggerCode(Fixation) = 0;
+    TriggerCode(Audio) = 0;
+    TriggerCode(Question) = 1;
+    if(send_triggers)
+        SendTrigger( TrialStruct, TriggerCode )
+    end
    
     
     item{i} = i;
@@ -348,15 +392,32 @@ for i = 1:length(pres_questions)
             Screen('Flip', windowPtr);
             break;
         end
-        WaitSecs(0.001)
+        WaitSecs(0.001);
     end
     
     %TRIGGER RESPONSE TO QUESTION
+    TriggerCode = zeros(1,8);
+    TriggerCode(Fixation) = 0;
+    TriggerCode(Audio) = 0;
+    TriggerCode(Question) = 1;
+    TriggerCode(Response) = 1;
+    if(send_triggers)
+        SendTrigger( TrialStruct, TriggerCode )
+    end
 
     output = table(item, pres_questions, pres_answersA, pres_answersB, pres_correctAnswers, response, RT);
     writetable(output, dataFile, 'WriteVariableNames', true)
     
     %TRIGGER END
+    
+    TriggerCode = zeros(1,8);
+    TriggerCode(Fixation) = 0;
+    TriggerCode(Audio) = 0;
+    TriggerCode(Question) = 0;
+    TriggerCode(Response) = 0;
+    if(send_triggers)
+        SendTrigger( TrialStruct, TriggerCode )
+    end
     
 end
 

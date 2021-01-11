@@ -1,0 +1,57 @@
+final_list,trial,trial_onset,final_audio_filename,final_condition,final_audio_transcript,pressed_space_to_continue,trial_completed,resume_number
+1,1,2.47600000875536e-05,sentence_10.wav,sentence,"Unfortunately, rapid population growth and urban sprawl has covered much of these ecosystems with development.",1,1,2
+1,2,8.21255359099996,sentence_168.wav,sentence,"A wonderful place, if you want more than just the physical side of yoga.",1,1,2
+1,3,14.4883691750001,sentence_76.wav,sentence,"I think he would be a good fit.",1,1,2
+1,4,0,sentence_38.wav,sentence,"you'll be more or less settled by the time she arrives.",0,0,0
+1,5,0,sentence_77.wav,sentence,"And now he is also world champion.",0,0,0
+1,6,0,sentence_59.wav,sentence,"Our exploratory study included three basic steps.",0,0,0
+1,7,0,sentence_83.wav,sentence,"My self-esteem is a jigsaw I cannot complete.",0,0,0
+1,8,0,sentence_191.wav,sentence,"James Bateman came the day I called and fixed the problem quickly and efficiently.",0,0,0
+1,9,0,sentence_20.wav,sentence,"This particular chair is designed to help with back problems, which she has.",0,0,0
+1,10,0,sentence_105.wav,sentence,"Your life might take on an entirely new direction you've never dreamed of.",0,0,0
+1,11,0,nonword_4.wav,nonword,"coldist blalb dap cre olp yoap cre ub kem cre en snig",0,0,0
+1,12,0,sentence_95.wav,sentence,"Why certain slogans work and why some don't.",0,0,0
+1,13,0,sentence_17.wav,sentence,"I noticed there was a hole in the bottom of his pail.",0,0,0
+1,14,0,sentence_74.wav,sentence,"The spokesman did not rule out the possibility that others would also be investigated.",0,0,0
+1,15,0,sentence_195.wav,sentence,"Staff is super friendly, treat you as a friend.",0,0,0
+1,16,0,sentence_71.wav,sentence,"We play in all aspects of the game and we hand pick our members.",0,0,0
+1,17,0,sentence_111.wav,sentence,"There is no parade and there never has been.",0,0,0
+1,18,0,sentence_107.wav,sentence,"He wont even get close to the crate.",0,0,0
+1,19,0,sentence_174.wav,sentence,"This shop is by far the best I have been to.",0,0,0
+1,20,0,sentence_182.wav,sentence,"Camp, cook, sleep, strike camp, march.",0,0,0
+1,21,0,sentence_19.wav,sentence,"I reserve my right to come back on this when it goes back to committee.",0,0,0
+1,22,0,nonword_12.wav,nonword,"dwaped crinky cre brons ik olp trum dirors olp chon wat streff",0,0,0
+1,23,0,sentence_68.wav,sentence,"Yes, yes and yes.",0,0,0
+1,24,0,sentence_163.wav,sentence,"Eventually when he found his brother he had resolution.",0,0,0
+1,25,0,sentence_54.wav,sentence,"However, all that is to no purpose.",0,0,0
+1,26,0,sentence_147.wav,sentence,"The central space was used to observe the rising of the sun and full moon.",0,0,0
+1,27,0,sentence_89.wav,sentence,"She is very conscientious about what she signs, and who initials what.",0,0,0
+1,28,0,sentence_185.wav,sentence,"South France is wonderful, right on the Mediterranean.",0,0,0
+1,29,0,sentence_126.wav,sentence,"Next, place one paper in each of the six envelopes and seal them.",0,0,0
+1,30,0,sentence_154.wav,sentence,"Lee was making his final Canadian convention appearance, part of a larger farewell tour.",0,0,0
+1,31,0,sentence_160.wav,sentence,"It's not the same.",0,0,0
+1,32,0,sentence_148.wav,sentence,"If all this is really happening, he said, then I must keep my eyes open.",0,0,0
+1,33,0,nonword_3.wav,nonword,"mamp udd en cre vanc las stolfs cre owseors wat im thel",0,0,0
+1,34,0,sentence_110.wav,sentence,"I saw lots of videos about this, but actually it didn't help.",0,0,0
+1,35,0,sentence_166.wav,sentence,"Fill it halfway with books, and fill it up with lighter stuff.",0,0,0
+1,36,0,sentence_151.wav,sentence,"I don't know, said Quinn, taking another bite.",0,0,0
+1,37,0,sentence_29.wav,sentence,"These people only carry the very best American blown glass.",0,0,0
+1,38,0,sentence_64.wav,sentence,"I have a fax machine at home, though, if you prefer.",0,0,0
+1,39,0,sentence_48.wav,sentence,"Another thing that can cause a king snake to stop eating is shedding.",0,0,0
+1,40,0,sentence_120.wav,sentence,"That's what keeps us coming back for more.",0,0,0
+1,41,0,sentence_199.wav,sentence,"A blinding sunlight drowned all this at times in a sudden recrudescence of glare.",0,0,0
+1,42,0,sentence_189.wav,sentence,"For a hotel like this you would expect some form of free internet.",0,0,0
+1,43,0,sentence_92.wav,sentence,"Also try green leafy veggies, like kale and spinach.",0,0,0
+1,44,0,nonword_6.wav,nonword,"fowth shlough yir cre memp cre emto millote ub jeds crafers cre",0,0,0
+1,45,0,sentence_60.wav,sentence,"I looked at the menu.",0,0,0
+1,46,0,sentence_131.wav,sentence,"Still, the city is a modern city with modern utilities.",0,0,0
+1,47,0,sentence_149.wav,sentence,"So we need to know the results of this debate and put them into effect.",0,0,0
+1,48,0,sentence_43.wav,sentence,"I've never done that before though either.",0,0,0
+1,49,0,sentence_58.wav,sentence,"There will always be an audience for good magicians doing good magic.",0,0,0
+1,50,0,sentence_37.wav,sentence,"But in this study we present a striking exception to this otherwise robust rule.",0,0,0
+1,51,0,sentence_108.wav,sentence,"One ship is very much like another, and the sea is always the same.",0,0,0
+1,52,0,sentence_51.wav,sentence,"That's my favorite show of all time.",0,0,0
+1,53,0,sentence_4.wav,sentence,"You'll have to tell me what it's about first.",0,0,0
+1,54,0,sentence_41.wav,sentence,"Beautiful work, fast shipping and great communication.",0,0,0
+1,55,0,sentence_38.wav,sentence,"you'll be more or less settled by the time she arrives.",0,0,0
+1,56,0,sentence_20.wav,sentence,"This particular chair is designed to help with back problems, which she has.",0,0,0

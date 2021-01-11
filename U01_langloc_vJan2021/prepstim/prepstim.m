@@ -78,15 +78,18 @@ for i = 1:3
     num_stim = length(conds);
     zero_array = num2cell(zeros(num_stim,1));
     list = num2cell(ones(num_stim,1)*i);
-    zero_string_array = string(zero_array);
+    trial = num2cell(1:num_stim)';
     temp_array = [list conds onsets zero_array zero_array zero_array zero_array zero_array zero_array zero_array ...
-        zero_array zero_array zero_array zero_array zero_array zero_array zero_array zero_array zero_array zero_array];
-    
-    current_set = ['s' num2str(i)];
+        zero_array zero_array zero_array zero_array zero_array zero_array zero_array zero_array zero_array zero_array trial zero_array];
     
     run_table = array2table(temp_array);
     run_table.Properties.VariableNames = {'list' 'condition' 'planned_onset' 'actual_onset' 'word1' 'word2' 'word3' 'word4'...
-        'word5' 'word6' 'word7' 'word8' 'word9' 'word10' 'word11' 'word12' 'probe' 'probe_answer' 'response' 'RT' };
+        'word5' 'word6' 'word7' 'word8' 'word9' 'word10' 'word11' 'word12' 'probe' 'probe_answer' 'response' 'RT' 'trial' 'trial_completed'};
+
+
+    current_set = ['s' num2str(i)];
+    
+   
    
     sentence = materials.sent.(current_set);
     nonword = materials.nonword.(current_set);
@@ -98,6 +101,22 @@ for i = 1:3
     %grab the incorrect probes from the materials
     sentence_probes_incorrect = materials.sent.probes_incorrect.(current_set);
     nonword_probes_incorrect = materials.nonword.probes_incorrect.(current_set);
+    
+    %shuffle the sentences and nonwords and their probes
+    n_sentence = length(sentence);
+    n_nonword = length(nonword);
+    
+    sent_indx_shuffled = randperm(n_sentence);
+    nonword_indx_shuffled = randperm(n_nonword);
+    
+    sentence = sentence(sent_indx_shuffled,:);
+    sentence_probes_correct = sentence_probes_correct(sent_indx_shuffled);
+    sentence_probes_incorrect = sentence_probes_incorrect(sent_indx_shuffled);
+    
+    nonword = nonword(nonword_indx_shuffled,:);
+    nonword_probes_correct = nonword_probes_correct(nonword_indx_shuffled);
+    nonword_probes_incorrect = nonword_probes_incorrect(nonword_indx_shuffled);
+    
     
     %get the probe type order from the materials
     probe_order = materials.probe_orders.(['ord' num2str(i)]);
@@ -138,6 +157,7 @@ for i = 1:3
                 end
         end
     end
+    
     materials.(['run' num2str(i)]) = run_table;
 end
 
@@ -157,6 +177,22 @@ nonword_probes_correct = materials.practice.nonword.probes_correct;
 sentence_probes_incorrect = materials.practice.sent.probes_incorrect;
 nonword_probes_incorrect = materials.practice.nonword.probes_incorrect;
 
+%shuffle the sentences and nonwords and their probes
+n_sentence = length(sentence);
+n_nonword = length(nonword);
+
+sent_indx_shuffled = randperm(n_sentence);
+nonword_indx_shuffled = randperm(n_nonword);
+
+sentence = sentence(sent_indx_shuffled,:);
+sentence_probes_correct = sentence_probes_correct(sent_indx_shuffled);
+sentence_probes_incorrect = sentence_probes_incorrect(sent_indx_shuffled);
+
+nonword = nonword(nonword_indx_shuffled,:);
+nonword_probes_correct = nonword_probes_correct(nonword_indx_shuffled);
+nonword_probes_incorrect = nonword_probes_incorrect(nonword_indx_shuffled);
+
+
 %pseudorandom order with fixations between
 order = [ 'F' 'S' 'F' 'N' 'F' 'S' 'F' 'S' 'F' 'N' 'F' 'N' 'F' 'S' 'F' 'N' 'F' 'S' 'F' 'N' 'F' 'N' 'F' 'S' 'F']';
 
@@ -171,12 +207,13 @@ probe_order = [ 0 1 0 1 0 2 0 1 0 1 0 2 0 2 0 2 0 1 0 2 0 2 0 2 0 1 0]';
     zero_array = num2cell(zeros(num_stim,1));
     list = cell(num_stim,1);
     list(:) = {'practice'};
+    trial = num2cell(1:num_stim)';
     temp_array = [list ord stim_onsets zero_array zero_array zero_array zero_array zero_array zero_array zero_array ...
-        zero_array zero_array zero_array zero_array zero_array zero_array zero_array zero_array zero_array zero_array];
+        zero_array zero_array zero_array zero_array zero_array zero_array zero_array zero_array zero_array zero_array trial zero_array];
     
     run_table = array2table(temp_array);
     run_table.Properties.VariableNames = {'list' 'condition' 'planned_onset' 'actual_onset' 'word1' 'word2' 'word3' 'word4'...
-        'word5' 'word6' 'word7' 'word8' 'word9' 'word10' 'word11' 'word12' 'probe' 'probe_answer' 'response' 'RT' };
+        'word5' 'word6' 'word7' 'word8' 'word9' 'word10' 'word11' 'word12' 'probe' 'probe_answer' 'response' 'RT' 'trial' 'trial_completed'};
 
     Si = 0;
     Ni = 0;

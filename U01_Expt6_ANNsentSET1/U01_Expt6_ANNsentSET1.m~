@@ -115,7 +115,7 @@ if ~isempty(d)
             % get materials for this set
             load('all_stimuli.mat')
 
-            stimuli_idx = all_stimuli.list == num2str(list);
+            stimuli_idx = all_stimuli.list == list;
             stimuli = all_stimuli(stimuli_idx,:);
 
             NUM_STIMULI = height(stimuli);
@@ -147,9 +147,9 @@ else
     % run the full list
     
     % get materials for this set
-    load('all_stimuli.mat','all_stimuli')
+    load('all_stimuli.mat')
 
-    stimuli_idx = all_stimuli.list == num2str(list);
+    stimuli_idx = all_stimuli.list == list;
     stimuli = all_stimuli(stimuli_idx,:);
     
     NUM_STIMULI = height(stimuli);
@@ -169,7 +169,9 @@ else
     trial_completed = zeros(NUM_STIMULI,1);
     resume_number = zeros(NUM_STIMULI,1);
     
-end
+
+
+      end
 
 
 
@@ -200,14 +202,12 @@ Screen('Preference', 'SuppressAllWarnings', 1);
 Screen('Preference', 'TextRenderer',        0);
 Screen('Preference', 'SkipSyncTests',       1);
 
-Screen('CloseAll')
-
 screensAll = Screen('Screens'); %Get the screen numbers
 screenNumber = max(screensAll); % Which screen you want to use. "1" is external monitor, "0" is this screen. use external if it is present
 %define colors
 white = WhiteIndex(screenNumber);
 
-[windowPtr,rect]=PsychImaging('OpenWindow',screenNumber, WHITE); %, [0 0 1440 900]
+[windowPtr,rect]=PsychImaging('OpenWindow',screenNumber, WHITE, [0 0 1440 900]); %,
 [screenXpixels, screenYpixels] = Screen('WindowSize', windowPtr);
 oldTextSize = Screen('TextSize',windowPtr,50);
 
@@ -217,6 +217,7 @@ oldTextSize = Screen('TextSize',windowPtr,50);
 
 priorityLevel = MaxPriority(windowPtr);
 Priority(priorityLevel);
+stimFilePaths = [];
 
 
 %% Present instructions %%
@@ -265,6 +266,11 @@ InitializePsychSound;
 oldlevel = PsychPortAudio('Verbosity' ,0);
 
 
+
+%    moveToNext = 1;     % move to next event?
+%    checkTiming = 0;    % check how much time has passed
+
+%
 TriggerCode = zeros(1,8);
 TriggerCode(start_expt) = 1;
 TriggerCode(end_expt) = 0;

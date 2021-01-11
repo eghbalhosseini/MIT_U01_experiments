@@ -39,129 +39,31 @@
 %-subset of the materials to use (1-3)
 %-run (1-3,
 
-
 function U01_langloc_vJan2021(subjectID, set, run_number)
 
-%Creating the output file for this subject
-rootDir=pwd();
-if exist([rootDir filesep 'output'], 'dir')
-    %do nothing
-else
-    mkdir ('output');
-end
-
-save_path = [rootDir filesep 'output' filesep];
-expt_name = 'U01_langloc_vJan2021';
-
-%handle duplicate filename, and other checks
-if ischar(subjectID) == 0
-    error('subj_ID must be a string')
-end
-
-dataFile_csv = [save_path  (strcat(expt_name,'_',subjectID,'_run',num2str(run_number))) '.csv'];
-
-if exist(dataFile_csv,'file')
-    previous_run = readtable(dataFile_csv);
-    
-    %determine if this run was finished
-    num_completed = sum(previous_run.trial_completed == 1);
-    num_trials = length(previous_run.trial);
-    
-    if num_completed < num_trials
-        choice = str2num(input(['\nThis subject has partially completed this list.\nPress 1 to resume that run. Press 2 to restart the run.\n'],'s'));
-    else
-        error(['This subject has completed this list. Please enter a different subject ID or list.']);
-    end
-    
-    if choice == 1 || choice == 2
-        trial_onset = previous_run.trial_onset;
-        final_audio_filename = previous_run.final_audio_filename;
-        final_audio_transcript = previous_run.final_audio_transcript;
-        final_condition = previous_run.final_condition;
-        final_list = previous_run.final_list;
-        pressed_space_to_continue = previous_run.pressed_space_to_continue;
-        trial_completed = previous_run.trial_completed;
-        resume_number = previous_run.resume_number;
-        
-        NUM_STIMULI = height(previous_run);
-        
-        
-        %start at beginning
-        start = 1;
-        %compute the resume numbers (largest resume + 1)
-        resumed = previous_run.resume_number;
-        current_resume_number = max(resumed) + 1;
-        %unless we are resuming
-        if choice == 1
-            %find resume spot
-            completed = previous_run.trial_completed == 1;
-            start = sum(completed) + 1; %start with next sentence
-            
-            fprintf('Resuming set %d at trial %', set, start);
-        else
-            fprintf('Restarting set %d', set);
-            
-        end
-        
-        
-    else %input was anything other than 1 or 2
-        error('Unrecognized input. Press 1 to resume, press 2 to restart. Exiting.');
-    end
-    
-else
-    % no output file for this subject for this list yet
-    % run the full list
-    
-    % get materials for this set
-    load('materials.mat')
-    
-    %run practice run
-    if (run_number == 0)
-        stimuli = materials.practice_run;
-    else
-        stimuli = materials.(['run' num2str(set)]);
-    end
-    
-    NUM_STIMULI = height(stimuli);
-    
-    %set the start at the beginning, not resumed
-    start = 1;
-    current_resume_number = 0;
-    
-    output = stimuli; %save template to save output on
-    
-end
-
-
-
-
-%input checks
-if set > 3 || set < 0
-    error('USE: U01_langloc_vJan2021(subjectID, set, run_number) -- set must be between 1 and 3')
-end
-
+send_triggers = 1;
 
 %Trigger codes
-ExpStart = 1;
-ExpEnd = 2;
-Cond = 3;
-CodedWords = 4:8;
+ExpStart =      1;
+ExpEnd =        2;
+Cond =          3;
+CodedWords =    4:8;
 CodeMap={'0ms: fixation 200ms 13 01101',...
-    '200ms: word1 500ms 1	00001',...
-    '700ms: word2 500ms 2	00010',...
-    '1200ms: word3 500ms 3	00011',...
-    '1700ms: word4 500ms 4	00100',...
-    '2200ms: word5 500ms 5	00101',...
-    '2700ms: word6 500ms 6	00110',...
-    '3200ms: word7 500ms 7	00111',...
-    '3700ms: word8 500ms 8	01000',...
-    '4200ms: word9 500ms 9	01001',...
-    '4700ms: word10 500ms 10	01010',...
-    '5200ms: word11 500ms 11	01011',...
-    '5700ms: word12 500ms 12	01100',...
-    '6200ms: fixation 200ms 14	01110',...
-    '6400ms: probe 1000ms 16	10000',...
-    '7400ms: extra time to answer 600ms 15	01111'};
+    '200ms: word1 400ms 1	00001',...
+    '600ms: word2 400ms 2	00010',...
+    '1000ms: word3 400ms 3	00011',...
+    '1400ms: word4 400ms 4	00100',...
+    '1800ms: word5 400ms 5	00101',...
+    '2200ms: word6 400ms 6	00110',...
+    '2600ms: word7 400ms 7	00111',...
+    '3000ms: word8 400ms 8	01000',...
+    '3400ms: word9 400ms 9	01001',...
+    '3800ms: word10 400ms 10	01010',...
+    '4200ms: word11 400ms 11	01011',...
+    '4600ms: word12 400ms 12	01100',...
+    '5000ms: fixation 200ms 14	01110',...
+    '5200ms: probe 1000ms 16	10000',...
+    '6200ms: extra time to answer 600ms 15	01111'};
 IDValues=[13 1:12 14 16 15]';
 CodedValues={'01101',...
     '00001',...
@@ -179,6 +81,130 @@ CodedValues={'01101',...
     '01110',...
     '10000',...
     '01111'};
+
+% Create empty structure.
+TrialStruct = struct();
+if(send_triggers)
+    TrialStruct = Setup_DAQ_Stim(TrialStruct);
+end
+
+
+
+%Creating the output file for this subject
+rootDir=pwd();
+if exist([rootDir filesep 'output'], 'dir')
+    %do nothing
+else
+    mkdir ('output');
+end
+
+save_path = [rootDir filesep 'output' filesep];
+expt_name = 'U01_langloc_vJan2021';
+
+%handle duplicate filename, and other checks
+if ischar(subjectID) == 0
+    error('subj_ID must be a string')
+end
+dataFile = [save_path expt_name '_' subjectID '_set' num2str(set) '_run' num2str(run_number)];
+dataFile_csv = [dataFile '.csv'];
+
+t = now; 
+date_time = datetime(t,'ConvertFrom','datenum');
+
+%get the latest attempt at this list -- will be *_resume(n).csv
+d = dir([dataFile '*.csv']);
+n_files = length(d);
+if(n_files > 0)
+    dataFile_csv = [d(n_files).folder filesep d(n_files).name];
+    resume_number = 0;
+
+    if contains(dataFile_csv,'resume') || contains(dataFile_csv,'restart')
+        filename_len = length(dataFile_csv);
+        resume_number = str2num(dataFile_csv(filename_len-4));
+    end
+end
+
+if ~isempty(d)
+    
+    previous_run = readtable(dataFile_csv);
+    
+    %determine if this run was finished
+    num_completed = sum(previous_run.trial_completed == 1);
+    num_trials = length(previous_run.trial);
+    
+    if num_completed < num_trials
+        choice = str2num(input(['\nThis subject has partially completed this list.\nPress 1 to resume. Press 2 to restart.\n'],'s'));
+    else
+        error(['This subject has completed this list. Please enter a different subject ID or list.']);
+    end
+    
+    %compute the resume numbers (largest resume + 1)
+    current_resume_number = resume_number + 1;
+    
+    if choice == 1 
+        previous_run = readtable(dataFile_csv);
+        NUM_STIMULI = height(previous_run);
+        
+        stimuli = previous_run;
+        output = previous_run;
+        
+        %find resume spot
+        completed = previous_run.trial_completed == 1;
+        start = sum(completed) + 1; %start with next sentence
+
+        %update the name of the output file with new resume number
+        dataFile_csv = [dataFile '_resume' num2str(current_resume_number) '.csv'];
+
+        fprintf('Resuming set %d at trial %d', set, start);
+    elseif choice == 2 %RESTARTING
+        
+        %update the name of the output file with new resume number
+        dataFile_csv = [dataFile '_restart' num2str(current_resume_number) '.csv'];
+         % get materials for this set
+        load('materials.mat')
+        %run practice run
+        if (run_number == 0)
+            stimuli = materials.practice_run;
+        else
+            stimuli = materials.(['run' num2str(set)]);
+        end
+        NUM_STIMULI = height(stimuli);
+        %set the start at the beginning, not resumed
+        start = 1;
+        writetable(stimuli, dataFile_csv, 'WriteVariableNames', true);
+        output = readtable(dataFile_csv); %save template to save output on
+        fprintf('Restarting set %d', set);
+    
+    else %input was anything other than 1 or 2
+        error('Unrecognized input. Press 1 to resume, press 2 to restart. Exiting.');
+    end
+    
+else
+    % no output file for this subject for this list yet
+    % run the full list
+    
+    % get materials for this set
+    load('materials.mat')
+    
+    %run practice run
+    if (run_number == 0)
+        stimuli = materials.practice_run;
+    else
+        stimuli = materials.(['run' num2str(set)]);
+    end
+    NUM_STIMULI = height(stimuli);
+    %set the start at the beginning, not resumed
+    start = 1;
+    current_resume_number = 0;
+    writetable(stimuli, dataFile_csv, 'WriteVariableNames', true);
+    output = readtable(dataFile_csv); %save template to save output on
+   
+end
+
+%input checks
+if set > 3 || set < 0
+    error('USE: U01_langloc_vJan2021(subjectID, set, run_number) -- set must be between 1 and 3')
+end
 
 
 %Psychtoolbox setup
@@ -198,11 +224,6 @@ Screen('CloseAll')
 screensAll = Screen('Screens'); %Get the screen numbers
 screenNumber = max(screensAll); % Which screen you want to use. "1" is external monitor, "0" is this screen. use external if it is present
 
-if(exist('materials.mat', 'file') == 0)
-    prepstim(); % also need to run this if materials in excel file have changed!! otherwise should already be in the current directory
-end
-load ('materials.mat'); %import the materials that prepstim() creates
-
 %define colors
 white = WhiteIndex(screenNumber);
 black = BlackIndex(screenNumber);
@@ -215,7 +236,6 @@ escapeKey = KbName('escape');
 key_mapping = ["1", "2"];
 trigger_response_keys = [KbName('a'), KbName('s')];
 triggerKey = trigger_response_keys;
-
 
 % Open screen.
 [window, windowRect] = PsychImaging('OpenWindow', screenNumber, white); %, [0 0 640 480]
@@ -248,10 +268,35 @@ end
 
 word_time = 0.400; %seconds
 
+word_onsets = [];
+onset = 0;
+
+for i=1:13 %12 words
+    word_onsets(i) = onset;
+    onset = onset + word_time;
+end
+
 on = GetSecs;
 
-stim_onsets = cell2mat(stimuli.planned_onset);
+stim_onsets = stimuli.planned_onset;
+
+if(isa(stim_onsets,'cell'))
+    stim_onsets = cell2mat(stim_onsets);
+end
+
+start_onset = stim_onsets(start);
+%reset the starting onset to be zero, all other before it will be negative
+stim_onsets = stim_onsets - start_onset;
 onsets = on + stim_onsets;
+
+output.planned_onset = stim_onsets;
+
+%put NA as actual onset for any trials that were run previously
+if start>1
+    na_list = zeros(start,1);
+    na_list(:) = NaN;
+    output.actual_onset(1:start) = na_list;
+end
 
 firstT=0;
 startTask = GetSecs;
@@ -260,15 +305,19 @@ ind =1;
 %of words followed by a memory probe
 
 
-% TRIGGER start of experiment
-
+% TRIGGER start of experiment 
+TriggerCode = zeros(1,8);
+TriggerCode(ExpStart) = 1;
+if(send_triggers)
+    SendTrigger( TrialStruct, TriggerCode )
+end
 
 for i = start:NUM_STIMULI
     
-    if(mod(ind, 8) == 0) %give a rest every 8 trials
+    if(mod(ind-1, 8) == 0 && ind ~= 1) %give a rest every 8 trials
         ind = 1;
         DrawFormattedText(window, 'Take a break \n\n Press the spacebar to continue', 'center', 'center', black);
-        Screen('Flip', window, onsets(i));
+        Screen('Flip', window);
         
         while 1
             [keyIsDown, seconds, keyCode] = KbCheck(-3);        % -3 = check input from ALL devices
@@ -293,49 +342,87 @@ for i = start:NUM_STIMULI
         DrawFormattedText(window, '+', 'center', 'center', black);
         Screen('Flip', window, onsets(i));
         onset_time = GetSecs() - startTask;
-        output{i, 'actual_onset'} = {onset_time};
+        
+        output.actual_onset(i) = onset_time;
+        output.trial_completed(i) = 1;
+        output.date_time(i) = date_time;
+        
         % 1 second fixation
     else
+        
+        condition = output.condition{i};
+        if(condition == 'S')
+            cond_trigger = 1;
+        elseif(condition == 'N')
+            cond_trigger = 0;
+        end
+                
         %pre-stimuli fixation 200 ms
         DrawFormattedText(window, '', 'center', 'center', white);
         Screen('Flip', window,onsets(i));
         onset_time = GetSecs() - startTask;
-        output{i, 'actual_onset'} = {onset_time};
 
         %TRIGGER first fixation (last 5 bits are ID #13)
+        TriggerCode = zeros(1,8);
+        TriggerCode(ExpStart) = 1;
+        Bitword=CodedValues{13};
+        for SU=1:4; TriggerCode(CodedWords(SU)) = str2num(Bitword(SU)); end
+        %%%%%%%%%%%%%%%%%%%%%%%%%%
+        TriggerCode(Cond) = cond_trigger;
+        %%%%%%%%%%%%%%%%%%%%%%%%%%
+        if(send_triggers)
+            SendTrigger( TrialStruct, TriggerCode )
+        end
 
-        WaitSecs(0.200);
+        pre_fixation = WaitSecs(0.200);
+        pre_fixation_time = pre_fixation - onset_time - startTask;
+        
+        %use while loop and onset times for each word for more precise
+        %timing
+        
+        for word_num = 1:length(pres)
+            next_word_onset = word_onsets(word_num+1);
+           
+        
+            while GetSecs()-pre_fixation < next_word_onset
+                
+                %% SEND WORD TRIGGERS HERE %%
+                % each word (word_num) corresponds to the ID #
+                % ie word3 is ID# 3 for the last 5 bits
+                
+                 TriggerCode = zeros(1,8);
+                TriggerCode(ExpStart) = 1;
 
-        %present each word, in all uppercase
-        for j = 1:length(pres)
+                %%%%%%%%%%%%%%%%%%%%%%%%%%
+                Bitword=CodedValues{word_num+1};  % word_num indicates the ID of the word we are presenting at this time, adding one because of the pre-word fixation
+                for SU=1:5; TriggerCode(CodedWords(SU)) = str2num(Bitword(SU));end%What variable is needed to indicate this ID???
+                %%%%%%%%%%%%%%%%%%%%%%%%%%
+                %%%%%%%%%%%%%%%%%%%%%%%%%%
+                TriggerCode(Cond) = cond_trigger;
+                %%%%%%%%%%%%%%%%%%%%%%%%%%
+                if(send_triggers)
+                    SendTrigger( TrialStruct, TriggerCode )
+                end
+                
 
-            w = char(pres(j));
+                w = char(pres(word_num));
+                DrawFormattedText(window, upper(w), 'center', 'center', black);
+                Screen('Flip', window);
 
-            DrawFormattedText(window, upper(w), 'center', 'center', black);
-            Screen('Flip', window);
+                [~, ~, keyCode] = KbCheck(-1);
 
+                if keyCode(escapeKey)
+                    %save all info first
+                    writetable(output, dataFile_csv, 'WriteVariableNames', true);
 
-            %% SEND WORD TRIGGERS HERE %%
-            % each word (j) corresponds to the ID #
-            % ie word3 is ID# 3 for the last 5 bits
+                    Screen('CloseAll');
+                    WaitSecs(2); %time to finish saving and closing screen
+                    error('Experiment quit by pressing ESCAPE\n');
+                end
 
-
-            WaitSecs(word_time); %present each word for 500 ms
-            diff = GetSecs-on-firstT;
-            firstT=GetSecs-on;
-
-            [~, ~, keyCode] = KbCheck(-1);
-
-            if keyCode(escapeKey)
-                %save all info first
-                writetable(output, dataFile_csv, 'WriteVariableNames', true);
-
-                Screen('CloseAll');
-                WaitSecs(2); %time to finish saving and closing screen
-                error('Experiment quit by pressing ESCAPE\n');
-
+                WaitSecs(0.000000000001);
             end
-
+        
         end
 
         %memory probe
@@ -344,6 +431,18 @@ for i = start:NUM_STIMULI
         DrawFormattedText(window, '', 'center', 'center', white);
         Screen('Flip', window);
         %TRIGGER second fixation (last 5 bits are ID #14)
+        TriggerCode = zeros(1,8);
+        TriggerCode(ExpStart) = 1;
+        %%%%%%%%%%%%%%%%%%%%%%%%%%
+        Bitword=CodedValues{14};
+        for SU=1:4; TriggerCode(CodedWords(SU)) = str2num(Bitword(SU));end
+        %%%%%%%%%%%%%%%%%%%%%%%%%%
+        %%%%%%%%%%%%%%%%%%%%%%%%%%
+        TriggerCode(Cond) = cond_trigger;
+        %%%%%%%%%%%%%%%%%%%%%%%%%%
+        if(send_triggers)
+            SendTrigger( TrialStruct, TriggerCode )
+        end
 
 
         WaitSecs(0.200); %pre-probe for 200 ms
@@ -354,6 +453,18 @@ for i = start:NUM_STIMULI
         DrawFormattedText(window, probe, 'center', 'center', blue);
         Screen('Flip', window);
         %TRIGGER probe (last 5 bits are ID #16)
+        TriggerCode = zeros(1,8);
+        TriggerCode(ExpStart) = 1;
+        %%%%%%%%%%%%%%%%%%%%%%%%%%
+        Bitword=CodedValues{16};
+        for SU=1:4; TriggerCode(CodedWords(SU)) = str2num(Bitword(SU));end
+        %%%%%%%%%%%%%%%%%%%%%%%%%%
+        %%%%%%%%%%%%%%%%%%%%%%%%%%
+        TriggerCode(Cond) = cond_trigger;
+        %%%%%%%%%%%%%%%%%%%%%%%%%%
+        if(send_triggers)
+            SendTrigger( TrialStruct, TriggerCode )
+        end
 
         %pressed = 0;
         response = NaN;
@@ -368,8 +479,8 @@ for i = start:NUM_STIMULI
                 response(1,1) = key_mapping(index); % output determined by key_mapping at top of script
                 rt = GetSecs - response_period_start;
 
-                output(i,'response') = response;
-                output(i,'RT') = rt;
+                output.response(i) = response;
+                output.RT(i) = rt;
                 %             end
             end
 
@@ -384,19 +495,35 @@ for i = start:NUM_STIMULI
             end
 
             if(GetSecs > response_period_start + 1) %don't show probe after 1 s but still allow a response
-
                 %TRIGGER extra time to respond (last 5 bits are ID #15)
+                TriggerCode = zeros(1,8);
+                TriggerCode(ExpStart) = 1;
+                %%%%%%%%%%%%%%%%%%%%%%%%%%
+                Bitword=CodedValues{15};
+                for SU=1:4; TriggerCode(CodedWords(SU)) = str2num(Bitword(SU));end
+                %%%%%%%%%%%%%%%%%%%%%%%%%%
+                %%%%%%%%%%%%%%%%%%%%%%%%%%
+                TriggerCode(Cond) = cond_trigger;
+                %%%%%%%%%%%%%%%%%%%%%%%%%%
+                if(send_triggers)
+                    SendTrigger( TrialStruct, TriggerCode )
+                end
 
                 DrawFormattedText(window, '' , 'center', 'center', white);
                 Screen('Flip', window);
             end
 
         end
+        
+        ind = ind +1; %increment ind (for breaks every 8 trials)
+        
+        output.actual_onset(i) = onset_time;
+        output.trial_completed(i) = 1;
+        output.date_time(i) = date_time;
+        
+        %save on each completed non-fixation trial in case something goes wrong
+        writetable(output, dataFile_csv, 'WriteVariableNames', true);
     end
-    
-    %save on each trial in case something goes wrong
-    writetable(output, dataFile_csv, 'WriteVariableNames', true);
-    
 end
 
 [keyIsDown, seconds, keyCode] = KbCheck(-3);        % -3 = check input from ALL devices
@@ -409,7 +536,12 @@ if keyCode(escapeKey)
     error('Experiment quit by pressing ESCAPE\n');
 end
 % TRIGGER end of experiment
-
+ TriggerCode = zeros(1,8);
+ TriggerCode(ExpStart) = 0;
+ TriggerCode(ExpEnd) = 1;
+ if(send_triggers)
+    SendTrigger( TrialStruct, TriggerCode )
+ end
 
 
 EntireTime = GetSecs - startTask
