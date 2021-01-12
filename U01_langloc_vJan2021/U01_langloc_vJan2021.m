@@ -314,7 +314,7 @@ end
 
 for i = start:NUM_STIMULI
     
-    if(mod(ind-1, 8) == 0 && ind ~= 1) %give a rest every 8 trials
+    if(mod(ind-1, 8) == 0 && ind ~= start && ind ~= NUM_STIMULI) %give a rest every 8 trials, excluding first and last trial
         ind = 1;
         DrawFormattedText(window, 'Take a break \n\n Press the spacebar to continue', 'center', 'center', black);
         start_break = Screen('Flip', window);
