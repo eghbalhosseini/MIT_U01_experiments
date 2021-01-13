@@ -121,7 +121,7 @@ if exist([dataDir (strcat(expt_name,'_story',num2str(storynum),'_',subjID,'_run'
     end
 end
 dataFile_mat =[dataDir expt_name '_story' num2str(storynum) '_' subjID, '_run', num2str(run), '.mat'];
-dataFile = [dataDir expt_name '_story' num2str(storynum) '_' subjID, '_run', num2str(run), '.txt'];
+dataFile = [dataDir expt_name '_story' num2str(storynum) '_' subjID, '_run', num2str(run), '.csv'];
 fid = fopen(dataFile, 'a');
 
 
@@ -340,6 +340,7 @@ end
 %% display the questions
 triggerKey = trigger_response_keys;
 response = strings(length(pres_questions),1);
+accuracy = zeros(length(pres_questions),1);
 RT = response;
 item = cell(length(pres_questions),1);
 for i = 1:length(pres_questions)
@@ -404,8 +405,12 @@ for i = 1:length(pres_questions)
     if(send_triggers)
         SendTrigger( TrialStruct, TriggerCode )
     end
+    
+    if(response(i,1) == pres_correctAnswers(i,1))
+        accuracy(i,1) = 1;
+    end
 
-    output = table(item, pres_questions, pres_answersA, pres_answersB, pres_correctAnswers, response, RT);
+    output = table(item, pres_questions, pres_answersA, pres_answersB, pres_correctAnswers, response, RT, accuracy);
     writetable(output, dataFile, 'WriteVariableNames', true)
     
     %TRIGGER END
