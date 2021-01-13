@@ -55,6 +55,8 @@ end
 subject_output = [rootDir dataDir expt_name '_' subjID '_list' num2str(list)];
 subject_output_file = [subject_output '.csv'];
 
+t = now; 
+date_time = datetime(t,'ConvertFrom','datenum');
 
 %get the latest attempt at this list -- will be *_resume(n).csv
 d = dir([subject_output '*.csv']);
@@ -95,7 +97,6 @@ if ~isempty(d)
         pressed_space_to_continue = previous_run.pressed_space_to_continue;
         trial_completed = previous_run.trial_completed;
         resume_number = previous_run.resume_number;
-        date_time_info = previous_run.date_time_info;
         
         NUM_STIMULI = height(previous_run);
         
@@ -137,7 +138,6 @@ if ~isempty(d)
             pressed_space_to_continue = zeros(NUM_STIMULI,1);
             trial_completed = zeros(NUM_STIMULI,1);
             resume_number = zeros(NUM_STIMULI,1);
-            date_time_info = zeros(NUM_STIMULI,1);
             
             subject_output_file = [subject_output '_restart' num2str(current_resume_number) '.csv'];
             fprintf('Restarting list %d \n', list);
@@ -174,8 +174,6 @@ else
     pressed_space_to_continue = zeros(NUM_STIMULI,1);
     trial_completed = zeros(NUM_STIMULI,1);
     resume_number = zeros(NUM_STIMULI,1);
-    date_time_info = zeros(NUM_STIMULI,1);
-
     
 end
 
@@ -232,7 +230,7 @@ Priority(priorityLevel);
 DrawFormattedText(windowPtr, 'Welcome! \n\n Press Enter to begin', 'center', 'center', 0);
 Screen('Flip', windowPtr);
 
-%HideCursor;
+HideCursor;
 
 triggerKey = enterKey;
 while 1
@@ -284,10 +282,6 @@ startTime = GetSecs();
 
 for j =start:NUM_STIMULI
 
-    t = now; 
-    date_time = datetime(t,'ConvertFrom','datenum');
-    
-    date_time_info(j,1) = date_time;
     trial_onset(j,1) = GetSecs() - startTime; %save the onset time of the trial
     %go to grey screen
     Screen(windowPtr, 'Flip');
@@ -296,12 +290,8 @@ for j =start:NUM_STIMULI
     %% Set audio  %%
     stimuli = final_audio_filename(j,1); %get stimuli ID
     condition = final_condition{j,1};
-    repeat_trigger = 0;
     if(condition == "sentence")
         cond_trigger = 1;
-    elseif(condition == "sentence_repeat")
-        cond_trigger = 1;
-        repeat_trigger = 1;
     elseif(condition == "nonword")
         cond_trigger = 0;
     end
@@ -327,8 +317,7 @@ for j =start:NUM_STIMULI
     TriggerCode = zeros(1,8);
     TriggerCode(start_expt) = 1;
     TriggerCode(start_audio) = 1;
-    TriggerCode(condition_idx) = cond_trigger;
-    TriggerCode(repeat) = repeat_trigger;
+    TriggerCoude(condition_idx) = cond_trigger;
     TriggerCode(end_audio) = 0;
     if(send_triggers)
         SendTrigger( TrialStruct, TriggerCode )
@@ -344,7 +333,6 @@ for j =start:NUM_STIMULI
     TriggerCode(start_expt) = 1;
     TriggerCode(start_audio) = 0;
     TriggerCode(condition_idx) = cond_trigger;
-    TriggerCode(repeat) = repeat_trigger;
     TriggerCode(end_audio) = 1;
     if(send_triggers)
         SendTrigger( TrialStruct, TriggerCode )

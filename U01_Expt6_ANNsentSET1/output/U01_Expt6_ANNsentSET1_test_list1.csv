@@ -1,0 +1,57 @@
+final_list,trial,trial_onset,final_audio_filename,final_condition,final_audio_transcript,audio_ended,pressed_space_to_continue,trial_completed,resume_number
+1,1,4.13910020142794e-05,sentence_56.wav,sentence,"This is the best solution given all the uncertainties we face.",3.71182844799478,1,1,0
+1,2,4.12158391499543,sentence_200.wav,sentence,"I am not going to go pick up a horse I can't afford.",7.14222751300258,1,1,0
+1,3,7.47862550600257,sentence_167.wav,sentence,"But the words did not fall out and her feelings hung inside her, preserved.",12.1294902530062,1,1,0
+1,4,12.4797039410041,sentence_93.wav,sentence,"Because obviously most people have never even heard of this section.",16.2113910600019,1,1,0
+1,5,16.5701133149996,sentence_130.wav,sentence,"In the end, it was etiquette that decided.",19.3055835510022,1,1,0
+1,6,19.8986385089956,sentence_78.wav,sentence,"The ones that I made changes to are in red.",22.3188923010021,1,1,0
+1,7,22.7498583550041,sentence_60.wav,sentence,"I looked at the menu.",23.9805750499945,1,1,0
+1,8,24.8642299380008,sentence_110.wav,sentence,"I saw lots of videos about this, but actually it didn't help.",28.660108119002,1,1,0
+1,9,29.0035342990013,sentence_171.wav,sentence,"We were waiting, waiting, watching the clock.",32.3318274110061,1,1,0
+1,10,32.7244857379992,sentence_20.wav,sentence,"This particular chair is designed to help with back problems, which she has.",37.4875628959999,1,1,0
+1,11,37.9273642589978,nonword_1.wav,nonword,"cre lomb tifoy bues cre yaim bliner cre prellsult creir cre trotine",42.4327903210069,1,1,0
+1,12,43.0022392420069,sentence_180.wav,sentence,"Downtown, there are hotels and restaurants to suit every budget.",47.2248160230083,1,1,0
+1,13,47.6058208479953,sentence_158.wav,sentence,"Sighing, he threw down his cigarette and went inside, straightening his tie.",52.4085906990076,1,1,0
+1,14,52.7324185869948,sentence_128.wav,sentence,"My father cleared his throat, looking out the door.",55.7838809730019,1,1,0
+1,15,56.2182305850001,sentence_82.wav,sentence,"They were thorough, high class, and went above and beyond.",59.5477509080083,1,1,0
+1,16,60.2685948069993,sentence_101.wav,sentence,"Beside these two buses, there is no public transport, but car rental with driver is available.",66.1963913310028,1,1,0
+1,17,66.573662284005,sentence_48.wav,sentence,"Another thing that can cause a king snake to stop eating is shedding.",70.7261993639986,1,1,0
+1,18,71.0722748539993,sentence_52.wav,sentence,"She had a long stride though I was taller.",73.9135782719968,1,1,0
+1,19,74.2742321880069,sentence_42.wav,sentence,"It's cool ... it's like another family.",76.693350305999,1,1,0
+1,20,76.9954327370069,sentence_31.wav,sentence,"Of course it must do financial news and sports well enough.",80.6885513599991,1,1,0
+1,21,80.9131769030064,sentence_90.wav,sentence,"I go out of my way to use Air France.",83.2598485860071,1,1,0
+1,22,83.6089258010034,nonword_4.wav,nonword,"coldist blalb dap cre olp yoap cre ub kem cre en snig",88.0062763930036,1,1,0
+1,23,88.3538663380023,sentence_1.wav,sentence,"Or they weren't eyewitnesses and are just lying.",91.1230766049994,1,1,0
+1,24,91.5296034220082,sentence_108.wav,sentence,"One ship is very much like another, and the sea is always the same.",95.9132920700067,1,1,0
+1,25,96.3342464120069,sentence_62.wav,sentence,"If I could give them a lower rating than poor I would.",99.5956623740058,1,1,0
+1,26,99.8816054600029,sentence_161.wav,sentence,"Lay a Twister mat on the floor and ask people if they want to play.",103.774957215006,1,1,0
+1,27,104.128500724997,sentence_66.wav,sentence,"Occasionally he would bump into someone and mumble an apology.",107.720198637995,1,1,0
+1,28,108.004288451004,sentence_126.wav,sentence,"Next, place one paper in each of the six envelopes and seal them.",112.668803744004,1,1,0
+1,29,112.995725190005,sentence_55.wav,sentence,"Very glad that we went with them.",115.083918542994,1,1,0
+1,30,115.363006746004,sentence_118.wav,sentence,"I'll be sure to come back.",116.733835920997,1,1,0
+1,31,117.150066472997,sentence_166.wav,sentence,"Fill it halfway with books, and fill it up with lighter stuff.",120.706323256003,1,1,0
+1,32,121.025911994002,sentence_69.wav,sentence,"Those early budget efforts are his highest achievements as Governor.",124.518440975997,1,1,0
+1,33,124.780618983001,nonword_2.wav,nonword,"feged cre decuse gantance ub outmide yaim cre olsaire naments cre boin",129.783180497994,1,1,0
+1,34,130.085355978008,sentence_173.wav,sentence,"On the third landing, a door stood ajar.",132.998350979004,1,1,0
+1,35,133.273675256001,sentence_107.wav,sentence,"He wont even get close to the crate.",135.274994756008,1,1,0
+1,36,135.598469914999,sentence_149.wav,sentence,"So we need to know the results of this debate and put them into effect.",139.191542225002,1,1,0
+1,37,139.522781246007,sentence_181.wav,sentence,"At sixteen John escaped from the Warsaw ghetto, leaving behind his parents and his sister.",145.236981299007,1,1,0
+1,38,145.558906998995,sentence_89.wav,sentence,"She is very conscientious about what she signs, and who initials what.",149.591318039995,1,1,0
+1,39,149.902376019003,sentence_41.wav,sentence,"Beautiful work, fast shipping and great communication.",153.301185113,1,1,0
+1,40,153.581893327995,sentence_163.wav,sentence,"Eventually when he found his brother he had resolution.",156.911150343003,1,1,0
+1,41,157.211769425994,sentence_23.wav,sentence,"No one online will be able to assist you more than your vet can.",161.187660266005,1,1,0
+1,42,161.468512688007,sentence_72.wav,sentence,"He makes a great point of insisting that everything in the book really happened in the world.",166.551799135006,1,1,0
+1,43,166.872124289002,sentence_133.wav,sentence,"It concentrates on combating unemployment and ensuring that everyone has a job.",171.884091480999,1,1,0
+1,44,172.217707725998,nonword_13.wav,nonword,"pleskless gor spey prorive cre olp stush loble dwere u memp mith",176.534857221006,1,1,0
+1,45,176.919635440994,sentence_154.wav,sentence,"Lee was making his final Canadian convention appearance, part of a larger farewell tour.",182.21605427,1,1,0
+1,46,182.522015331007,sentence_153.wav,sentence,"The staff will not even answer the phone for take out.",185.365029061999,1,1,0
+1,47,185.721842658008,sentence_29.wav,sentence,"These people only carry the very best American blown glass.",189.851903325005,1,1,0
+1,48,190.120338904002,sentence_122.wav,sentence,"I need prices for May, June, and July.",193.067810014007,1,1,0
+1,49,193.423767861008,sentence_18.wav,sentence,"It's not too comfortable for a man your height, Colonel.",196.191745607008,1,1,0
+1,50,196.495727207002,sentence_176.wav,sentence,"I haven't the book handy, so I paraphrase.",199.336366144998,1,1,0
+1,51,199.644028658004,sentence_145.wav,sentence,"There are floral, animal and bird motifs.",202.837303823995,1,1,0
+1,52,203.102959768003,sentence_14.wav,sentence,"Bea was really nice and asked how the food was.",206.101635448998,1,1,0
+1,53,206.402455595002,sentence_142.wav,sentence,"There is a proper balanced way to achieve the rights that everybody here wants to see.",211.415226226003,1,1,0
+1,54,211.701144528997,sentence_8.wav,sentence,"He read many books, he looked at paintings, he went to the movies.",215.564062756996,1,1,0
+1,55,215.929919493006,sentence_93.wav,sentence_repeat,"Because obviously most people have never even heard of this section.",219.680540076006,1,1,0
+1,56,219.971755706996,sentence_167.wav,sentence_repeat,"But the words did not fall out and her feelings hung inside her, preserved.",224.638591089999,1,1,0

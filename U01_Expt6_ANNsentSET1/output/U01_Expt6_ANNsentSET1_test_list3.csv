@@ -1,0 +1,57 @@
+final_list,trial,trial_onset,final_audio_filename,final_condition,final_audio_transcript,audio_ended,pressed_space_to_continue,trial_completed,resume_number
+3,1,3.04449931718409e-05,sentence_39.wav,sentence,"For instance, you'll want to avoid making lots of jokes at your own expense.",4.29432102399005,1,1,0
+3,2,4.75933276799333,sentence_83.wav,sentence,"My self-esteem is a jigsaw I cannot complete.",7.79227475699736,1,1,0
+3,3,8.1639097820007,sentence_95.wav,sentence,"Why certain slogans work and why some don't.",11.3362778769952,1,1,0
+3,4,11.7064839509985,sentence_32.wav,sentence,"She handed me a shirt she bought at the stadium and she gave me a big hug.",15.9988478229934,1,1,0
+3,5,16.3488776589948,sentence_73.wav,sentence,"Since that legislation came into being, there has been no noticeable difference.",20.6727628230001,1,1,0
+3,6,20.9407015530014,sentence_155.wav,sentence,"I also find their food way better than many other airlines.",24.5307344140019,1,1,0
+3,7,24.9090613029985,sentence_190.wav,sentence,"In the winter, the talk was of trades, predictions, memories.",28.587242840993,1,1,0
+3,8,29.0289478060004,sentence_86.wav,sentence,"Short time later the guy would leave, then the girl.",32.0084149750037,1,1,0
+3,9,32.413603396999,sentence_15.wav,sentence,"He is joining an excellent company.",34.6236959639937,1,1,0
+3,10,34.9354436799913,sentence_175.wav,sentence,"He picked one up and saw that the pages had the narrow lines he preferred.",39.538103163999,1,1,0
+3,11,39.8843290849909,nonword_6.wav,nonword,"fowth shlough yir cre memp cre emto millote ub jeds crafers cre",44.217740054999,1,1,0
+3,12,44.7589222139941,sentence_165.wav,sentence,"The menu has the usual but then they step it up another notch.",48.547492800004,1,1,0
+3,13,49.2020384069911,sentence_96.wav,sentence,"If not, go somewhere else.",51.1029124659981,1,1,0
+3,14,51.9464637259953,sentence_58.wav,sentence,"There will always be an audience for good magicians doing good magic.",56.2045940450043,1,1,0
+3,15,56.680390908994,sentence_135.wav,sentence,"These statements are widely reported in the press.",59.5900164449995,1,1,0
+3,16,59.9376763149921,sentence_6.wav,sentence,"She put them in the sink to soak.",61.8518638999958,1,1,0
+3,17,62.221912256995,sentence_137.wav,sentence,"It might be a statistical blip.",64.0831173030019,1,1,0
+3,18,64.6731220789952,sentence_194.wav,sentence,"Some jokes also have what is called a tag or topper, which is an additional punchline.",69.973850755996,1,1,0
+3,19,70.4929109170043,sentence_70.wav,sentence,"This particular event grows in popularity every year.",73.9044109370006,1,1,0
+3,20,74.3500733910041,sentence_151.wav,sentence,"I don't know, said Quinn, taking another bite.",77.1035827269952,1,1,0
+3,21,77.711311756997,sentence_172.wav,sentence,"If you want easy then go with a gold fish or hamster.",81.1818034390017,1,1,0
+3,22,81.6237438959943,nonword_16.wav,nonword,"olp swowling bamped cre mevys uzz cre ly triened tweted olp oth",86.1825343469973,1,1,0
+3,23,86.5757871879905,sentence_22.wav,sentence,"He went out in the evenings and had a good time.",89.1354057349963,1,1,0
+3,24,89.5560537190031,sentence_53.wav,sentence,"He began at the beginning and went through the entire story, step by step.",94.4253252329945,1,1,0
+3,25,94.8391665270028,sentence_30.wav,sentence,"I'm still a beginner.",96.2758421199978,1,1,0
+3,26,96.7318617549899,sentence_71.wav,sentence,"We play in all aspects of the game and we hand pick our members.",101.602876720994,1,1,0
+3,27,101.976199268,sentence_97.wav,sentence,"They called and worked with me to fix it so that it would look perfect.",105.796462914004,1,1,0
+3,28,106.078386166002,sentence_164.wav,sentence,"Her best-known stories have been made into movies.",109.057629577001,1,1,0
+3,29,109.529642551002,sentence_187.wav,sentence,"I'm assuming they are completely out of business since I can't find any contact information.",114.611070662999,1,1,0
+3,30,114.923382035995,sentence_24.wav,sentence,"They could leave the neighborhood, perhaps leave the city altogether.",118.394293614998,1,1,0
+3,31,118.804780452003,sentence_92.wav,sentence,"Also try green leafy veggies, like kale and spinach.",122.160079206995,1,1,0
+3,32,122.575238398,sentence_27.wav,sentence,"My father used to tell me I had an octopus-complex.",125.764733604999,1,1,0
+3,33,126.210882323998,nonword_5.wav,nonword,"donked fo yeely ep im floinweer gert cre cre nis trum hase",130.576277098997,1,1,0
+3,34,130.837620580001,sentence_37.wav,sentence,"But in this study we present a striking exception to this otherwise robust rule.",135.852688797997,1,1,0
+3,35,136.189027079992,sentence_3.wav,sentence,"I know now where to get all of my wine and beer.",139.104318666999,1,1,0
+3,36,139.462090656001,sentence_189.wav,sentence,"For a hotel like this you would expect some form of free internet.",143.141123155001,1,1,0
+3,37,143.479712607004,sentence_160.wav,sentence,"It's not the same.",144.708913191003,1,1,0
+3,38,145.235570413002,sentence_134.wav,sentence,"Sometimes I even think I'm down South again, that's a fact.",149.396955863995,1,1,0
+3,39,149.859735577993,sentence_111.wav,sentence,"There is no parade and there never has been.",152.713222167004,1,1,0
+3,40,153.032777482003,sentence_47.wav,sentence,"No one here asked him what school he had attended.",155.982917706991,1,1,0
+3,41,156.307930883995,sentence_76.wav,sentence,"I think he would be a good fit.",157.887305276003,1,1,0
+3,42,158.605720174004,sentence_183.wav,sentence,"Stir this well and then put to one side.",161.377317653998,1,1,0
+3,43,161.749275911992,sentence_132.wav,sentence,"Her left arm looked like the front window of Tiffany's.",165.011412685999,1,1,0
+3,44,165.401139068999,nonword_14.wav,nonword,"skauge cre bune ro cump lainter smasp cre vag ure quaben hien",169.699606780996,1,1,0
+3,45,170.143106884992,sentence_147.wav,sentence,"The central space was used to observe the rising of the sun and full moon.",174.735762554992,1,1,0
+3,46,175.038346033994,sentence_192.wav,sentence,"Something intelligible, something metaphysical is communicated by these colors.",180.129245500997,1,1,0
+3,47,180.456541225998,sentence_125.wav,sentence,"I know that a transaction of this magnitude would make anyone apprehensive and worried.",185.894244826995,1,1,0
+3,48,186.203357713996,sentence_11.wav,sentence,"Once you have met Nigel you will not want to work with anyone else.",189.742848565991,1,1,0
+3,49,190.017905578003,sentence_174.wav,sentence,"This shop is by far the best I have been to.",193.207446233995,1,1,0
+3,50,193.516379309003,sentence_112.wav,sentence,"Thank you all for your participation.",195.657188860991,1,1,0
+3,51,195.963621489995,sentence_102.wav,sentence,"And yes, I am being melodramatic.",198.592588421001,1,1,0
+3,52,198.906062491995,sentence_182.wav,sentence,"Camp, cook, sleep, strike camp, march.",202.726685059999,1,1,0
+3,53,203.076918852996,sentence_85.wav,sentence,"So in a way people often don't know how to combine the two fields.",206.827052940993,1,1,0
+3,54,207.130062071999,sentence_157.wav,sentence,"Oh, not quite... I must have had hundreds of cups of coffee.",210.876330985004,1,1,0
+3,55,211.24686100299,sentence_83.wav,sentence_repeat,"My self-esteem is a jigsaw I cannot complete.",214.293626883999,1,1,0
+3,56,214.635110692994,sentence_32.wav,sentence_repeat,"She handed me a shirt she bought at the stadium and she gave me a big hug.",218.942944793002,1,1,0

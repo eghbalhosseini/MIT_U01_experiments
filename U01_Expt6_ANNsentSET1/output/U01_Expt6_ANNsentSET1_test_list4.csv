@@ -1,0 +1,57 @@
+final_list,trial,trial_onset,final_audio_filename,final_condition,final_audio_transcript,audio_ended,pressed_space_to_continue,trial_completed,resume_number
+4,1,0.000205764998099767,sentence_131.wav,sentence,"Still, the city is a modern city with modern utilities.",4.15723011300724,1,1,0
+4,2,4.58926197500841,sentence_9.wav,sentence,"In fact, he can not even vouch for the accuracy of the translation itself.",8.98658764500578,1,1,0
+4,3,9.01438188600878,sentence_5.wav,sentence,"The next day, no one could find my wheel lock and that particular technician was not in.",14.1442951780045,1,1,0
+4,4,14.4272959259979,sentence_178.wav,sentence,"A narrow road, and on the slopes acres and acres of stone.",19.095613700003,1,1,0
+4,5,19.3896154579998,sentence_98.wav,sentence,"These products should be available at your local gardening or home improvement center.",23.8281240210054,1,1,0
+4,6,24.1239348649979,sentence_169.wav,sentence,"I haven't even changed the wording after I first put it down.",27.80885175,1,1,0
+4,7,28.2279183899955,sentence_168.wav,sentence,"A wonderful place, if you want more than just the physical side of yoga.",32.3986504689965,1,1,0
+4,8,32.6600124410033,sentence_184.wav,sentence,"A tall Puerto Rican man in a white cardboard chef's hat stood behind the counter.",37.6032150389947,1,1,0
+4,9,37.9817427270027,sentence_28.wav,sentence,"I recently traveled to Canada on business and had a most excellent experience.",42.782005208006,1,1,0
+4,10,43.0623116680072,sentence_25.wav,sentence,"My parents' house was so clean it made me ill.",45.9044367030001,1,1,0
+4,11,46.2951136699994,nonword_7.wav,nonword,"pudder cre bapp condist phody solys cre fo veff im nipe lozers",50.9173890899983,1,1,0
+4,12,51.2993787209998,sentence_64.wav,sentence,"I have a fax machine at home, though, if you prefer.",54.4903544249973,1,1,0
+4,13,54.9575587849977,sentence_80.wav,sentence,"Harry paid dearly for his moment of fun.",57.5187767250027,1,1,0
+4,14,57.8845650069998,sentence_87.wav,sentence,"This is a decrease from the year before, when it was forty percent.",61.4694931520062,1,1,0
+4,15,61.8183904239995,sentence_199.wav,sentence,"A blinding sunlight drowned all this at times in a sudden recrudescence of glare.",66.7600821950036,1,1,0
+4,16,67.2057608280011,sentence_88.wav,sentence,"This would have to be determined on a case by case basis.",70.3978410069976,1,1,0
+4,17,70.7174273520068,sentence_91.wav,sentence,"She was already wearing a salmon-pink cocktail dress.",74.1185609060049,1,1,0
+4,18,74.5008551899955,sentence_106.wav,sentence,"But from the way the light was coming through the windows, it seemed to be almost noon.",79.0924692160042,1,1,0
+4,19,79.4597531280015,sentence_63.wav,sentence,"I hope that you will be able to attend that event.",82.0336553079978,1,1,0
+4,20,82.592707763004,sentence_33.wav,sentence,"I'm two years into an undergraduate degree.",85.4356022069987,1,1,0
+4,21,85.797171690996,sentence_104.wav,sentence,"It's a special kind.",87.2369199289969,1,1,0
+4,22,87.6386851090065,nonword_15.wav,nonword,"lafeing clist ank smec boncy og u gnuth las tinores u udd",92.1420216679981,1,1,0
+4,23,92.5722977950063,sentence_196.wav,sentence,"They are sick of the partisanship and nonsense and the total lack of substance in modern campaigns.",98.9168931059976,1,1,0
+4,24,99.301861304004,sentence_159.wav,sentence,"I went on along Fleet Street, but could not shake off the idea.",103.054468319999,1,1,0
+4,25,103.505238846003,sentence_136.wav,sentence,"He just rescheduled to Wednesday.",105.651349805004,1,1,0
+4,26,106.220326955998,sentence_99.wav,sentence,"It passes the time, I guess.",108.219119119996,1,1,0
+4,27,108.547264938999,sentence_188.wav,sentence,"I'll be in town through Sunday morning.",110.516377356995,1,1,0
+4,28,110.949616269005,sentence_150.wav,sentence,"The first part is called Legato and the second part was called Staccato.",115.261088012005,1,1,0
+4,29,115.507349645995,sentence_162.wav,sentence,"Pages that connect to a common data source can share a single connection file.",120.383660331005,1,1,0
+4,30,120.717363648,sentence_59.wav,sentence,"Our exploratory study included three basic steps.",124.112036118997,1,1,0
+4,31,124.385965023001,sentence_127.wav,sentence,"He only pretended to be.",126.459536447001,1,1,0
+4,32,126.908583170996,sentence_109.wav,sentence,"That's not what we need in our country, folks.",129.333479257999,1,1,0
+4,33,129.758520757008,nonword_11.wav,nonword,"orlan clerf cre fo deconds gwoyed porla u cre ucong fowned anc",134.671582850002,1,1,0
+4,34,135.033203497995,sentence_179.wav,sentence,"The weekend was perfect in every way, in large part to Sue and her great staff.",140.638162129995,1,1,0
+4,35,140.992666366001,sentence_195.wav,sentence,"Staff is super friendly, treat you as a friend.",143.909177317008,1,1,0
+4,36,144.345607700001,sentence_121.wav,sentence,"That makes it much easier to find places than in cities where streets go every which way.",149.216559740002,1,1,0
+4,37,149.600723897005,sentence_94.wav,sentence,"Ounces measure weight, pints measure volume.",152.579731403006,1,1,0
+4,38,152.975270338007,sentence_10.wav,sentence,"Unfortunately, rapid population growth and urban sprawl has covered much of these ecosystems with development.",159.622535732007,1,1,0
+4,39,159.938203059995,sentence_197.wav,sentence,"Driving into the city centre itself is something to avoid.",163.656685381997,1,1,0
+4,40,163.988223684995,sentence_138.wav,sentence,"He was a blond-haired boy of five or six.",166.741293604995,1,1,0
+4,41,167.032033477008,sentence_61.wav,sentence,"He worked for a shipping company and had done so since he was fifteen.",171.061323151996,1,1,0
+4,42,171.507062581004,sentence_177.wav,sentence,"Meanwhile, the estranged wife of a government whip has launched her campaign to take the seat.",177.239846033001,1,1,0
+4,43,177.582787844003,sentence_38.wav,sentence,"you'll be more or less settled by the time she arrives.",180.414381565002,1,1,0
+4,44,180.942700533007,nonword_8.wav,nonword,"cre twuped ner zook las im tebing cre pition cre gaif ub",185.119020534999,1,1,0
+4,45,185.583169245001,sentence_65.wav,sentence,"I cannot comment directly on how the Indian government was prepared for this cyclone.",190.171459001009,1,1,0
+4,46,190.533422755994,sentence_34.wav,sentence,"It's okay if it's a little pricier.",192.887363556001,1,1,0
+4,47,193.365300549005,sentence_19.wav,sentence,"I reserve my right to come back on this when it goes back to committee.",197.049503971008,1,1,0
+4,48,197.444571549,sentence_143.wav,sentence,"There are two other points I would like to address.",199.857976113999,1,1,0
+4,49,200.257459713001,sentence_13.wav,sentence,"The hymn was well received and the audience demanded an encore.",203.867433674997,1,1,0
+4,50,204.135821723001,sentence_198.wav,sentence,"The proposal put forward by the Commission is to be welcomed from the consumers' point of view.",208.938654897996,1,1,0
+4,51,209.220727410007,sentence_16.wav,sentence,"It's opened up a new fan base, so to speak.",211.764217916003,1,1,0
+4,52,212.203790205996,sentence_40.wav,sentence,"If so, I will handle it.",213.996561309003,1,1,0
+4,53,214.583555459001,sentence_115.wav,sentence,"It means they've gone too far.",216.577358566996,1,1,0
+4,54,216.978932049999,sentence_74.wav,sentence,"The spokesman did not rule out the possibility that others would also be investigated.",221.570894970995,1,1,0
+4,55,221.935672417996,sentence_5.wav,sentence_repeat,"The next day, no one could find my wheel lock and that particular technician was not in.",227.086964073998,1,1,0
+4,56,227.458347852007,sentence_98.wav,sentence_repeat,"These products should be available at your local gardening or home improvement center.",231.913314035002,1,1,0
