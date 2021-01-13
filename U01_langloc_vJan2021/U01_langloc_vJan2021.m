@@ -35,9 +35,9 @@
 %total time without breaks is 6.8x40 = 272s -- 4 min 32 s.
 
 
-%-subject ID (a string)
-%-subset of the materials to use (1-3)
-%-run (1-3,
+%subjectID-subject ID (a string)
+%list-subset of the materials to use (1-3)
+
 
 function U01_langloc_vJan2021(subjectID, list)
 
@@ -89,8 +89,6 @@ if(send_triggers)
     TrialStruct = Setup_DAQ_Stim(TrialStruct);
 end
 
-
-
 %Creating the output file for this subject
 rootDir=pwd();
 if exist([rootDir filesep 'output'], 'dir')
@@ -104,8 +102,14 @@ expt_name = 'U01_langloc_vJan2021';
 
 %handle duplicate filename, and other checks
 if ischar(subjectID) == 0
-    error('subj_ID must be a string')
+    error('subjectID must be a string')
 end
+
+%input checks
+if list > 3 || list < 0
+    error('USE: U01_langloc_vJan2021(subjectID, list) -- list must be between 1 and 3')
+end
+
 dataFile = [save_path expt_name '_' subjectID '_list' num2str(list)];
 dataFile_csv = [dataFile '.csv'];
 
@@ -201,12 +205,6 @@ else
     output = readtable(dataFile_csv); %save template to save output on
    
 end
-
-%input checks
-if list > 3 || list < 0
-    error('USE: U01_langloc_vJan2021(subjectID, list) -- list must be between 1 and 3')
-end
-
 
 %Psychtoolbox setup
 PsychDefaultSetup(2);
@@ -380,8 +378,8 @@ for i = start:NUM_STIMULI
         if(send_triggers)
             SendTrigger( TrialStruct, TriggerCode )
         end
-        first_fix = Bitword
-        TriggerCode
+%         first_fix = Bitword
+%         TriggerCode
         
         pre_fixation = WaitSecs(0.200);
         pre_fixation_time = pre_fixation - onset_time - startTask;
@@ -435,8 +433,8 @@ for i = start:NUM_STIMULI
 
                 WaitSecs(0.000000000001);
             end
-            word_num
-            TriggerCode
+%             word_num
+%             TriggerCode
             %reset trigger_sent
             trigger_sent = 0;
         
@@ -460,8 +458,8 @@ for i = start:NUM_STIMULI
         if(send_triggers)
             SendTrigger( TrialStruct, TriggerCode )
         end
-        memory_preprobe = Bitword
-        TriggerCode
+%         memory_preprobe = Bitword
+%         TriggerCode
 
 
         WaitSecs(0.200); %pre-probe for 200 ms
@@ -485,8 +483,8 @@ for i = start:NUM_STIMULI
             SendTrigger( TrialStruct, TriggerCode )
         end
         
-        probe = Bitword
-        TriggerCode
+%         probe = Bitword
+%         TriggerCode
 
         %pressed = 0;
         response = NaN;
@@ -534,9 +532,9 @@ for i = start:NUM_STIMULI
                     if(send_triggers)
                         SendTrigger( TrialStruct, TriggerCode )
                     end
-                    extra_time = Bitword
-                    TriggerCode
-                    
+%                     extra_time = Bitword
+%                     TriggerCode
+%                     
                     trigger_sent = 1;
                 end
 

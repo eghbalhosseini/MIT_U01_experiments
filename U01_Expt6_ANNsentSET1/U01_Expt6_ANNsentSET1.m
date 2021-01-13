@@ -20,7 +20,7 @@ function U01_Expt6_ANNsentSET1(subjID, list)
 
 expt_name = 'U01_Expt6_ANNsentSET1';
 
-send_triggers = 0; 
+send_triggers = 1; 
 
 %Trigger codes
 start_expt =    1;

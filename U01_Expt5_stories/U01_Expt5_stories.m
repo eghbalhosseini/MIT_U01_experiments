@@ -27,7 +27,7 @@ function U01_Expt5_stories(subjID,storynum, run)
 
 %% Initialize Variables
 
-send_triggers = 0; %false when testing without actual trigger machine
+send_triggers = 1; %false when testing without actual trigger machine
 
 %Trigger codes
 Audio =     2;
