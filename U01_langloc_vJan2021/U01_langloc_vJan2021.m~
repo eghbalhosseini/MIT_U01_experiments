@@ -373,48 +373,42 @@ for i = start:NUM_STIMULI
         TriggerCode = zeros(1,8);
         TriggerCode(ExpStart) = 1;
         Bitword=CodedValues{find(IDValues==13)};
-        for SU=1:5; TriggerCode(CodedWords(SU)) = str2num(Bitword(SU)); end
+        for SU=1:4; TriggerCode(CodedWords(SU)) = str2num(Bitword(SU)); end
         %%%%%%%%%%%%%%%%%%%%%%%%%%
         TriggerCode(Cond) = cond_trigger;
         %%%%%%%%%%%%%%%%%%%%%%%%%%
         if(send_triggers)
             SendTrigger( TrialStruct, TriggerCode )
         end
-        first_fix = Bitword
-        TriggerCode
-        
+
         pre_fixation = WaitSecs(0.200);
         pre_fixation_time = pre_fixation - onset_time - startTask;
         
         %use while loop and onset times for each word for more precise
         %timing
-        trigger_sent = 0;
+        
         for word_num = 1:length(pres)
             next_word_onset = word_onsets(word_num+1);
-            
+            TriggerCode
+        
             while GetSecs()-pre_fixation < next_word_onset
                 
                 %% SEND WORD TRIGGERS HERE %%
                 % each word (word_num) corresponds to the ID #
                 % ie word3 is ID# 3 for the last 5 bits
                 
-                %only sent trigger once, on the onset of the word
-                if(~trigger_sent)
-                    TriggerCode = zeros(1,8);
-                    TriggerCode(ExpStart) = 1;
+                 TriggerCode = zeros(1,8);
+                TriggerCode(ExpStart) = 1;
 
-                    %%%%%%%%%%%%%%%%%%%%%%%%%%
-                    Bitword=CodedValues{find(IDValues==word_num)};  % word_num indicates the ID of the word we are presenting at this time, adding one because of the pre-word fixation
-                    for SU=1:5; TriggerCode(CodedWords(SU)) = str2num(Bitword(SU));end%What variable is needed to indicate this ID???
-                    %%%%%%%%%%%%%%%%%%%%%%%%%%
-                    %%%%%%%%%%%%%%%%%%%%%%%%%%
-                    TriggerCode(Cond) = cond_trigger;
-                    %%%%%%%%%%%%%%%%%%%%%%%%%%
-                    if(send_triggers)
-                        SendTrigger( TrialStruct, TriggerCode )
-                    end
-                    
-                    trigger_sent = 1;
+                %%%%%%%%%%%%%%%%%%%%%%%%%%
+                Bitword=CodedValues{find(IDValues==word_num)};  % word_num indicates the ID of the word we are presenting at this time, adding one because of the pre-word fixation
+                for SU=1:5; TriggerCode(CodedWords(SU)) = str2num(Bitword(SU));end%What variable is needed to indicate this ID???
+                %%%%%%%%%%%%%%%%%%%%%%%%%%
+                %%%%%%%%%%%%%%%%%%%%%%%%%%
+                TriggerCode(Cond) = cond_trigger;
+                %%%%%%%%%%%%%%%%%%%%%%%%%%
+                if(send_triggers)
+                    SendTrigger( TrialStruct, TriggerCode )
                 end
                 
 
@@ -435,10 +429,6 @@ for i = start:NUM_STIMULI
 
                 WaitSecs(0.000000000001);
             end
-            word_num
-            TriggerCode
-            %reset trigger_sent
-            trigger_sent = 0;
         
         end
 
@@ -452,7 +442,8 @@ for i = start:NUM_STIMULI
         TriggerCode(ExpStart) = 1;
         %%%%%%%%%%%%%%%%%%%%%%%%%%
         Bitword=CodedValues{find(IDValues==14)};
-        for SU=1:5; TriggerCode(CodedWords(SU)) = str2num(Bitword(SU));end
+        for SU=1:4; TriggerCode(CodedWords(SU)) = str2num(Bitword(SU)) 
+        end
         %%%%%%%%%%%%%%%%%%%%%%%%%%
         %%%%%%%%%%%%%%%%%%%%%%%%%%
         TriggerCode(Cond) = cond_trigger;
@@ -460,8 +451,6 @@ for i = start:NUM_STIMULI
         if(send_triggers)
             SendTrigger( TrialStruct, TriggerCode )
         end
-        memory_preprobe = Bitword
-        TriggerCode
 
 
         WaitSecs(0.200); %pre-probe for 200 ms
@@ -476,7 +465,7 @@ for i = start:NUM_STIMULI
         TriggerCode(ExpStart) = 1;
         %%%%%%%%%%%%%%%%%%%%%%%%%%
         Bitword=CodedValues{find(IDValues==16)};
-        for SU=1:5; TriggerCode(CodedWords(SU)) = str2num(Bitword(SU));end
+        for SU=1:4; TriggerCode(CodedWords(SU)) = str2num(Bitword(SU));end
         %%%%%%%%%%%%%%%%%%%%%%%%%%
         %%%%%%%%%%%%%%%%%%%%%%%%%%
         TriggerCode(Cond) = cond_trigger;
@@ -484,16 +473,12 @@ for i = start:NUM_STIMULI
         if(send_triggers)
             SendTrigger( TrialStruct, TriggerCode )
         end
-        
-        probe = Bitword
-        TriggerCode
 
         %pressed = 0;
         response = NaN;
         rt = NaN;
         response_period_start = GetSecs;
 
-        tigger_sent = 0;
         while GetSecs < response_period_start + 1.6 %probe for 1.6 seconds (1s + post probe 0.6 s)
             [~, ~, keyCode] = KbCheck(-1);
 
@@ -518,29 +503,20 @@ for i = start:NUM_STIMULI
             end
 
             if(GetSecs > response_period_start + 1) %don't show probe after 1 s but still allow a response
-                
-                %only send trigger once, when this period starts
-                if(~trigger_sent)
-                    %TRIGGER extra time to respond (last 5 bits are ID #15)
-                    TriggerCode = zeros(1,8);
-                    TriggerCode(ExpStart) = 1;
-                    %%%%%%%%%%%%%%%%%%%%%%%%%%
-                    Bitword=CodedValues{find(IDValues==15)};
-                    for SU=1:5; TriggerCode(CodedWords(SU)) = str2num(Bitword(SU));end
-                    %%%%%%%%%%%%%%%%%%%%%%%%%%
-                    %%%%%%%%%%%%%%%%%%%%%%%%%%
-                    TriggerCode(Cond) = cond_trigger;
-                    %%%%%%%%%%%%%%%%%%%%%%%%%%
-                    if(send_triggers)
-                        SendTrigger( TrialStruct, TriggerCode )
-                    end
-                    extra_time = Bitword
-                    TriggerCode
-                    
-                    trigger_sent = 1;
+                %TRIGGER extra time to respond (last 5 bits are ID #15)
+                TriggerCode = zeros(1,8);
+                TriggerCode(ExpStart) = 1;
+                %%%%%%%%%%%%%%%%%%%%%%%%%%
+                Bitword=CodedValues{find(IDValues==15)};
+                for SU=1:4; TriggerCode(CodedWords(SU)) = str2num(Bitword(SU));end
+                %%%%%%%%%%%%%%%%%%%%%%%%%%
+                %%%%%%%%%%%%%%%%%%%%%%%%%%
+                TriggerCode(Cond) = cond_trigger;
+                %%%%%%%%%%%%%%%%%%%%%%%%%%
+                if(send_triggers)
+                    SendTrigger( TrialStruct, TriggerCode )
                 end
 
-                
                 DrawFormattedText(window, '' , 'center', 'center', white);
                 Screen('Flip', window);
             end
