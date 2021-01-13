@@ -175,7 +175,7 @@ end
 
 %% variables to change
 INSTRUCTIONS = 'Listen attentively to the sentences. Press the spacebar to hear the next sentence.';
-STIMULI_AUDIO = [ filesep 'stimuli' filesep];
+STIMULI_AUDIO = [ filesep 'stimuli' filesep 'norm_endfix_filt_'];
 
 %color variables
 WHITE = [255 255 255];

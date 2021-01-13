@@ -19,7 +19,7 @@ opts = detectImportOptions('final_stimuli.xlsx');
 data = readtable('final_stimuli.xlsx');
 %,'DataRange','A2','VariableNamesRange','A1');
 
-STIMULI_AUDIO = '/stimuli/norm_endfix_filt_';
+STIMULI_AUDIO = [filesep 'stimuli' filesep 'norm_endfix_filt_'];
 
 nonword_idx = strcmp(data.condition, 'nonword');
 nonwords = data(nonword_idx,:);
