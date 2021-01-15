@@ -41,7 +41,7 @@
 
 function U01_langloc_vJan2021(subjectID, list)
 
-send_triggers = 0;
+send_triggers = 1;
 
 %Trigger codes
 ExpStart =      1;

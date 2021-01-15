@@ -27,7 +27,7 @@ function U01_Expt5_stories(subjID,storynum, run)
 
 %% Initialize Variables
 
-send_triggers = 0; %false when testing without actual trigger machine
+send_triggers = 1; %false when testing without actual trigger machine
 
 %Trigger codes
 Audio =     2;
@@ -142,7 +142,7 @@ screenNumber = max(screensAll); % Which screen you want to use. "1" is external 
 %define colors
 white = WhiteIndex(screenNumber);
 
-GREY = [134 136 138];
+GREY = 0.6;
 
 [windowPtr,rect]=PsychImaging('OpenWindow',screenNumber, GREY); %, [0 0 640 640]
 
@@ -265,7 +265,7 @@ while current < nStimuli
                 Screen('Flip',windowPtr);
                 eventStart = PsychPortAudio('Start', pahandle, 1, 0, 1);
                 timing(current) = eventStart;
-                timeLimit = 0%audioDur;
+                timeLimit = audioDur;
                 moveToNext = 0;
                 checkTiming = 1;
             case 'posttrial'

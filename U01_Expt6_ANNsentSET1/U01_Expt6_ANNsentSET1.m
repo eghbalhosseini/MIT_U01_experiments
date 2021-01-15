@@ -20,7 +20,7 @@ function U01_Expt6_ANNsentSET1(subjID, list)
 
 expt_name = 'U01_Expt6_ANNsentSET1';
 
-send_triggers = 0; 
+send_triggers = 1; 
 
 %Trigger codes
 start_expt =    1;
@@ -95,7 +95,7 @@ if ~isempty(d)
         pressed_space_to_continue = previous_run.pressed_space_to_continue;
         trial_completed = previous_run.trial_completed;
         resume_number = previous_run.resume_number;
-        date_time_info = previous_run.date_time_info;
+%        date_time_info = previous_run.date_time_info;
         
         NUM_STIMULI = height(previous_run);
         
@@ -188,7 +188,7 @@ STIMULI_AUDIO = [ filesep 'stimuli' filesep 'norm_endfix_filt_'];
 %color variables
 WHITE = [255 255 255];
 BLACK = [64 64 64];
-GREY = [134 136 138];
+GREY = 0.6;
 
 %these two arrays correspond to each other
 KbName('UnifyKeyNames');
