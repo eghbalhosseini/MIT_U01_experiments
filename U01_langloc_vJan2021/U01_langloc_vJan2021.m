@@ -48,7 +48,6 @@ rootDir=cfg.PATH_LOG;
 dataFile = cfg.EVENT_FILENAME;
 dataFile_csv = [dataFile '.csv'];
 
-
 %Trigger codes
 ExpStart =      1;
 ExpEnd =        2;
@@ -207,16 +206,25 @@ end
 %Psychtoolbox setup
 PsychDefaultSetup(2);
 
-%   prepare for movie playing
+KbName('UnifyKeyNames');
+spaceBar = KbName('space');
+escapeKey = KbName('escape');
+
+key_mapping = ["1", "2"];
+trigger_response_keys = [KbName('1!'), KbName('2@')];
+triggerKey = trigger_response_keys;
+escapeKey = KbName('ESCAPE');
+
+%% Initialize Window %%
 oldLevel = Screen('Preference', 'Verbosity', 0);
 java; %clear java cache
 AssertOpenGL;
 Screen('Preference', 'VisualDebugLevel',    0);
 Screen('Preference', 'SuppressAllWarnings', 1);
-Screen('Preference', 'TextRenderer',        0);% Setting this preference to 1 suppresses the printout of warnings.
+Screen('Preference', 'TextRenderer',        0);
 Screen('Preference', 'SkipSyncTests',       1);
 
-Screen('CloseAll')
+%Screen('CloseAll')
 
 screensAll = Screen('Screens'); %Get the screen numbers
 screenNumber = max(screensAll); % Which screen you want to use. "1" is external monitor, "0" is this screen. use external if it is present
@@ -225,33 +233,31 @@ screenNumber = max(screensAll); % Which screen you want to use. "1" is external 
 white = WhiteIndex(screenNumber);
 black = BlackIndex(screenNumber);
 blue = [0 0 1];
-
-KbName('UnifyKeyNames');
-spaceBar = KbName('space');
-escapeKey = KbName('escape');
-
-key_mapping = ["1", "2"];
-trigger_response_keys = [KbName('a'), KbName('s')];
-triggerKey = trigger_response_keys;
+GREY = 0.6;
 
 % Open screen.
-[window, windowRect] = PsychImaging('OpenWindow', screenNumber, white); %, [0 0 640 480]
+[window, windowRect] = PsychImaging('OpenWindow', screenNumber, GREY); %, [0 0 640 480]
+
+priorityLevel = MaxPriority(window);
+Priority(priorityLevel);
 
 %HideCursor;
 
-Screen('TextSize', window, 80);
+Screen('TextSize', window, 60);
 Screen('TextFont', window, 'Arial');
 Screen('TextStyle', window, 0);
 
 % Wait for scanner
-DrawFormattedText(window, 'Press SPACE to begin', 'center', 'center', black);
+DrawFormattedText(window, 'You will read sentences one word at a time.\n\n After, you will see a word in blue. \n\n Press 1 if that word was in the sentence you just read \n\n and press 2 if not. \n\nPress SPACE to begin', 'center', 'center', black);
 Screen('Flip', window);
 
+%set text size larger for the stimuli
+Screen('TextSize', window, 80);
 
 while 1
     FlushEvents();
     key = GetChar();
-    if key == '' % escape
+    if key == escapeKey % escape
         PsychPortAudio('Close');
         Screen('CloseAll');
         ShowCursor;

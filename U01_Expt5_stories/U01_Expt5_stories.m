@@ -62,14 +62,15 @@ if ~ismember(storynum,possible_stories)
     error('storynum must be one of these values: 2,4,5,6,7,8,9');
 end
 
+
 stimDir = [pwd() filesep 'stimuli' filesep];       % path to where the stimuli are saved
-theFile = [num2str(storynum) '.wav'];
+theFile = [num2str(storynum) '_48000.wav']; %use 48 kH version to play nice with PsychPortAudio
 expt_name = 'U01_Expt5_stories';
 
 %these two arrays correspond to each other
 
 key_mapping = ['a', 'b'];
-trigger_response_keys = [KbName('a'), KbName('s')];
+trigger_response_keys = [KbName('1!'), KbName('2@')];
 
 %% Check that the stimulus exists %%
 if ~exist([stimDir, theFile],'file')
@@ -148,7 +149,9 @@ screenNumber = max(screensAll); % Which screen you want to use. "1" is external 
 %define colors
 white = WhiteIndex(screenNumber);
 
-[windowPtr,rect]=PsychImaging('OpenWindow',screenNumber, white); %, [0 0 640 640]
+GREY = 0.6;
+
+[windowPtr,rect]=PsychImaging('OpenWindow',screenNumber, GREY); %, [0 0 640 640]
 
 priorityLevel = MaxPriority(windowPtr);
 Priority(priorityLevel);
@@ -207,7 +210,7 @@ end
 
 %% Wait for trigger %%
 
-DrawFormattedText(windowPtr, 'Press SPACE to begin', 'center', 'center', 0);
+DrawFormattedText(windowPtr, 'You will listen to a story and then answer questions about the story. \n\nPress SPACE to begin', 'center', 'center', 0);
 Screen('Flip', windowPtr);
 
 while 1
@@ -351,8 +354,8 @@ RT = response;
 item = cell(length(pres_questions),1);
 for i = 1:length(pres_questions)
     WaitSecs(1);
-    DrawFormattedText(windowPtr, [pres_questions{i} '\n\nA. ' ...
-        pres_answersA{i} '\n\nB. ' pres_answersB{i}], 'center', 'center', 0);
+    DrawFormattedText(windowPtr, [pres_questions{i} '\n\n1. ' ...
+        pres_answersA{i} '\n\n2. ' pres_answersB{i}], 'center', 'center', 0);
     Screen('Flip', windowPtr);
     stimuli_pres = GetSecs();
     

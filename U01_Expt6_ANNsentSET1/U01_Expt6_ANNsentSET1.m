@@ -89,7 +89,7 @@ if ~isempty(d)
         pressed_space_to_continue = previous_run.pressed_space_to_continue;
         trial_completed = previous_run.trial_completed;
         resume_number = previous_run.resume_number;
-        date_time_info = previous_run.date_time_info;
+%        date_time_info = previous_run.date_time_info;
         
         NUM_STIMULI = height(previous_run);
         
@@ -176,18 +176,18 @@ end
 
 
 %% variables to change
-INSTRUCTIONS = 'Listen attentively to the sentences. Press the spacebar to hear the next sentence.';
+INSTRUCTIONS = 'Listen attentively to the sentences. \n\nPress the spacebar to hear the next sentence.';
 STIMULI_AUDIO = [ filesep 'stimuli' filesep 'norm_endfix_filt_'];
 
 %color variables
 WHITE = [255 255 255];
 BLACK = [64 64 64];
-GREY = [211 211 211];
+GREY = 0.6;
 
 %these two arrays correspond to each other
 KbName('UnifyKeyNames');
 key_mapping = ["1", "2"];
-trigger_response_keys = [KbName('LeftShift'), KbName('RightShift')];
+trigger_response_keys = [KbName('1!'), KbName('2@')];
 escapeKey = KbName('ESCAPE');
 enterKey = KbName('Return');
 spaceBar = KbName('space');
@@ -209,7 +209,7 @@ screenNumber = max(screensAll); % Which screen you want to use. "1" is external 
 %define colors
 white = WhiteIndex(screenNumber);
 
-[windowPtr,rect]=PsychImaging('OpenWindow',screenNumber, WHITE); %, [0 0 1440 900]
+[windowPtr,rect]=PsychImaging('OpenWindow',screenNumber, GREY); %, [0 0 1440 900]
 [screenXpixels, screenYpixels] = Screen('WindowSize', windowPtr);
 oldTextSize = Screen('TextSize',windowPtr,50);
 
@@ -280,7 +280,6 @@ for j =start:NUM_STIMULI
 
     t = now; 
     date_time = datetime(t,'ConvertFrom','datenum');
-
     date_time_info(j,1) = seconds(timeofday(date_time));
     trial_onset(j,1) = GetSecs() - startTime; %save the onset time of the trial
     %go to grey screen
