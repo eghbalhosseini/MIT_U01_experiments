@@ -39,9 +39,15 @@
 %list-subset of the materials to use (1-3)
 
 
-function U01_langloc_vJan2021(subjectID, list)
+function U01_langloc_vJan2021(cfg)
 
-send_triggers = 0;
+subjectID = cfg.SUBJECT;
+list = cfg.RUN_ID;
+send_triggers = cfg.SEND_TRIGGERS;
+rootDir=cfg.PATH_LOG;
+dataFile = cfg.EVENT_FILENAME;
+dataFile_csv = [dataFile '.csv'];
+
 
 %Trigger codes
 ExpStart =      1;
@@ -89,13 +95,7 @@ if(send_triggers)
     TrialStruct = Setup_DAQ_Stim(TrialStruct);
 end
 
-%Creating the output file for this subject
-rootDir=pwd();
-if exist([rootDir filesep 'output'], 'dir')
-    %do nothing
-else
-    mkdir ('output');
-end
+
 
 save_path = [rootDir filesep 'output' filesep];
 expt_name = 'U01_langloc_vJan2021';
@@ -110,8 +110,6 @@ if list > 3 || list < 0
     error('USE: U01_langloc_vJan2021(subjectID, list) -- list must be between 1 and 3')
 end
 
-dataFile = [save_path expt_name '_' subjectID '_list' num2str(list)];
-dataFile_csv = [dataFile '.csv'];
 
 t = now; 
 date_time = datetime(t,'ConvertFrom','datenum');

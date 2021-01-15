@@ -16,11 +16,19 @@
 %           currently on, ideally, we want 1 run of every set of materials
 
 
-function U01_Expt6_ANNsentSET1(subjID, list)
+function U01_Expt6_ANNsentSET1(cfg)
+
+
+subjID = cfg.SUBJECT;
+list = cfg.RUN_ID;
+send_triggers = cfg.SEND_TRIGGERS; %false when testing without actual trigger machine
+
+%first, argument checks
+subject_output = cfg.EVENT_FILENAME;
+subject_output_file = [subject_output '.csv'];
+rootDir = pwd();
 
 expt_name = 'U01_Expt6_ANNsentSET1';
-
-send_triggers = 1; 
 
 %Trigger codes
 start_expt =    1;
@@ -36,25 +44,11 @@ if(send_triggers)
     TrialStruct = Setup_DAQ_Stim(TrialStruct);
 end
 
-%first, argument checks
-rootDir = pwd();
-OUTPUT_FOLDER = 'output';
 
 %handle duplicate filename, and other checks
 if ischar(subjID) == 0
     error('subj_ID must be a string')
 end
-
-
-dataDir = [filesep OUTPUT_FOLDER filesep];
-
-if ~exist(OUTPUT_FOLDER, 'dir')
-    mkdir(OUTPUT_FOLDER);
-end
-
-subject_output = [rootDir dataDir expt_name '_' subjID '_list' num2str(list)];
-subject_output_file = [subject_output '.csv'];
-
 
 %get the latest attempt at this list -- will be *_resume(n).csv
 d = dir([subject_output '*.csv']);
@@ -236,7 +230,7 @@ Screen('Flip', windowPtr);
 
 triggerKey = enterKey;
 while 1
-    [keyIsDown, seconds, keyCode] = KbCheck(-3);        % -3 = check input from ALL devices
+    [keyIsDown, sec, keyCode] = KbCheck(-3);        % -3 = check input from ALL devices
     if keyCode(escapeKey)
         Screen('CloseAll');
         fprintf('Experiment quit by pressing ESCAPE\n');
@@ -254,7 +248,7 @@ Screen('Flip', windowPtr);
 WaitSecs(0.5); %some buffer time for key press to work
 triggerKey = spaceBar;
 while 1
-    [keyIsDown, seconds, keyCode] = KbCheck(-3);        % -3 = check input from ALL devices
+    [keyIsDown, sec, keyCode] = KbCheck(-3);        % -3 = check input from ALL devices
     if keyCode(escapeKey)
         Screen('CloseAll');
         fprintf('Experiment quit by pressing ESCAPE\n');
@@ -286,8 +280,8 @@ for j =start:NUM_STIMULI
 
     t = now; 
     date_time = datetime(t,'ConvertFrom','datenum');
-    
-    date_time_info(j,1) = date_time;
+
+    date_time_info(j,1) = seconds(timeofday(date_time));
     trial_onset(j,1) = GetSecs() - startTime; %save the onset time of the trial
     %go to grey screen
     Screen(windowPtr, 'Flip');
@@ -363,7 +357,7 @@ for j =start:NUM_STIMULI
     response_period_start = GetSecs;
     
     while 1 %wait for max 3 seconds before continuing
-        [keyIsDown, seconds, keyCode] = KbCheck(-3);        % -3 = check input from ALL devices
+        [keyIsDown, sec, keyCode] = KbCheck(-3);        % -3 = check input from ALL devices
         if keyCode(escapeKey)
             Screen('CloseAll');
             fprintf('Experiment quit by pressing ESCAPE\n');
@@ -404,7 +398,7 @@ WaitSecs(0.5);
 triggerKey = enterKey;
 
 while 1
-    [keyIsDown, seconds, keyCode] = KbCheck(-3);        % -3 = check input from ALL devices
+    [keyIsDown, sec, keyCode] = KbCheck(-3);        % -3 = check input from ALL devices
     if keyCode(escapeKey)
         Screen('CloseAll');
         fprintf('Experiment quit by pressing ESCAPE\n');

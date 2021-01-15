@@ -22,12 +22,21 @@
 
 
 %%% subjID =  subject id
-function U01_Expt5_stories(subjID,storynum, run)
+function U01_Expt5_stories(cfg)
 
+subjID = cfg.SUBJECT;
+run = cfg.RUN_ID;
+send_triggers = cfg.SEND_TRIGGERS; %false when testing without actual trigger machine
+
+StoryOrder = [5,2,8,4,7,6,9,5];
+storynum = StoryOrder(run);
+rootDir=cfg.PATH_LOG;
+
+dataDir = [cfg.PATH_LOG filesep];
+dataFile_mat = cfg.MAT_FILENAME;
+dataFile = cfg.EVENT_FILENAME;
 
 %% Initialize Variables
-
-send_triggers = 1; %false when testing without actual trigger machine
 
 %Trigger codes
 Audio =     2;
@@ -53,8 +62,7 @@ if ~ismember(storynum,possible_stories)
     error('storynum must be one of these values: 2,4,5,6,7,8,9');
 end
 
-rootDir = pwd();
-stimDir = [rootDir filesep 'stimuli' filesep];       % path to where the stimuli are saved
+stimDir = [pwd() filesep 'stimuli' filesep];       % path to where the stimuli are saved
 theFile = [num2str(storynum) '.wav'];
 expt_name = 'U01_Expt5_stories';
 
@@ -111,17 +119,15 @@ nStimuli = length(stimulusSet);
 
 %% Create / open a file for saving the results %%
 timing = zeros(nStimuli,1); % timing of different events in the experiment
-dataDir = ['output', filesep];
 
-if exist([dataDir (strcat(expt_name,'_story',num2str(storynum),'_',subjID,'_run',num2str(run))) '.mat'],'file')
+if exist(dataFile_mat,'file')
     overwrite = input('A file is already saved with this name. Overwrite? (y/n): ','s');
     if overwrite == 'y' %do nothing
     else %anything besides 'y', input new name
         run = input('Enter a new run number: ','s');
     end
 end
-dataFile_mat =[dataDir expt_name '_story' num2str(storynum) '_' subjID, '_run', num2str(run), '.mat'];
-dataFile = [dataDir expt_name '_story' num2str(storynum) '_' subjID, '_run', num2str(run), '.csv'];
+
 fid = fopen(dataFile, 'a');
 
 
