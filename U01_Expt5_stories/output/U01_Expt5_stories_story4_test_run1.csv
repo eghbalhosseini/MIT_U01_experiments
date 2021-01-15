@@ -1,15 +1,15 @@
 item,pres_questions,pres_answersA,pres_answersB,pres_correctAnswers,response,RT,accuracy
-1,Where did some of the birds come from?,Faraway meadows,The bird kingdom,a,a,0.39488,1
-2,Which bird arrived late to the meeting?,The cuckoo,The eagle,b,a,0.20512,0
-3,Did the birds expect the eagle to fly the highest?,No,Yes,b,a,0.25575,0
-4,Why did the eagle want to stop flying higher?,He believed he was to be king,The other birds asked him to,a,a,0.22539,1
-5,Why were the other birds angry?,The eagle flew higher than them,The little bird had outwitted them,b,a,0.32106,0
-6,How did the little bird trick the other birds?,He hid in the eagles feathers,He kept flying,a,a,0.20672,1
-7,What was the second challenge?,The birds needed to go deepest into the Earth,The birds needed to lay the most eggs,a,a,0.28626,1
-8,How did the little bird outwit the other birds in the digging contest?,He crept into a hole,He used a toy shovel,a,a,0.18798,1
-9,What does the owl do now?,Flies during the day,Looks for the mouse,b,a,0.22899,0
-10,Why do the other birds call the little bird the "hedge-king"?,He is the king,He lives in the hedges,b,a,0.20963,0
-pretrial 0.024989
-audio 1.076604
-posttrial 14.092242
+1,Where did some of the birds come from?,Faraway meadows,The bird kingdom,a,a,0.62491,1
+2,Which bird arrived late to the meeting?,The cuckoo,The eagle,b,b,0.58003,1
+3,Did the birds expect the eagle to fly the highest?,No,Yes,b,a,0.57705,0
+4,Why did the eagle want to stop flying higher?,He believed he was to be king,The other birds asked him to,a,a,0.64242,1
+5,Why were the other birds angry?,The eagle flew higher than them,The little bird had outwitted them,b,a,0.64805,0
+6,How did the little bird trick the other birds?,He hid in the eagles feathers,He kept flying,a,a,0.84884,1
+7,What was the second challenge?,The birds needed to go deepest into the Earth,The birds needed to lay the most eggs,a,a,1.8552,1
+8,How did the little bird outwit the other birds in the digging contest?,He crept into a hole,He used a toy shovel,a,a,1.6665,1
+9,What does the owl do now?,Flies during the day,Looks for the mouse,b,a,0.64899,0
+10,Why do the other birds call the little bird the "hedge-king"?,He is the king,He lives in the hedges,b,a,0.56262,0
+pretrial 0.023991
+audio 1.070901
+posttrial 20.262330
 

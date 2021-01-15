@@ -27,7 +27,7 @@ function U01_Expt5_stories(subjID,storynum, run)
 
 %% Initialize Variables
 
-send_triggers = 1; %false when testing without actual trigger machine
+send_triggers = 0; %false when testing without actual trigger machine
 
 %Trigger codes
 Audio =     2;
@@ -55,13 +55,13 @@ end
 
 rootDir = pwd();
 stimDir = [rootDir filesep 'stimuli' filesep];       % path to where the stimuli are saved
-theFile = [num2str(storynum) '.wav'];
+theFile = [num2str(storynum) '_48000.wav']; %use 48 kH version to play nice with PsychPortAudio
 expt_name = 'U01_Expt5_stories';
 
 %these two arrays correspond to each other
 
 key_mapping = ['a', 'b'];
-trigger_response_keys = [KbName('a'), KbName('s')];
+trigger_response_keys = [KbName('1!'), KbName('2@')];
 
 %% Check that the stimulus exists %%
 if ~exist([stimDir, theFile],'file')
@@ -142,7 +142,9 @@ screenNumber = max(screensAll); % Which screen you want to use. "1" is external 
 %define colors
 white = WhiteIndex(screenNumber);
 
-[windowPtr,rect]=PsychImaging('OpenWindow',screenNumber, white); %, [0 0 640 640]
+GREY = [134 136 138];
+
+[windowPtr,rect]=PsychImaging('OpenWindow',screenNumber, GREY); %, [0 0 640 640]
 
 priorityLevel = MaxPriority(windowPtr);
 Priority(priorityLevel);
@@ -201,7 +203,7 @@ end
 
 %% Wait for trigger %%
 
-DrawFormattedText(windowPtr, 'Press SPACE to begin', 'center', 'center', 0);
+DrawFormattedText(windowPtr, 'You will listen to a story and then answer questions about the story. \n\nPress SPACE to begin', 'center', 'center', 0);
 Screen('Flip', windowPtr);
 
 while 1
@@ -263,7 +265,7 @@ while current < nStimuli
                 Screen('Flip',windowPtr);
                 eventStart = PsychPortAudio('Start', pahandle, 1, 0, 1);
                 timing(current) = eventStart;
-                timeLimit = audioDur;
+                timeLimit = 0%audioDur;
                 moveToNext = 0;
                 checkTiming = 1;
             case 'posttrial'
@@ -345,8 +347,8 @@ RT = response;
 item = cell(length(pres_questions),1);
 for i = 1:length(pres_questions)
     WaitSecs(1);
-    DrawFormattedText(windowPtr, [pres_questions{i} '\n\nA. ' ...
-        pres_answersA{i} '\n\nB. ' pres_answersB{i}], 'center', 'center', 0);
+    DrawFormattedText(windowPtr, [pres_questions{i} '\n\n1. ' ...
+        pres_answersA{i} '\n\n2. ' pres_answersB{i}], 'center', 'center', 0);
     Screen('Flip', windowPtr);
     stimuli_pres = GetSecs();
     

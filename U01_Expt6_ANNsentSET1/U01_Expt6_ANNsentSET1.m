@@ -188,12 +188,12 @@ STIMULI_AUDIO = [ filesep 'stimuli' filesep 'norm_endfix_filt_'];
 %color variables
 WHITE = [255 255 255];
 BLACK = [64 64 64];
-GREY = [211 211 211];
+GREY = [134 136 138];
 
 %these two arrays correspond to each other
 KbName('UnifyKeyNames');
 key_mapping = ["1", "2"];
-trigger_response_keys = [KbName('LeftShift'), KbName('RightShift')];
+trigger_response_keys = [KbName('1!'), KbName('2@')];
 escapeKey = KbName('ESCAPE');
 enterKey = KbName('Return');
 spaceBar = KbName('space');
@@ -215,7 +215,7 @@ screenNumber = max(screensAll); % Which screen you want to use. "1" is external 
 %define colors
 white = WhiteIndex(screenNumber);
 
-[windowPtr,rect]=PsychImaging('OpenWindow',screenNumber, WHITE); %, [0 0 1440 900]
+[windowPtr,rect]=PsychImaging('OpenWindow',screenNumber, GREY); %, [0 0 1440 900]
 [screenXpixels, screenYpixels] = Screen('WindowSize', windowPtr);
 oldTextSize = Screen('TextSize',windowPtr,50);
 
