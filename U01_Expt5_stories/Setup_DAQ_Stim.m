@@ -18,19 +18,14 @@ elseif strcmp(getenv('COMPUTERNAME'),'ENTERPRISE-PC') %Enterprise
     disp('I think Im doing triggers on the Enterprise');   
 elseif strcmp(getenv('COMPUTERNAME'),'DESKTOP-VASDQ79') %Enterprise
     portAddress = hex2dec('D010'); % Enterprise
-    disp('I think Im doing triggers on Streaky');
-elseif strcmp(getenv('COMPUTERNAME'),'PRESENTATION') %Enterprise
-    portAddress = hex2dec('D010'); % PRESENTATION
-    disp('I think Im doing triggers on the PRESENTATION computer');
-elseif strcmp(getenv('COMPUTERNAME'),'CASHLAB-PC') %
-    portAddress = hex2dec('D010');   % Cashlab presentation LPT3 again;
-    disp('I think Im doing triggers on the CASHLAB-PC, another computer');
-elseif strcmp(getenv('COMPUTERNAME'),'TASKSLITTLEPC01') %Enterprise
-    portAddress = hex2dec('D010'); % PRESENTATION
-    disp('I think Im doing triggers on the TASKSLITTLEPC01 computer');
+    disp('I think Im doing triggers on Streaky');    
 elseif strcmp(getenv('COMPUTERNAME'),'PRESENTATION-4')
     portAddress = hex2dec('DFF8'); % Presentation 4 computer
-    disp('I think Im doing triggers on the Presentation 4 computer');    
+    disp('I think Im doing triggers on the Presentation 4 computer');         
+elseif exist(fullfile(getenv('USERPROFILE'), 'Documents', 'MATLAB', 'port.txt'), 'file') == 2  % get the port from a specified text file
+    portFile = fullfile(getenv('USERPROFILE'), 'Documents', 'MATLAB', 'port.txt');
+    portAddress = hex2dec(fileread(portFile));
+    disp('Im gonna use the port specified in ~/Documents/port.text');
 else
     portAddress = hex2dec('DCF8');   % Cashlab presentation LPT3;
     disp('I think Im doing triggers on the main rig');
@@ -51,16 +46,3 @@ io64(portObj,portAddress,0);
 TrialStruct.portObj = portObj;
 TrialStruct.portAddress = portAddress;
 
-%% Send initial trigger.
-% Setup trigger code.
-PortIdx = 0;
-
-StimTrig = 7;
-TriggerCode = zeros(1,8);
-TriggerCode(StimTrig) = 1;
-% Send initial trigger.
-SendTrigger( TrialStruct, TriggerCode )
-WaitSecs(0.5);
-% Turn off trigger.
-TriggerCode(StimTrig) = 0;
-SendTrigger( TrialStruct, TriggerCode )
