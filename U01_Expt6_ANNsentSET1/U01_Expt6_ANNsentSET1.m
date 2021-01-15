@@ -20,7 +20,7 @@ function U01_Expt6_ANNsentSET1(subjID, list)
 
 expt_name = 'U01_Expt6_ANNsentSET1';
 
-send_triggers = 1; 
+send_triggers = 0; 
 
 %Trigger codes
 start_expt =    1;
@@ -182,7 +182,7 @@ end
 
 
 %% variables to change
-INSTRUCTIONS = 'Listen attentively to the sentences. Press the spacebar to hear the next sentence.';
+INSTRUCTIONS = 'Listen attentively to the sentences. \n\nPress the spacebar to hear the next sentence.';
 STIMULI_AUDIO = [ filesep 'stimuli' filesep 'norm_endfix_filt_'];
 
 %color variables
@@ -287,7 +287,7 @@ for j =start:NUM_STIMULI
     t = now; 
     date_time = datetime(t,'ConvertFrom','datenum');
     
-    date_time_info(j,1) = date_time;
+%    date_time_info(j,1) = date_time;
     trial_onset(j,1) = GetSecs() - startTime; %save the onset time of the trial
     %go to grey screen
     Screen(windowPtr, 'Flip');
