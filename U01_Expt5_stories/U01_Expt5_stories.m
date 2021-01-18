@@ -28,7 +28,7 @@ subjID = cfg.SUBJECT;
 run = cfg.RUN_ID;
 send_triggers = cfg.SEND_TRIGGERS; %false when testing without actual trigger machine
 
-StoryOrder = [5,2,8,4,7,6,9,5];
+StoryOrder = [5,2,8,4,7,6,9,5]; %hardcoding story order 
 storynum = StoryOrder(run);
 rootDir=cfg.PATH_LOG;
 
@@ -213,20 +213,26 @@ end
 DrawFormattedText(windowPtr, 'You will listen to a story and then answer questions about the story. \n\nPress SPACE to begin', 'center', 'center', 0);
 Screen('Flip', windowPtr);
 
-while 1
-    FlushEvents();
-    key = GetChar();
-    if key == '' % escape
-        PsychPortAudio('Close');
-        Screen('CloseAll');
-        ShowCursor;
-        error('Experiment quit using ESCAPE');
-    elseif key == ' ' % space
-        break
-    end
-    WaitSecs(0.001);
-end
+% while 1
+%     FlushEvents();
+%     key = GetChar();
+%     if key == '' % escape
+%         PsychPortAudio('Close');
+%         Screen('CloseAll');
+%         ShowCursor;
+%         error('Experiment quit using ESCAPE');
+%     elseif key == ' ' % space
+%         break
+%     end
+%     WaitSecs(0.001);
+% end
 
+[~, keyCode] = KbWait([], 2);
+if any(ismember(find(keyCode),escapeKey))
+    Screen('CloseAll');
+    ShowCursor;
+    error('Experiment quit using ESCAPE');
+end
 
 %% Experiment %%
 expStartTime = GetSecs();

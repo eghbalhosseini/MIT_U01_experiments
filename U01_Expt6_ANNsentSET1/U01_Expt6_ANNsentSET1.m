@@ -229,16 +229,22 @@ Screen('Flip', windowPtr);
 %HideCursor;
 
 triggerKey = enterKey;
-while 1
-    [keyIsDown, sec, keyCode] = KbCheck(-3);        % -3 = check input from ALL devices
-    if keyCode(escapeKey)
-        Screen('CloseAll');
-        fprintf('Experiment quit by pressing ESCAPE\n');
-        break;
-    elseif ismember(find(keyCode,1), triggerKey)        % used to be: keyCode(KbName(triggerKey))
-        break;
-    end
-    WaitSecs(0.001);
+% while 1
+%     [keyIsDown, sec, keyCode] = KbCheck(-3);        % -3 = check input from ALL devices
+%     if keyCode(escapeKey)
+%         Screen('CloseAll');
+%         fprintf('Experiment quit by pressing ESCAPE\n');
+%         break;
+%     elseif ismember(find(keyCode,1), triggerKey)        % used to be: keyCode(KbName(triggerKey))
+%         break;
+%     end
+%     WaitSecs(0.001);
+% end
+[~, keyCode] = KbWait([], 2);
+if any(ismember(find(keyCode),escapeKey))
+    Screen('CloseAll');
+    ShowCursor;
+    error('Experiment quit using ESCAPE');
 end
 
 % present instructions
@@ -247,18 +253,23 @@ DrawFormattedText(windowPtr, 'Press the spacebar when you are ready to begin', '
 Screen('Flip', windowPtr);
 WaitSecs(0.5); %some buffer time for key press to work
 triggerKey = spaceBar;
-while 1
-    [keyIsDown, sec, keyCode] = KbCheck(-3);        % -3 = check input from ALL devices
-    if keyCode(escapeKey)
-        Screen('CloseAll');
-        fprintf('Experiment quit by pressing ESCAPE\n');
-        break;
-    elseif ismember(find(keyCode,1), triggerKey)        % used to be: keyCode(KbName(triggerKey))
-        break;
-    end
-    WaitSecs(0.001);
+% while 1
+%     [keyIsDown, sec, keyCode] = KbCheck(-3);        % -3 = check input from ALL devices
+%     if keyCode(escapeKey)
+%         Screen('CloseAll');
+%         fprintf('Experiment quit by pressing ESCAPE\n');
+%         break;
+%     elseif ismember(find(keyCode,1), triggerKey)        % used to be: keyCode(KbName(triggerKey))
+%         break;
+%     end
+%     WaitSecs(0.001);
+% end
+[~, keyCode] = KbWait([], 2);
+if any(ismember(find(keyCode),escapeKey))
+    Screen('CloseAll');
+    ShowCursor;
+    error('Experiment quit using ESCAPE');
 end
-
 
 %% Experiment %%
 

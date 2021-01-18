@@ -10,14 +10,14 @@ if ~isfield(cfg,'SUBJECT')
 end
 
 % Paths and PTB configuration on task computer
-cfg.PATH_TASK = 'C:\Users\Kermit\Desktop\MIT\Task_MIT_Fedorenko\U01_langloc_vJan2021';
-cfg.PATH_SOURCEDATA = 'C:\Users\Kermit\Desktop\MIT\Data'; %rawdata root folder
-cfg.SEND_TRIGGERS = 1;
+% cfg.PATH_TASK = 'C:\Users\Kermit\Desktop\MIT\Task_MIT_Fedorenko\U01_langloc_vJan2021';
+% cfg.PATH_SOURCEDATA = 'C:\Users\Kermit\Desktop\MIT\Data'; %rawdata root folder
+% cfg.SEND_TRIGGERS = 1;
 
 % % Paths and PTB configuration on test computer
-% cfg.PATH_TASK = '~/git/Task_MIT_Fedorenko/U01_langloc_vJan2021';
-% cfg.PATH_SOURCEDATA = '~/Sandbox'; %rawdata root folder
-% cfg.SEND_TRIGGERS = 0;
+cfg.PATH_TASK = '~/git/Task_MIT_Fedorenko/U01_langloc_vJan2021';
+cfg.PATH_SOURCEDATA = '~/Sandbox'; %rawdata root folder
+cfg.SEND_TRIGGERS = 0;
 
 %% Task parameters 
 cfg.TASK = 'ANNsentSET1'; % name of current task
@@ -28,7 +28,7 @@ warning('on','all'); %enabling warnings
 beep off
 
 %% Confirmation prompt
-prompt = {'Subject','Session','Run'};
+prompt = {'Subject','Session','Run (1-4)'};
 dlgtitle = sprintf('%s Task',cfg.TASK);
 dims = [1 35];
 definput = {cfg.SUBJECT,cfg.SESSION_LABEL,''};

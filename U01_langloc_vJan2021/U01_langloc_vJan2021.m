@@ -94,8 +94,6 @@ if(send_triggers)
     TrialStruct = Setup_DAQ_Stim(TrialStruct);
 end
 
-
-
 save_path = [rootDir filesep 'output' filesep];
 expt_name = 'U01_langloc_vJan2021';
 
@@ -208,7 +206,7 @@ PsychDefaultSetup(2);
 
 KbName('UnifyKeyNames');
 spaceBar = KbName('space');
-escapeKey = KbName('escape');
+% escapeKey = KbName('escape');
 
 key_mapping = ["1", "2"];
 trigger_response_keys = [KbName('1!'), KbName('2@')];
@@ -254,20 +252,28 @@ Screen('Flip', window);
 %set text size larger for the stimuli
 Screen('TextSize', window, 80);
 
-while 1
-    FlushEvents();
-    key = GetChar();
-    if key == escapeKey % escape
-        PsychPortAudio('Close');
-        Screen('CloseAll');
-        ShowCursor;
-        error('Experiment quit using ESCAPE');
-    elseif key == ' ' % space
-        break
-    end
-    
-    WaitSecs(0.001)
+% while 1
+%     FlushEvents();
+%     key = GetChar();
+%     if key == escapeKey % escape
+%         %PsychPortAudio('Close');
+%         Screen('CloseAll');
+%         ShowCursor;
+%         error('Experiment quit using ESCAPE');
+%     elseif key == ' ' % space
+%         break
+%     end
+%     
+%     WaitSecs(0.001)
+% end
+
+[~, keyCode] = KbWait([], 2);
+if any(ismember(find(keyCode),escapeKey))
+    Screen('CloseAll');
+    ShowCursor;
+    error('Experiment quit using ESCAPE');
 end
+
 
 word_time = 0.400; %seconds
 
