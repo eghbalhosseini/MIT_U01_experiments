@@ -241,7 +241,7 @@ Priority(priorityLevel);
 
 %HideCursor;
 
-Screen('TextSize', window, 60);
+Screen('TextSize', window, 40);
 Screen('TextFont', window, 'Arial');
 Screen('TextStyle', window, 0);
 
@@ -325,9 +325,11 @@ for i = start:NUM_STIMULI
     
     if(mod(ind-1, 8) == 0 && ind ~= start && ind ~= NUM_STIMULI) %give a rest every 8 trials, excluding first and last trial
         ind = 1;
+        Screen('TextSize', window, 40);
         DrawFormattedText(window, 'Take a break \n\n Press the spacebar to continue', 'center', 'center', black);
         start_break = Screen('Flip', window);
-        
+        Screen('TextSize', window, 80);
+
         while 1
             [keyIsDown, seconds, keyCode] = KbCheck(-3);        % -3 = check input from ALL devices
             if keyCode(escapeKey)

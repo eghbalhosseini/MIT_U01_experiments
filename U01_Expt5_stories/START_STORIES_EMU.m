@@ -10,8 +10,10 @@ if ~isfield(cfg,'SUBJECT')
 end
 
 % Paths and PTB configuration on task computer
-cfg.PATH_TASK = 'C:\Users\Kermit\Desktop\MIT\Task_MIT_Fedorenko\U01_Expt5_stories';
-cfg.PATH_SOURCEDATA = 'C:\Users\Kermit\Desktop\MIT\Data_Stories'; %rawdata root folder
+[~, userdir] = system('echo %USERPROFILE%');
+userdir = strtrim(userdir);
+cfg.PATH_TASK = [userdir '\Desktop\MIT\Task_MIT_Fedorenko\U01_Expt5_stories'];
+cfg.PATH_SOURCEDATA = [userdir '\Desktop\MIT\Data_Stories']; %rawdata root folder
 cfg.SEND_TRIGGERS = 1;
 
 % % Paths and PTB configuration on test computer

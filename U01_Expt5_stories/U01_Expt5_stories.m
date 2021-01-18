@@ -37,6 +37,7 @@ dataFile_mat = cfg.MAT_FILENAME;
 dataFile = cfg.EVENT_FILENAME;
 
 %% Initialize Variables
+PsychDefaultSetup(2);
 
 %Trigger codes
 Audio =     2;
@@ -85,7 +86,7 @@ posttrialFixDur = 1; % in seconds
 %% Other variables %%
 KbName('UnifyKeyNames');
 fixationSize = 2;   % in degrees
-pixPerDeg = 60;     % pixels per degree
+pixPerDeg = 50;     % pixels per degree
 stimFontSize = .8;  % in degrees
 screenNum = 0;
 escapeKey = KbName('ESCAPE');

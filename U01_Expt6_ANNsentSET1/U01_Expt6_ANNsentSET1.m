@@ -30,6 +30,8 @@ rootDir = pwd();
 
 expt_name = 'U01_Expt6_ANNsentSET1';
 
+PsychDefaultSetup(2);
+
 %Trigger codes
 start_expt =    1;
 end_expt =      2;
@@ -211,7 +213,7 @@ white = WhiteIndex(screenNumber);
 
 [windowPtr,rect]=PsychImaging('OpenWindow',screenNumber, GREY); %, [0 0 1440 900]
 [screenXpixels, screenYpixels] = Screen('WindowSize', windowPtr);
-oldTextSize = Screen('TextSize',windowPtr,50);
+oldTextSize = Screen('TextSize',windowPtr,40);
 
 
 % Get the centre coordinate of the window
