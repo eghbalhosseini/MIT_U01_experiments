@@ -210,7 +210,7 @@ end
 
 %% Wait for trigger %%
 
-DrawFormattedText(windowPtr, 'You will listen to a story and then answer questions about the story. \n\nPress SPACE to begin', 'center', 'center', 0);
+DrawFormattedText(windowPtr, 'You will listen to a story\n\n and then answer questions about the story. \n\nPress SPACE to begin', 'center', 'center', 0);
 Screen('Flip', windowPtr);
 
 % while 1
