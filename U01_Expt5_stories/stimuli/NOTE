@@ -1,0 +1,5 @@
+NOTE: 
+
+stories converted to 48 kHz using Praat, to be compatible with the EMU machine at MGH (PsychPortAudio plays nice with 48 kHz audio files)
+
+they are appended with _48000
