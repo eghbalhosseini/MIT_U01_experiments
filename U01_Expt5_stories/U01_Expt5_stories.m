@@ -22,12 +22,22 @@
 
 
 %%% subjID =  subject id
-function U01_Expt5_stories(subjID,storynum, run)
+function U01_Expt5_stories(cfg)
 
+subjID = cfg.SUBJECT;
+run = cfg.RUN_ID;
+send_triggers = cfg.SEND_TRIGGERS; %false when testing without actual trigger machine
+
+StoryOrder = [5,2,8,4,7,6,9,5]; %hardcoding story order 
+storynum = StoryOrder(run);
+rootDir=cfg.PATH_LOG;
+
+dataDir = [cfg.PATH_LOG filesep];
+dataFile_mat = cfg.MAT_FILENAME;
+dataFile = cfg.EVENT_FILENAME;
 
 %% Initialize Variables
-
-send_triggers = 1; %false when testing without actual trigger machine
+PsychDefaultSetup(2);
 
 %Trigger codes
 Audio =     2;
@@ -53,8 +63,8 @@ if ~ismember(storynum,possible_stories)
     error('storynum must be one of these values: 2,4,5,6,7,8,9');
 end
 
-rootDir = pwd();
-stimDir = [rootDir filesep 'stimuli' filesep];       % path to where the stimuli are saved
+
+stimDir = [pwd() filesep 'stimuli' filesep];       % path to where the stimuli are saved
 theFile = [num2str(storynum) '_48000.wav']; %use 48 kH version to play nice with PsychPortAudio
 expt_name = 'U01_Expt5_stories';
 
@@ -76,7 +86,7 @@ posttrialFixDur = 1; % in seconds
 %% Other variables %%
 KbName('UnifyKeyNames');
 fixationSize = 2;   % in degrees
-pixPerDeg = 60;     % pixels per degree
+pixPerDeg = 50;     % pixels per degree
 stimFontSize = .8;  % in degrees
 screenNum = 0;
 escapeKey = KbName('ESCAPE');
@@ -111,17 +121,15 @@ nStimuli = length(stimulusSet);
 
 %% Create / open a file for saving the results %%
 timing = zeros(nStimuli,1); % timing of different events in the experiment
-dataDir = ['output', filesep];
 
-if exist([dataDir (strcat(expt_name,'_story',num2str(storynum),'_',subjID,'_run',num2str(run))) '.mat'],'file')
+if exist(dataFile_mat,'file')
     overwrite = input('A file is already saved with this name. Overwrite? (y/n): ','s');
     if overwrite == 'y' %do nothing
     else %anything besides 'y', input new name
         run = input('Enter a new run number: ','s');
     end
 end
-dataFile_mat =[dataDir expt_name '_story' num2str(storynum) '_' subjID, '_run', num2str(run), '.mat'];
-dataFile = [dataDir expt_name '_story' num2str(storynum) '_' subjID, '_run', num2str(run), '.csv'];
+
 fid = fopen(dataFile, 'a');
 
 
@@ -158,7 +166,7 @@ wavedata = y';
 nrchannels = size(wavedata,1); % Number of rows == number of channels
 audioDur = length(y)/freq;
 InitializePsychSound; % Perform basic initialization of the sound driver:
-pahandle = PsychPortAudio('Open', [], [], 1, freq, nrchannels);
+pahandle = PsychPortAudio('Open', [], [], 1, [], nrchannels);
 % Open the default audio device [], with default mode [] (==Only playback),
 % and a required latencyclass of zero 0 == no low-latency mode, as well as
 % a frequency of freq and nrchannels sound channels.
@@ -203,23 +211,29 @@ end
 
 %% Wait for trigger %%
 
-DrawFormattedText(windowPtr, 'You will listen to a story and then answer questions about the story. \n\nPress SPACE to begin', 'center', 'center', 0);
+DrawFormattedText(windowPtr, 'You will listen to a story\n\n and then answer questions about the story. \n\nPress SPACE to begin', 'center', 'center', 0);
 Screen('Flip', windowPtr);
 
-while 1
-    FlushEvents();
-    key = GetChar();
-    if key == '' % escape
-        PsychPortAudio('Close');
-        Screen('CloseAll');
-        ShowCursor;
-        error('Experiment quit using ESCAPE');
-    elseif key == ' ' % space
-        break
-    end
-    WaitSecs(0.001);
-end
+% while 1
+%     FlushEvents();
+%     key = GetChar();
+%     if key == '' % escape
+%         PsychPortAudio('Close');
+%         Screen('CloseAll');
+%         ShowCursor;
+%         error('Experiment quit using ESCAPE');
+%     elseif key == ' ' % space
+%         break
+%     end
+%     WaitSecs(0.001);
+% end
 
+[~, keyCode] = KbWait([], 2);
+if any(ismember(find(keyCode),escapeKey))
+    Screen('CloseAll');
+    ShowCursor;
+    error('Experiment quit using ESCAPE');
+end
 
 %% Experiment %%
 expStartTime = GetSecs();

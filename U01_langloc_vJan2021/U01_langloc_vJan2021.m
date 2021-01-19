@@ -39,9 +39,14 @@
 %list-subset of the materials to use (1-3)
 
 
-function U01_langloc_vJan2021(subjectID, list)
+function U01_langloc_vJan2021(cfg)
 
-send_triggers = 1;
+subjectID = cfg.SUBJECT;
+list = cfg.RUN_ID;
+send_triggers = cfg.SEND_TRIGGERS;
+rootDir=cfg.PATH_LOG;
+dataFile = cfg.EVENT_FILENAME;
+dataFile_csv = [dataFile '.csv'];
 
 %Trigger codes
 ExpStart =      1;
@@ -89,14 +94,6 @@ if(send_triggers)
     TrialStruct = Setup_DAQ_Stim(TrialStruct);
 end
 
-%Creating the output file for this subject
-rootDir=pwd();
-if exist([rootDir filesep 'output'], 'dir')
-    %do nothing
-else
-    mkdir ('output');
-end
-
 save_path = [rootDir filesep 'output' filesep];
 expt_name = 'U01_langloc_vJan2021';
 
@@ -110,8 +107,6 @@ if list > 3 || list < 0
     error('USE: U01_langloc_vJan2021(subjectID, list) -- list must be between 1 and 3')
 end
 
-dataFile = [save_path expt_name '_' subjectID '_list' num2str(list)];
-dataFile_csv = [dataFile '.csv'];
 
 t = now; 
 date_time = datetime(t,'ConvertFrom','datenum');
@@ -211,7 +206,7 @@ PsychDefaultSetup(2);
 
 KbName('UnifyKeyNames');
 spaceBar = KbName('space');
-escapeKey = KbName('escape');
+% escapeKey = KbName('escape');
 
 key_mapping = ["1", "2"];
 trigger_response_keys = [KbName('1!'), KbName('2@')];
@@ -246,7 +241,7 @@ Priority(priorityLevel);
 
 %HideCursor;
 
-Screen('TextSize', window, 60);
+Screen('TextSize', window, 40);
 Screen('TextFont', window, 'Arial');
 Screen('TextStyle', window, 0);
 
@@ -257,20 +252,28 @@ Screen('Flip', window);
 %set text size larger for the stimuli
 Screen('TextSize', window, 80);
 
-while 1
-    FlushEvents();
-    key = GetChar();
-    if key == escapeKey % escape
-        PsychPortAudio('Close');
-        Screen('CloseAll');
-        ShowCursor;
-        error('Experiment quit using ESCAPE');
-    elseif key == ' ' % space
-        break
-    end
-    
-    WaitSecs(0.001)
+% while 1
+%     FlushEvents();
+%     key = GetChar();
+%     if key == escapeKey % escape
+%         %PsychPortAudio('Close');
+%         Screen('CloseAll');
+%         ShowCursor;
+%         error('Experiment quit using ESCAPE');
+%     elseif key == ' ' % space
+%         break
+%     end
+%     
+%     WaitSecs(0.001)
+% end
+
+[~, keyCode] = KbWait([], 2);
+if any(ismember(find(keyCode),escapeKey))
+    Screen('CloseAll');
+    ShowCursor;
+    error('Experiment quit using ESCAPE');
 end
+
 
 word_time = 0.400; %seconds
 
@@ -322,9 +325,11 @@ for i = start:NUM_STIMULI
     
     if(mod(ind-1, 8) == 0 && ind ~= start && ind ~= NUM_STIMULI) %give a rest every 8 trials, excluding first and last trial
         ind = 1;
+        Screen('TextSize', window, 40);
         DrawFormattedText(window, 'Take a break \n\n Press the spacebar to continue', 'center', 'center', black);
         start_break = Screen('Flip', window);
-        
+        Screen('TextSize', window, 80);
+
         while 1
             [keyIsDown, seconds, keyCode] = KbCheck(-3);        % -3 = check input from ALL devices
             if keyCode(escapeKey)
