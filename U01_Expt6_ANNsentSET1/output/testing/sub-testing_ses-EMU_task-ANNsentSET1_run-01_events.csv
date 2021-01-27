@@ -1,0 +1,57 @@
+final_list,trial,trial_onset,final_audio_filename,final_condition,final_audio_transcript,audio_ended,pressed_space_to_continue,trial_completed,resume_number
+1,1,0.00376343197422102,sentence_56.wav,sentence,"This is the best solution given all the uncertainties we face.",3.7381845570053,1,1,0
+1,2,4.7194064919604,sentence_200.wav,sentence,"I am not going to go pick up a horse I can't afford.",7.76950430299621,1,1,0
+1,3,8.71359701198526,sentence_167.wav,sentence,"But the words did not fall out and her feelings hung inside her, preserved.",13.3980982409557,1,1,0
+1,4,14.3262474119547,sentence_93.wav,sentence,"Because obviously most people have never even heard of this section.",18.0992916949908,1,1,0
+1,5,18.8154350599507,sentence_130.wav,sentence,"In the end, it was etiquette that decided.",21.5546346949995,1,1,0
+1,6,22.0997044929536,sentence_78.wav,sentence,"The ones that I made changes to are in red.",24.5286095420015,1,1,0
+1,7,0,sentence_60.wav,sentence,"I looked at the menu.",0,0,0,0
+1,8,0,sentence_110.wav,sentence,"I saw lots of videos about this, but actually it didn't help.",0,0,0,0
+1,9,0,sentence_171.wav,sentence,"We were waiting, waiting, watching the clock.",0,0,0,0
+1,10,0,sentence_20.wav,sentence,"This particular chair is designed to help with back problems, which she has.",0,0,0,0
+1,11,0,nonword_1.wav,nonword,"cre lomb tifoy bues cre yaim bliner cre prellsult creir cre trotine",0,0,0,0
+1,12,0,sentence_180.wav,sentence,"Downtown, there are hotels and restaurants to suit every budget.",0,0,0,0
+1,13,0,sentence_158.wav,sentence,"Sighing, he threw down his cigarette and went inside, straightening his tie.",0,0,0,0
+1,14,0,sentence_128.wav,sentence,"My father cleared his throat, looking out the door.",0,0,0,0
+1,15,0,sentence_82.wav,sentence,"They were thorough, high class, and went above and beyond.",0,0,0,0
+1,16,0,sentence_101.wav,sentence,"Beside these two buses, there is no public transport, but car rental with driver is available.",0,0,0,0
+1,17,0,sentence_48.wav,sentence,"Another thing that can cause a king snake to stop eating is shedding.",0,0,0,0
+1,18,0,sentence_52.wav,sentence,"She had a long stride though I was taller.",0,0,0,0
+1,19,0,sentence_42.wav,sentence,"It's cool ... it's like another family.",0,0,0,0
+1,20,0,sentence_31.wav,sentence,"Of course it must do financial news and sports well enough.",0,0,0,0
+1,21,0,sentence_90.wav,sentence,"I go out of my way to use Air France.",0,0,0,0
+1,22,0,nonword_4.wav,nonword,"coldist blalb dap cre olp yoap cre ub kem cre en snig",0,0,0,0
+1,23,0,sentence_1.wav,sentence,"Or they weren't eyewitnesses and are just lying.",0,0,0,0
+1,24,0,sentence_108.wav,sentence,"One ship is very much like another, and the sea is always the same.",0,0,0,0
+1,25,0,sentence_62.wav,sentence,"If I could give them a lower rating than poor I would.",0,0,0,0
+1,26,0,sentence_161.wav,sentence,"Lay a Twister mat on the floor and ask people if they want to play.",0,0,0,0
+1,27,0,sentence_66.wav,sentence,"Occasionally he would bump into someone and mumble an apology.",0,0,0,0
+1,28,0,sentence_126.wav,sentence,"Next, place one paper in each of the six envelopes and seal them.",0,0,0,0
+1,29,0,sentence_55.wav,sentence,"Very glad that we went with them.",0,0,0,0
+1,30,0,sentence_118.wav,sentence,"I'll be sure to come back.",0,0,0,0
+1,31,0,sentence_166.wav,sentence,"Fill it halfway with books, and fill it up with lighter stuff.",0,0,0,0
+1,32,0,sentence_69.wav,sentence,"Those early budget efforts are his highest achievements as Governor.",0,0,0,0
+1,33,0,nonword_2.wav,nonword,"feged cre decuse gantance ub outmide yaim cre olsaire naments cre boin",0,0,0,0
+1,34,0,sentence_173.wav,sentence,"On the third landing, a door stood ajar.",0,0,0,0
+1,35,0,sentence_107.wav,sentence,"He wont even get close to the crate.",0,0,0,0
+1,36,0,sentence_149.wav,sentence,"So we need to know the results of this debate and put them into effect.",0,0,0,0
+1,37,0,sentence_181.wav,sentence,"At sixteen John escaped from the Warsaw ghetto, leaving behind his parents and his sister.",0,0,0,0
+1,38,0,sentence_89.wav,sentence,"She is very conscientious about what she signs, and who initials what.",0,0,0,0
+1,39,0,sentence_41.wav,sentence,"Beautiful work, fast shipping and great communication.",0,0,0,0
+1,40,0,sentence_163.wav,sentence,"Eventually when he found his brother he had resolution.",0,0,0,0
+1,41,0,sentence_23.wav,sentence,"No one online will be able to assist you more than your vet can.",0,0,0,0
+1,42,0,sentence_72.wav,sentence,"He makes a great point of insisting that everything in the book really happened in the world.",0,0,0,0
+1,43,0,sentence_133.wav,sentence,"It concentrates on combating unemployment and ensuring that everyone has a job.",0,0,0,0
+1,44,0,nonword_13.wav,nonword,"pleskless gor spey prorive cre olp stush loble dwere u memp mith",0,0,0,0
+1,45,0,sentence_154.wav,sentence,"Lee was making his final Canadian convention appearance, part of a larger farewell tour.",0,0,0,0
+1,46,0,sentence_153.wav,sentence,"The staff will not even answer the phone for take out.",0,0,0,0
+1,47,0,sentence_29.wav,sentence,"These people only carry the very best American blown glass.",0,0,0,0
+1,48,0,sentence_122.wav,sentence,"I need prices for May, June, and July.",0,0,0,0
+1,49,0,sentence_18.wav,sentence,"It's not too comfortable for a man your height, Colonel.",0,0,0,0
+1,50,0,sentence_176.wav,sentence,"I haven't the book handy, so I paraphrase.",0,0,0,0
+1,51,0,sentence_145.wav,sentence,"There are floral, animal and bird motifs.",0,0,0,0
+1,52,0,sentence_14.wav,sentence,"Bea was really nice and asked how the food was.",0,0,0,0
+1,53,0,sentence_142.wav,sentence,"There is a proper balanced way to achieve the rights that everybody here wants to see.",0,0,0,0
+1,54,0,sentence_8.wav,sentence,"He read many books, he looked at paintings, he went to the movies.",0,0,0,0
+1,55,0,sentence_93.wav,sentence_repeat,"Because obviously most people have never even heard of this section.",0,0,0,0
+1,56,0,sentence_167.wav,sentence_repeat,"But the words did not fall out and her feelings hung inside her, preserved.",0,0,0,0

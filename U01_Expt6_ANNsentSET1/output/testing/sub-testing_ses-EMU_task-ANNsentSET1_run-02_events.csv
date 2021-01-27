@@ -1,0 +1,57 @@
+final_list,trial,trial_onset,final_audio_filename,final_condition,final_audio_transcript,audio_ended,pressed_space_to_continue,trial_completed,resume_number
+2,1,0.000882663007359952,sentence_17.wav,sentence,"I noticed there was a hole in the bottom of his pail.",2.81754188501509,1,1,0
+2,2,3.69072350603528,sentence_36.wav,sentence,"I will never go back.",4.95345497003291,1,1,0
+2,3,5.66434312000638,sentence_54.wav,sentence,"However, all that is to no purpose.",8.28217589604901,1,1,0
+2,4,8.80520905699814,sentence_57.wav,sentence,"There are several reasons for this.",10.9994783000438,1,1,0
+2,5,0,sentence_4.wav,sentence,"You'll have to tell me what it's about first.",0,0,0,0
+2,6,0,sentence_79.wav,sentence,"I came upon this store as the building caught my eye.",0,0,0,0
+2,7,0,sentence_50.wav,sentence,"As its name indicates, it was an olive grove.",0,0,0,0
+2,8,0,sentence_43.wav,sentence,"I've never done that before though either.",0,0,0,0
+2,9,0,sentence_191.wav,sentence,"James Bateman came the day I called and fixed the problem quickly and efficiently.",0,0,0,0
+2,10,0,sentence_21.wav,sentence,"Please approve the purchase of two.",0,0,0,0
+2,11,0,nonword_3.wav,nonword,"mamp udd en cre vanc las stolfs cre owseors wat im thel",0,0,0,0
+2,12,0,sentence_51.wav,sentence,"That's my favorite show of all time.",0,0,0,0
+2,13,0,sentence_123.wav,sentence,"It is my understanding that some rock will be removed and replaced with siding.",0,0,0,0
+2,14,0,sentence_46.wav,sentence,"economy should be good here.",0,0,0,0
+2,15,0,sentence_120.wav,sentence,"That's what keeps us coming back for more.",0,0,0,0
+2,16,0,sentence_119.wav,sentence,"Pete was leaning against the wall, watching the street go by.",0,0,0,0
+2,17,0,sentence_103.wav,sentence,"His books are always hard to put down.",0,0,0,0
+2,18,0,sentence_81.wav,sentence,"If no, you'll have to go to one of the train stations.",0,0,0,0
+2,19,0,sentence_140.wav,sentence,"He wore round glasses, and on his forehead was a thin, lightning-shaped scar.",0,0,0,0
+2,20,0,sentence_84.wav,sentence,"I'll call you shortly.",0,0,0,0
+2,21,0,sentence_105.wav,sentence,"Your life might take on an entirely new direction you've never dreamed of.",0,0,0,0
+2,22,0,nonword_9.wav,nonword,"poby narsh sollter fo coed skec whos cre meeple fe pises cre",0,0,0,0
+2,23,0,sentence_152.wav,sentence,"Because the book after all is an attack on the dangers of the make-believe.",0,0,0,0
+2,24,0,sentence_114.wav,sentence,"He could go to Paris, for example.",0,0,0,0
+2,25,0,sentence_193.wav,sentence,"I spoke with Gerald and he said there are a bunch of folks hanging around Dad's place.",0,0,0,0
+2,26,0,sentence_100.wav,sentence,"There were no clues, no leads, no moves to be made.",0,0,0,0
+2,27,0,sentence_44.wav,sentence,"I was pretty sure he'd been avoiding me.",0,0,0,0
+2,28,0,sentence_116.wav,sentence,"Instead he went to New York.",0,0,0,0
+2,29,0,sentence_49.wav,sentence,"Uncle Vernon was as bad as his word.",0,0,0,0
+2,30,0,sentence_148.wav,sentence,"If all this is really happening, he said, then I must keep my eyes open.",0,0,0,0
+2,31,0,sentence_68.wav,sentence,"Yes, yes and yes.",0,0,0,0
+2,32,0,sentence_12.wav,sentence,"Harry stared at them all watching him.",0,0,0,0
+2,33,0,nonword_10.wav,nonword,"las grawn ub skish ruchel emer gwoyed gham u phon udd shoile",0,0,0,0
+2,34,0,sentence_124.wav,sentence,"I did not see the real significance of that wreck at once.",0,0,0,0
+2,35,0,sentence_77.wav,sentence,"And now he is also world champion.",0,0,0,0
+2,36,0,sentence_139.wav,sentence,"This company is way too expensive with nothing to show for it.",0,0,0,0
+2,37,0,sentence_45.wav,sentence,"Her flexibility and accessibility made for an easy closing.",0,0,0,0
+2,38,0,sentence_170.wav,sentence,"Bring some sort of magnet or small magnetic whiteboard for your door.",0,0,0,0
+2,39,0,sentence_186.wav,sentence,"Most ships perform this drill before even leaving the dock.",0,0,0,0
+2,40,0,sentence_7.wav,sentence,"She didn't sleep, I don't think.",0,0,0,0
+2,41,0,sentence_146.wav,sentence,"The man looked about quickly and lowered his voice.",0,0,0,0
+2,42,0,sentence_156.wav,sentence,"I feel great in it.",0,0,0,0
+2,43,0,sentence_113.wav,sentence,"More streamside willow and aspen have meant better habitat for beaver, for instance.",0,0,0,0
+2,44,0,nonword_12.wav,nonword,"dwaped crinky cre brons ik olp trum dirors olp chon wat streff",0,0,0,0
+2,45,0,sentence_117.wav,sentence,"A package and some wedding cards were left in our first room.",0,0,0,0
+2,46,0,sentence_129.wav,sentence,"It's a good starting point.",0,0,0,0
+2,47,0,sentence_144.wav,sentence,"She has no experience with snakes and has never held one.",0,0,0,0
+2,48,0,sentence_2.wav,sentence,"Kerry saved a man's life while under fire.",0,0,0,0
+2,49,0,sentence_141.wav,sentence,"It rained and people felt chilly on the veranda and drifted indoors.",0,0,0,0
+2,50,0,sentence_75.wav,sentence,"Make sure there are plenty of litter boxes that are cleaned often.",0,0,0,0
+2,51,0,sentence_35.wav,sentence,"A press conference will be held to discuss the consumer class action lawsuit to be filed today.",0,0,0,0
+2,52,0,sentence_26.wav,sentence,"Madam President, there has clearly been a misunderstanding.",0,0,0,0
+2,53,0,sentence_185.wav,sentence,"South France is wonderful, right on the Mediterranean.",0,0,0,0
+2,54,0,sentence_67.wav,sentence,"In the Middle Ages, most Christians did not have access to the Bible in their mother tongue.",0,0,0,0
+2,55,0,sentence_191.wav,sentence_repeat,"James Bateman came the day I called and fixed the problem quickly and efficiently.",0,0,0,0
+2,56,0,sentence_17.wav,sentence_repeat,"I noticed there was a hole in the bottom of his pail.",0,0,0,0

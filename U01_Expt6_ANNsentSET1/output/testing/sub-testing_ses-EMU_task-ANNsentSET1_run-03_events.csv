@@ -1,0 +1,57 @@
+final_list,trial,trial_onset,final_audio_filename,final_condition,final_audio_transcript,audio_ended,pressed_space_to_continue,trial_completed,resume_number,time_info
+3,1,0.00233933900017291,sentence_39.wav,sentence,"For instance, you'll want to avoid making lots of jokes at your own expense.",4.3332132200012,1,1,0,38262.1296499023
+3,2,11.8147951310384,sentence_83.wav,sentence,"My self-esteem is a jigsaw I cannot complete.",14.8706360240467,1,1,0,38273.9440698242
+3,3,15.7761106890393,sentence_95.wav,sentence,"Why certain slogans work and why some don't.",18.9412588050473,1,1,0,38277.9054846191
+3,4,0,sentence_32.wav,sentence,"She handed me a shirt she bought at the stadium and she gave me a big hug.",0,0,0,0,0
+3,5,0,sentence_73.wav,sentence,"Since that legislation came into being, there has been no noticeable difference.",0,0,0,0,0
+3,6,0,sentence_155.wav,sentence,"I also find their food way better than many other airlines.",0,0,0,0,0
+3,7,0,sentence_190.wav,sentence,"In the winter, the talk was of trades, predictions, memories.",0,0,0,0,0
+3,8,0,sentence_86.wav,sentence,"Short time later the guy would leave, then the girl.",0,0,0,0,0
+3,9,0,sentence_15.wav,sentence,"He is joining an excellent company.",0,0,0,0,0
+3,10,0,sentence_175.wav,sentence,"He picked one up and saw that the pages had the narrow lines he preferred.",0,0,0,0,0
+3,11,0,nonword_6.wav,nonword,"fowth shlough yir cre memp cre emto millote ub jeds crafers cre",0,0,0,0,0
+3,12,0,sentence_165.wav,sentence,"The menu has the usual but then they step it up another notch.",0,0,0,0,0
+3,13,0,sentence_96.wav,sentence,"If not, go somewhere else.",0,0,0,0,0
+3,14,0,sentence_58.wav,sentence,"There will always be an audience for good magicians doing good magic.",0,0,0,0,0
+3,15,0,sentence_135.wav,sentence,"These statements are widely reported in the press.",0,0,0,0,0
+3,16,0,sentence_6.wav,sentence,"She put them in the sink to soak.",0,0,0,0,0
+3,17,0,sentence_137.wav,sentence,"It might be a statistical blip.",0,0,0,0,0
+3,18,0,sentence_194.wav,sentence,"Some jokes also have what is called a tag or topper, which is an additional punchline.",0,0,0,0,0
+3,19,0,sentence_70.wav,sentence,"This particular event grows in popularity every year.",0,0,0,0,0
+3,20,0,sentence_151.wav,sentence,"I don't know, said Quinn, taking another bite.",0,0,0,0,0
+3,21,0,sentence_172.wav,sentence,"If you want easy then go with a gold fish or hamster.",0,0,0,0,0
+3,22,0,nonword_16.wav,nonword,"olp swowling bamped cre mevys uzz cre ly triened tweted olp oth",0,0,0,0,0
+3,23,0,sentence_22.wav,sentence,"He went out in the evenings and had a good time.",0,0,0,0,0
+3,24,0,sentence_53.wav,sentence,"He began at the beginning and went through the entire story, step by step.",0,0,0,0,0
+3,25,0,sentence_30.wav,sentence,"I'm still a beginner.",0,0,0,0,0
+3,26,0,sentence_71.wav,sentence,"We play in all aspects of the game and we hand pick our members.",0,0,0,0,0
+3,27,0,sentence_97.wav,sentence,"They called and worked with me to fix it so that it would look perfect.",0,0,0,0,0
+3,28,0,sentence_164.wav,sentence,"Her best-known stories have been made into movies.",0,0,0,0,0
+3,29,0,sentence_187.wav,sentence,"I'm assuming they are completely out of business since I can't find any contact information.",0,0,0,0,0
+3,30,0,sentence_24.wav,sentence,"They could leave the neighborhood, perhaps leave the city altogether.",0,0,0,0,0
+3,31,0,sentence_92.wav,sentence,"Also try green leafy veggies, like kale and spinach.",0,0,0,0,0
+3,32,0,sentence_27.wav,sentence,"My father used to tell me I had an octopus-complex.",0,0,0,0,0
+3,33,0,nonword_5.wav,nonword,"donked fo yeely ep im floinweer gert cre cre nis trum hase",0,0,0,0,0
+3,34,0,sentence_37.wav,sentence,"But in this study we present a striking exception to this otherwise robust rule.",0,0,0,0,0
+3,35,0,sentence_3.wav,sentence,"I know now where to get all of my wine and beer.",0,0,0,0,0
+3,36,0,sentence_189.wav,sentence,"For a hotel like this you would expect some form of free internet.",0,0,0,0,0
+3,37,0,sentence_160.wav,sentence,"It's not the same.",0,0,0,0,0
+3,38,0,sentence_134.wav,sentence,"Sometimes I even think I'm down South again, that's a fact.",0,0,0,0,0
+3,39,0,sentence_111.wav,sentence,"There is no parade and there never has been.",0,0,0,0,0
+3,40,0,sentence_47.wav,sentence,"No one here asked him what school he had attended.",0,0,0,0,0
+3,41,0,sentence_76.wav,sentence,"I think he would be a good fit.",0,0,0,0,0
+3,42,0,sentence_183.wav,sentence,"Stir this well and then put to one side.",0,0,0,0,0
+3,43,0,sentence_132.wav,sentence,"Her left arm looked like the front window of Tiffany's.",0,0,0,0,0
+3,44,0,nonword_14.wav,nonword,"skauge cre bune ro cump lainter smasp cre vag ure quaben hien",0,0,0,0,0
+3,45,0,sentence_147.wav,sentence,"The central space was used to observe the rising of the sun and full moon.",0,0,0,0,0
+3,46,0,sentence_192.wav,sentence,"Something intelligible, something metaphysical is communicated by these colors.",0,0,0,0,0
+3,47,0,sentence_125.wav,sentence,"I know that a transaction of this magnitude would make anyone apprehensive and worried.",0,0,0,0,0
+3,48,0,sentence_11.wav,sentence,"Once you have met Nigel you will not want to work with anyone else.",0,0,0,0,0
+3,49,0,sentence_174.wav,sentence,"This shop is by far the best I have been to.",0,0,0,0,0
+3,50,0,sentence_112.wav,sentence,"Thank you all for your participation.",0,0,0,0,0
+3,51,0,sentence_102.wav,sentence,"And yes, I am being melodramatic.",0,0,0,0,0
+3,52,0,sentence_182.wav,sentence,"Camp, cook, sleep, strike camp, march.",0,0,0,0,0
+3,53,0,sentence_85.wav,sentence,"So in a way people often don't know how to combine the two fields.",0,0,0,0,0
+3,54,0,sentence_157.wav,sentence,"Oh, not quite... I must have had hundreds of cups of coffee.",0,0,0,0,0
+3,55,0,sentence_83.wav,sentence_repeat,"My self-esteem is a jigsaw I cannot complete.",0,0,0,0,0
+3,56,0,sentence_32.wav,sentence_repeat,"She handed me a shirt she bought at the stadium and she gave me a big hug.",0,0,0,0,0
