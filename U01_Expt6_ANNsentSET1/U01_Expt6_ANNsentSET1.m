@@ -372,7 +372,7 @@ for j =start:NUM_STIMULI
         [keyIsDown, sec, keyCode] = KbCheck(-3);        % -3 = check input from ALL devices
         if keyCode(escapeKey)
             Screen('CloseAll');
-            error('Experiment quit using ESCAPE');
+            error('Experiment quit using ESCAPE\n');
             break;
         elseif ismember(find(keyCode,1), spaceBar)
             %index = find(triggerKey == find(keyCode,1));
@@ -413,8 +413,7 @@ while 1
     [keyIsDown, sec, keyCode] = KbCheck(-3);        % -3 = check input from ALL devices
     if keyCode(escapeKey)
         Screen('CloseAll');
-        fprintf('Experiment quit by pressing ESCAPE\n');
-        break;
+        error('Experiment quit by pressing ESCAPE\n');
     elseif ismember(find(keyCode,1), triggerKey)        % used to be: keyCode(KbName(triggerKey))
         break;
     end
