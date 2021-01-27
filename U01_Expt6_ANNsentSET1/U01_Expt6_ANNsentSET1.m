@@ -91,7 +91,7 @@ if ~isempty(d)
         pressed_space_to_continue = previous_run.pressed_space_to_continue;
         trial_completed = previous_run.trial_completed;
         resume_number = previous_run.resume_number;
-%        date_time_info = previous_run.date_time_info;
+        time_info = previous_run.time_info;
         
         NUM_STIMULI = height(previous_run);
         
@@ -133,7 +133,7 @@ if ~isempty(d)
             pressed_space_to_continue = zeros(NUM_STIMULI,1);
             trial_completed = zeros(NUM_STIMULI,1);
             resume_number = zeros(NUM_STIMULI,1);
-            date_time_info = zeros(NUM_STIMULI,1);
+            time_info = zeros(NUM_STIMULI,1);
             
             subject_output_file = [subject_output '_restart' num2str(current_resume_number) '.csv'];
             fprintf('Restarting list %d \n', list);
@@ -170,7 +170,7 @@ else
     pressed_space_to_continue = zeros(NUM_STIMULI,1);
     trial_completed = zeros(NUM_STIMULI,1);
     resume_number = zeros(NUM_STIMULI,1);
-    date_time_info = zeros(NUM_STIMULI,1);
+    time_info = zeros(NUM_STIMULI,1);
 
     
 end
@@ -246,7 +246,7 @@ triggerKey = enterKey;
 if any(ismember(find(keyCode),escapeKey))
     Screen('CloseAll');
     ShowCursor;
-    error('Experiment quit using ESCAPE');
+    error('Experiment quit using ESCAPE\n');
 end
 
 % present instructions
@@ -270,7 +270,7 @@ triggerKey = spaceBar;
 if any(ismember(find(keyCode),escapeKey))
     Screen('CloseAll');
     ShowCursor;
-    error('Experiment quit using ESCAPE');
+    error('Experiment quit using ESCAPE\n');
 end
 
 %% Experiment %%
@@ -293,7 +293,7 @@ for j =start:NUM_STIMULI
 
     t = now; 
     date_time = datetime(t,'ConvertFrom','datenum');
-    date_time_info(j,1) = seconds(timeofday(date_time));
+    time_info(j,1) = seconds(timeofday(date_time));
     trial_onset(j,1) = GetSecs() - startTime; %save the onset time of the trial
     %go to grey screen
     Screen(windowPtr, 'Flip');
@@ -386,7 +386,7 @@ for j =start:NUM_STIMULI
     %record output for every trial
     trial = [1:NUM_STIMULI]';
         
-    output = table(final_list, trial, trial_onset, final_audio_filename, final_condition, final_audio_transcript, audio_ended, pressed_space_to_continue, trial_completed,resume_number);
+    output = table(final_list, trial, trial_onset, final_audio_filename, final_condition, final_audio_transcript, audio_ended, pressed_space_to_continue, trial_completed,resume_number,time_info);
     writetable(output, subject_output_file, 'WriteVariableNames', true)
     
 end
