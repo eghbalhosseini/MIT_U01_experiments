@@ -107,10 +107,6 @@ if list > 3 || list < 0
     error('USE: U01_langloc_vJan2021(subjectID, list) -- list must be between 1 and 3')
 end
 
-
-t = now; 
-date_time = datetime(t,'ConvertFrom','datenum');
-
 %get the latest attempt at this list -- will be *_resume(n).csv
 d = dir([dataFile '*.csv']);
 n_files = length(d);
@@ -151,7 +147,7 @@ if ~isempty(d)
         %find resume spot
         completed = previous_run.trial_completed == 1;
         start = sum(completed) + 1; %start with next sentence
-
+    
         %update the name of the output file with new resume number
         dataFile_csv = [dataFile '_resume' num2str(current_resume_number) '.csv'];
 
@@ -171,6 +167,7 @@ if ~isempty(d)
         NUM_STIMULI = height(stimuli);
         %set the start at the beginning, not resumed
         start = 1;
+        stimuli.time_info = zeros(NUM_STIMULI,1);
         writetable(stimuli, dataFile_csv, 'WriteVariableNames', true);
         output = readtable(dataFile_csv); %save template to save output on
         fprintf('Restarting list %d \n', list);
@@ -196,6 +193,7 @@ else
     %set the start at the beginning, not resumed
     start = 1;
     current_resume_number = 0;
+    stimuli.time_info = zeros(NUM_STIMULI,1);
     writetable(stimuli, dataFile_csv, 'WriteVariableNames', true);
     output = readtable(dataFile_csv); %save template to save output on
    
@@ -323,6 +321,9 @@ end
 
 for i = start:NUM_STIMULI
     
+    t = now; 
+    date_time = datetime(t,'ConvertFrom','datenum');
+    
     if(mod(ind-1, 8) == 0 && ind ~= start && ind ~= NUM_STIMULI) %give a rest every 8 trials, excluding first and last trial
         ind = 1;
         Screen('TextSize', window, 40);
@@ -331,7 +332,7 @@ for i = start:NUM_STIMULI
         Screen('TextSize', window, 80);
 
         while 1
-            [keyIsDown, seconds, keyCode] = KbCheck(-3);        % -3 = check input from ALL devices
+            [keyIsDown, seconds_time, keyCode] = KbCheck(-3);        % -3 = check input from ALL devices
             if keyCode(escapeKey)
                 Screen('CloseAll');
                 
@@ -362,7 +363,7 @@ for i = start:NUM_STIMULI
         output.planned_onset(i) = stim_onsets(i);
         output.actual_onset(i) = onset_time;
         output.trial_completed(i) = 1;
-        output.date_time(i) = date_time;
+        output.time_info(i) = seconds(timeofday(date_time));
         
         % 1 second fixation
     else
@@ -562,14 +563,14 @@ for i = start:NUM_STIMULI
         output.planned_onset(i) = stim_onsets(i);
         output.actual_onset(i) = onset_time;
         output.trial_completed(i) = 1;
-        output.date_time(i) = date_time;
-        
+        output.time_info(i) = seconds(timeofday(date_time));
+ 
         %save on each completed non-fixation trial in case something goes wrong
         writetable(output, dataFile_csv, 'WriteVariableNames', true);
     end
 end
 
-[keyIsDown, seconds, keyCode] = KbCheck(-3);        % -3 = check input from ALL devices
+[keyIsDown, seconds_time, keyCode] = KbCheck(-3);        % -3 = check input from ALL devices
 if keyCode(escapeKey)
     %save all info first
     writetable(output, dataFile_csv, 'WriteVariableNames', true);
