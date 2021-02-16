@@ -1,0 +1,17 @@
+NOTE: 
+these stimuli are the first 60 sentences and first 60 nonwords from the BiLing auditory language localizer from EvLab
+- HS, Feb 2021
+
+Used Praat to reduce noise with standard parameters (clicked Standards button)
+Noise time range (s): 0.0, 0.0
+Window length: 0.025
+Filter frequency range: 80.0 , 10000.0 Hz
+Smoothing bandwidth: 40.0 Hz
+Noise reduction (dB) -20.0
+Noise reduction method: spectral-subtraction
+
+Used Matlab's AudioToolbox to make loudness -25 LUFS for all files
+
+Used Praat to resample to 48kHz
+
+Use *_denoised_48000.wav files in the task

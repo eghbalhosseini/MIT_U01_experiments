@@ -1,0 +1,50 @@
+
+Starting run at  5:03:27 PM 
+
+Confiuration struture:
+      SESSION_LABEL: 'EMU'
+            SUBJECT: 'test2'
+          PATH_TASK: 'U01_langloc_audio_vFeb2021'
+    PATH_SOURCEDATA: 'output'
+      SEND_TRIGGERS: 0
+               TASK: 'langloc_audio'
+      TASK_FUNCTION: 'U01_langloc_audio_vFeb2021.m'
+             RUN_ID: 2
+           PATH_LOG: 'output/test2'
+          BASE_NAME: 'sub-test2_ses-EMU_task-langloc_audio_run-02_'
+       LOG_FILENAME: 'output/test2/sub-test2_ses-EMU_task-langloc_audio_run-02_log.txt'
+     EVENT_FILENAME: 'output/test2/sub-test2_ses-EMU_task-langloc_audio_run-02_events'
+
+PTB-INFO: Installation of the PsychtoolboxKernelDriver is strongly recommended if you care about precise visual
+PTB-INFO: onset timestamping or timing. See 'help PsychtoolboxKernelDriver' for installation instructions.
+PsychPortAudio initialized. Will use CoreAudio for audio.
+The identifier was:
+There was an error! The message was:
+Experiment quit using ESCAPE\n
+Starting run at  5:07:33 PM 
+
+Confiuration struture:
+      SESSION_LABEL: 'EMU'
+            SUBJECT: 'test2'
+          PATH_TASK: 'U01_langloc_audio_vFeb2021'
+    PATH_SOURCEDATA: 'output'
+      SEND_TRIGGERS: 0
+               TASK: 'langloc_audio'
+      TASK_FUNCTION: 'U01_langloc_audio_vFeb2021.m'
+             RUN_ID: 2
+           PATH_LOG: 'output/test2'
+          BASE_NAME: 'sub-test2_ses-EMU_task-langloc_audio_run-02_'
+       LOG_FILENAME: 'output/test2/sub-test2_ses-EMU_task-langloc_audio_run-02_log.txt'
+     EVENT_FILENAME: 'output/test2/sub-test2_ses-EMU_task-langloc_audio_run-02_events'
+
+
+This subject has partially completed this list.
+Press 1 to resume. Press 2 to restart.
+2
+Restarting list 2 
+PTB-INFO: Installation of the PsychtoolboxKernelDriver is strongly recommended if you care about precise visual
+PTB-INFO: onset timestamping or timing. See 'help PsychtoolboxKernelDriver' for installation instructions.
+PsychPortAudio initialized. Will use CoreAudio for audio.
+The identifier was:
+There was an error! The message was:
+Experiment quit using ESCAPE\n
