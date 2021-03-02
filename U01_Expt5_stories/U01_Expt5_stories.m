@@ -362,7 +362,7 @@ item = cell(length(pres_questions),1);
 for i = 1:length(pres_questions)
     WaitSecs(1);
     DrawFormattedText(windowPtr, [pres_questions{i} '\n\n1. ' ...
-        pres_answersA{i} '\n\n2. ' pres_answersB{i}], 'center', 'center', 0);
+        pres_answersA{i} '\n\n2. ' pres_answersB{i}], 'center', 'center', 0, 60);
     Screen('Flip', windowPtr);
     stimuli_pres = GetSecs();
     
