@@ -161,16 +161,27 @@ Screen('TextSize',windowPtr, stimFontSize*pixPerDeg);
 
 %% Load stimulus %%
 
-[y, freq] = audioread([stimDir, theFile]);
-wavedata = y';
-nrchannels = size(wavedata,1); % Number of rows == number of channels
-audioDur = length(y)/freq;
-InitializePsychSound; % Perform basic initialization of the sound driver:
+[y, freq] = psychwavread([stimDir,theFile]);
+nrchannels = size(y,2); % Number of cols == number of channels
+audioDur = size(y,1)/freq;
+
 pahandle = PsychPortAudio('Open', [], [], 1, [], nrchannels);
 % Open the default audio device [], with default mode [] (==Only playback),
 % and a required latencyclass of zero 0 == no low-latency mode, as well as
 % a frequency of freq and nrchannels sound channels.
 % This returns a handle to the audio device:
+
+%resampling the audio file if wav's Fs doesn't match that of the audio device
+pahandle_status = PsychPortAudio('GetStatus', pahandle);
+pahandle_Fs = pahandle_status.SampleRate;
+if pahandle_Fs ~= freq
+    fprintf('Resampling audio from %i to %i Hz...\n',freq,pahandle_Fs)
+    y=resample(y,pahandle_Fs,freq);
+else
+    fprintf('audio file matches audio device Fs at %i Hz...\n',pahandle_Fs) 
+end
+wavedata = y';
+
 PsychPortAudio('FillBuffer', pahandle, wavedata);
 % Fill the audio playback buffer with the audio data 'wavedata':
 
