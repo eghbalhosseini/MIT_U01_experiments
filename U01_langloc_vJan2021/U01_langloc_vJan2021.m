@@ -206,8 +206,8 @@ KbName('UnifyKeyNames');
 spaceBar = KbName('space');
 % escapeKey = KbName('escape');
 
-key_mapping = ["1", "2"];
-trigger_response_keys = [KbName('1!'), KbName('2@')];
+key_mapping = ["1", "2","1","2"];
+trigger_response_keys = [KbName('1!'), KbName('2@'), KbName('a'), KbName('s')];
 triggerKey = trigger_response_keys;
 escapeKey = KbName('ESCAPE');
 
