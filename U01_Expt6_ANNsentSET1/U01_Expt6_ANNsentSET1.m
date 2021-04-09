@@ -188,8 +188,8 @@ GREY = 0.6;
 
 %these two arrays correspond to each other
 KbName('UnifyKeyNames');
-key_mapping = ["1", "2"];
-trigger_response_keys = [KbName('1!'), KbName('2@')];
+key_mapping = ["1", "2", "1", "2"];
+trigger_response_keys = [KbName('1!'), KbName('2@'), KbName('a'), KbName('s')];
 escapeKey = KbName('ESCAPE');
 enterKey = KbName('Return');
 spaceBar = KbName('space');
