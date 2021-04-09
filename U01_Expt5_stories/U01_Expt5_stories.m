@@ -70,8 +70,8 @@ expt_name = 'U01_Expt5_stories';
 
 %these two arrays correspond to each other
 
-key_mapping = ['a', 'b'];
-trigger_response_keys = [KbName('1!'), KbName('2@')];
+key_mapping = ['a', 'b', 'a', 'b'];
+trigger_response_keys = [KbName('1!'), KbName('2@'), KbName('a'), KbName('s')];
 
 %% Check that the stimulus exists %%
 if ~exist([stimDir, theFile],'file')
