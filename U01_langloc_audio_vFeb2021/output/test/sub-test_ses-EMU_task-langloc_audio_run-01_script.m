@@ -206,8 +206,8 @@ GREY = 0.6;
 
 %these two arrays correspond to each other
 KbName('UnifyKeyNames');
-key_mapping = ["1", "2"];
-trigger_response_keys = [KbName('1!'), KbName('2@')];
+key_mapping = ["1", "2", "1","2"];
+trigger_response_keys = [KbName('1!'), KbName('2@'),KbName('a'),KbName('s')];
 escapeKey = KbName('ESCAPE');
 enterKey = KbName('Return');
 spaceBar = KbName('space');
@@ -307,30 +307,22 @@ end
 
 startTime = GetSecs();
 ind=1;
-Screen('TextSize', window, 80);
+Screen('TextSize', windowPtr, 80);
 for j =start:NUM_STIMULI
      if(mod(ind-1, 8) == 0 && ind ~= start && ind ~= NUM_STIMULI) %give a rest every 8 trials, excluding first and last trial
         ind = 1;
-        Screen('TextSize', window, 40);
-        DrawFormattedText(window, 'Take a break \n\n Press the spacebar to continue', 'center', 'center', black);
-        start_break = Screen('Flip', window);
-        Screen('TextSize', window, 80);
+        Screen('TextSize', windowPtr, 40);
+        DrawFormattedText(windowPtr, 'Take a break \n\n Press the spacebar to continue', 'center', 'center', 0);
+        start_break = Screen('Flip', windowPtr);
+        Screen('TextSize', windowPtr, 80);
 
         while 1
             [keyIsDown, seconds_time, keyCode] = KbCheck(-3);        % -3 = check input from ALL devices
             if keyCode(escapeKey)
+                writetable(output, subject_output_file, 'WriteVariableNames', true);
                 Screen('CloseAll');
-                
-                writetable(output, dataFile_csv, 'WriteVariableNames', true);
-
-                WaitSecs(0.5);
                 error('Experiment quit by pressing ESCAPE\n');
             elseif ismember(find(keyCode,1), spaceBar)
-                %update onsets
-                break_time = GetSecs() - start_break;
-                onsets = onsets + break_time;
-                stim_onsets = stim_onsets + break_time;
-           
                 break;
             end
             WaitSecs(0.001);
@@ -367,17 +359,28 @@ for j =start:NUM_STIMULI
         WaitSecs(0.00001);
     end
     
-    theFile = string(strcat(rootDir ,STIMULI_AUDIO ,stimuli)); %get the current audio file
-    [y, freq] = audioread(theFile);
-    wavedata = y';
-    nrchannels = size(wavedata,1); % Number of rows == number of channels
-    audioDur = length(y)/freq;
+    theFile = string(strcat(rootDir ,STIMULI_AUDIO ,stimuli)); %get the current audio file 
+    [y, freq] = psychwavread(theFile);
+    nrchannels = size(y,2); % Number of cols == number of channels
+    audioDur = size(y,1)/freq;
     
-    pahandle = PsychPortAudio('Open', [], [], 1, freq, nrchannels);
+    pahandle = PsychPortAudio('Open', [], [], 1, [], nrchannels);
     % Open the default audio device [], with default mode [] (==Only playback),
     % and a required latencyclass of zero 0 == no low-latency mode, as well as
     % a frequency of freq and nrchannels sound channels.
     % This returns a handle to the audio device:
+    
+    %resampling the audio file if wav's Fs doesn't match that of the audio device
+    pahandle_status = PsychPortAudio('GetStatus', pahandle);
+    pahandle_Fs = pahandle_status.SampleRate;
+    if pahandle_Fs ~= freq
+        fprintf('Resampling audio from %i to %i Hz...\n',freq,pahandle_Fs)
+        y=resample(y,pahandle_Fs,freq);
+    else
+        fprintf('audio file matches audio device Fs at %i Hz...\n',pahandle_Fs) 
+    end
+    wavedata = y';
+    
     PsychPortAudio('FillBuffer', pahandle, wavedata);
     % Fill the audio playback buffer with the audio data 'wavedata':
    
@@ -490,7 +493,7 @@ for j =start:NUM_STIMULI
         
     output = table(final_list, trial, trial_onset, final_audio_filename, final_condition, final_audio_transcript, audio_ended, final_probe, final_probe_condition, response, RT, accuracy, trial_completed,resume_number,time_info);
     writetable(output, subject_output_file, 'WriteVariableNames', true);
-    
+    ind = ind +1; %updating for the break every 8 trials
 end
 
 %% SEND END EXPT TRIGGER

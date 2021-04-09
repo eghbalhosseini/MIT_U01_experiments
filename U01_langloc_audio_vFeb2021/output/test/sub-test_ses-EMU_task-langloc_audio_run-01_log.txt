@@ -231,3 +231,72 @@ There was an error! The message was:
 Usage:
 
 oldTextSize=Screen('TextSize', windowPtr [,textSize]);
+Starting run at  9:28:55 AM 
+
+Confiuration struture:
+      SESSION_LABEL: 'EMU'
+            SUBJECT: 'test'
+          PATH_TASK: 'U01_langloc_audio_vFeb2021'
+    PATH_SOURCEDATA: 'output'
+      SEND_TRIGGERS: 0
+               TASK: 'langloc_audio'
+      TASK_FUNCTION: 'U01_langloc_audio_vFeb2021.m'
+             RUN_ID: 1
+           PATH_LOG: 'output/test'
+          BASE_NAME: 'sub-test_ses-EMU_task-langloc_audio_run-01_'
+       LOG_FILENAME: 'output/test/sub-test_ses-EMU_task-langloc_audio_run-01_log.txt'
+     EVENT_FILENAME: 'output/test/sub-test_ses-EMU_task-langloc_audio_run-01_events'
+
+
+This subject has partially completed this list.
+Press 1 to resume. Press 2 to restart.
+1
+Resuming list 1 at trial PTB-INFO: Installation of the PsychtoolboxKernelDriver is strongly recommended if you care about precise visual
+PTB-INFO: onset timestamping or timing. See 'help PsychtoolboxKernelDriver' for installation instructions.
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('KbCheck', '/Applications/Psychtoolbox/PsychBasic/KbCheck.m', 256)" style="font-weight:bold">KbCheck</a> (<a href="matlab: opentoline('/Applications/Psychtoolbox/PsychBasic/KbCheck.m',256,0)">line 256</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('KbWait', '/Applications/Psychtoolbox/PsychBasic/KbWait.m', 139)" style="font-weight:bold">KbWait</a> (<a href="matlab: opentoline('/Applications/Psychtoolbox/PsychBasic/KbWait.m',139,0)">line 139</a>)
+    [isDown, secs, keyCode, deltaSecs] = KbCheck(deviceNumber);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('U01_langloc_audio_vFeb2021', '/Users/hsmall/Dropbox (MIT)/0_projects/eCog/stimulus_scripts/MIT_U01_experiments/U01_langloc_audio_vFeb2021/U01_langloc_audio_vFeb2021.m', 263)" style="font-weight:bold">U01_langloc_audio_vFeb2021</a> (<a href="matlab: opentoline('/Users/hsmall/Dropbox (MIT)/0_projects/eCog/stimulus_scripts/MIT_U01_experiments/U01_langloc_audio_vFeb2021/U01_langloc_audio_vFeb2021.m',263,0)">line 263</a>)
+[~, keyCode] = KbWait([], 2);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('START_U01_langloc_audio_vFeb2021_HS_laptop', '/Users/hsmall/Dropbox (MIT)/0_projects/eCog/stimulus_scripts/MIT_U01_experiments/U01_langloc_audio_vFeb2021/START_U01_langloc_audio_vFeb2021_HS_laptop.m', 84)" style="font-weight:bold">START_U01_langloc_audio_vFeb2021_HS_laptop</a> (<a href="matlab: opentoline('/Users/hsmall/Dropbox (MIT)/0_projects/eCog/stimulus_scripts/MIT_U01_experiments/U01_langloc_audio_vFeb2021/START_U01_langloc_audio_vFeb2021_HS_laptop.m',84,0)">line 84</a>)
+  U01_langloc_audio_vFeb2021(cfg);
+} 
+sca
+
+Starting run at  9:30:02 AM 
+
+Confiuration struture:
+      SESSION_LABEL: 'EMU'
+            SUBJECT: 'test'
+          PATH_TASK: 'U01_langloc_audio_vFeb2021'
+    PATH_SOURCEDATA: 'output'
+      SEND_TRIGGERS: 0
+               TASK: 'langloc_audio'
+      TASK_FUNCTION: 'U01_langloc_audio_vFeb2021.m'
+             RUN_ID: 1
+           PATH_LOG: 'output/test'
+          BASE_NAME: 'sub-test_ses-EMU_task-langloc_audio_run-01_'
+       LOG_FILENAME: 'output/test/sub-test_ses-EMU_task-langloc_audio_run-01_log.txt'
+     EVENT_FILENAME: 'output/test/sub-test_ses-EMU_task-langloc_audio_run-01_events'
+
+
+This subject has partially completed this list.
+Press 1 to resume. Press 2 to restart.
+1
+Resuming list 1 at trial PTB-INFO: Installation of the PsychtoolboxKernelDriver is strongly recommended if you care about precise visual
+PTB-INFO: onset timestamping or timing. See 'help PsychtoolboxKernelDriver' for installation instructions.
+PTB-INFO: Using specially modified PortAudio engine, based on offical version: PortAudio V19-devel WITH-DIM
+PsychPortAudio initialized. Will use CoreAudio for audio.
+audio file matches audio device Fs at 48000 Hz...
+audio file matches audio device Fs at 48000 Hz...
+audio file matches audio device Fs at 48000 Hz...
+audio file matches audio device Fs at 48000 Hz...
+audio file matches audio device Fs at 48000 Hz...
+audio file matches audio device Fs at 48000 Hz...
+The identifier was:
+There was an error! The message was:
+Experiment quit using ESCAPE\n
