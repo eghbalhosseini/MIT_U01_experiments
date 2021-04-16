@@ -1,0 +1,117 @@
+{
+  "transcript": "dereer nah snord nah voz-tays lerdz yaybleych alt thung thigriyfig nah drayperk",
+  "words": [
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 6,
+      "startOffset": 0,
+      "word": "dereer"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 10,
+      "startOffset": 7,
+      "word": "nah"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 16,
+      "startOffset": 11,
+      "word": "snord"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 20,
+      "startOffset": 17,
+      "word": "nah"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 1.23,
+      "endOffset": 24,
+      "phones": [
+        {
+          "duration": 1.22,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.01,
+      "startOffset": 21,
+      "word": "voz-tays"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 3.5,
+      "endOffset": 35,
+      "phones": [
+        {
+          "duration": 1.13,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.37,
+      "startOffset": 30,
+      "word": "lerdz"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 5.51,
+      "endOffset": 45,
+      "phones": [
+        {
+          "duration": 1.93,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 3.58,
+      "startOffset": 36,
+      "word": "yaybleych"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 49,
+      "startOffset": 46,
+      "word": "alt"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 55,
+      "startOffset": 50,
+      "word": "thung"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 66,
+      "startOffset": 56,
+      "word": "thigriyfig"
+    },
+    {
+      "alignedWord": "nah",
+      "case": "success",
+      "end": 5.529999999999999,
+      "endOffset": 70,
+      "phones": [
+        {
+          "duration": 0.01,
+          "phone": "n_B"
+        },
+        {
+          "duration": 0.01,
+          "phone": "aa_E"
+        }
+      ],
+      "start": 5.51,
+      "startOffset": 67,
+      "word": "nah"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 79,
+      "startOffset": 71,
+      "word": "drayperk"
+    }
+  ]
+}

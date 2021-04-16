@@ -1,0 +1,144 @@
+{
+  "transcript": "tihut nah neyr zerjat sah malz nah genst tilee ruthaz trung speefim",
+  "words": [
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 5,
+      "startOffset": 0,
+      "word": "tihut"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 9,
+      "startOffset": 6,
+      "word": "nah"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 14,
+      "startOffset": 10,
+      "word": "neyr"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 21,
+      "startOffset": 15,
+      "word": "zerjat"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 25,
+      "startOffset": 22,
+      "word": "sah"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 0.41000000000000003,
+      "endOffset": 30,
+      "phones": [
+        {
+          "duration": 0.4,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.01,
+      "startOffset": 26,
+      "word": "malz"
+    },
+    {
+      "alignedWord": "nah",
+      "case": "success",
+      "end": 0.55,
+      "endOffset": 34,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "n_B"
+        },
+        {
+          "duration": 0.01,
+          "phone": "aa_E"
+        }
+      ],
+      "start": 0.46,
+      "startOffset": 31,
+      "word": "nah"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 1.13,
+      "endOffset": 40,
+      "phones": [
+        {
+          "duration": 0.58,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.55,
+      "startOffset": 35,
+      "word": "genst"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 1.49,
+      "endOffset": 46,
+      "phones": [
+        {
+          "duration": 0.34,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.15,
+      "startOffset": 41,
+      "word": "tilee"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 1.98,
+      "endOffset": 53,
+      "phones": [
+        {
+          "duration": 0.45,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.53,
+      "startOffset": 47,
+      "word": "ruthaz"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 2.46,
+      "endOffset": 59,
+      "phones": [
+        {
+          "duration": 0.42,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.04,
+      "startOffset": 54,
+      "word": "trung"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 3.41,
+      "endOffset": 67,
+      "phones": [
+        {
+          "duration": 0.71,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.7,
+      "startOffset": 60,
+      "word": "speefim"
+    }
+  ]
+}

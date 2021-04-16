@@ -1,0 +1,178 @@
+{
+  "transcript": "chahk dhat fejeev soo aht moyer bab bik alt teeps thetty tappy",
+  "words": [
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 5,
+      "startOffset": 0,
+      "word": "chahk"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 0.89,
+      "endOffset": 10,
+      "phones": [
+        {
+          "duration": 0.72,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.17,
+      "startOffset": 6,
+      "word": "dhat"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 1.48,
+      "endOffset": 17,
+      "phones": [
+        {
+          "duration": 0.45,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.03,
+      "startOffset": 11,
+      "word": "fejeev"
+    },
+    {
+      "alignedWord": "soo",
+      "case": "success",
+      "end": 1.77,
+      "endOffset": 21,
+      "phones": [
+        {
+          "duration": 0.14,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.11,
+          "phone": "uw_E"
+        }
+      ],
+      "start": 1.52,
+      "startOffset": 18,
+      "word": "soo"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 1.96,
+      "endOffset": 25,
+      "phones": [
+        {
+          "duration": 0.18,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.78,
+      "startOffset": 22,
+      "word": "aht"
+    },
+    {
+      "alignedWord": "moyer",
+      "case": "success",
+      "end": 2.44,
+      "endOffset": 31,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "m_B"
+        },
+        {
+          "duration": 0.21,
+          "phone": "oy_I"
+        },
+        {
+          "duration": 0.11,
+          "phone": "er_E"
+        }
+      ],
+      "start": 2.01,
+      "startOffset": 26,
+      "word": "moyer"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 3.1100000000000003,
+      "endOffset": 35,
+      "phones": [
+        {
+          "duration": 0.66,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.45,
+      "startOffset": 32,
+      "word": "bab"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 39,
+      "startOffset": 36,
+      "word": "bik"
+    },
+    {
+      "alignedWord": "alt",
+      "case": "success",
+      "end": 3.4299999999999997,
+      "endOffset": 43,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "aa_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "t_E"
+        }
+      ],
+      "start": 3.17,
+      "startOffset": 40,
+      "word": "alt"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 3.71,
+      "endOffset": 49,
+      "phones": [
+        {
+          "duration": 0.21,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 3.5,
+      "startOffset": 44,
+      "word": "teeps"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 4.62,
+      "endOffset": 56,
+      "phones": [
+        {
+          "duration": 0.78,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 3.84,
+      "startOffset": 50,
+      "word": "thetty"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 62,
+      "startOffset": 57,
+      "word": "tappy"
+    }
+  ]
+}

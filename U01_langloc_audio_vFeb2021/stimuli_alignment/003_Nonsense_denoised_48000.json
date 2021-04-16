@@ -1,0 +1,157 @@
+{
+  "transcript": "ehktiy boyk ehvown int nah pihr sawn alt yohthah thung neethin spaert",
+  "words": [
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 0.8800000000000001,
+      "endOffset": 6,
+      "phones": [
+        {
+          "duration": 0.54,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.34,
+      "startOffset": 0,
+      "word": "ehktiy"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 1.41,
+      "endOffset": 11,
+      "phones": [
+        {
+          "duration": 0.45,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.96,
+      "startOffset": 7,
+      "word": "boyk"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 18,
+      "startOffset": 12,
+      "word": "ehvown"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 22,
+      "startOffset": 19,
+      "word": "int"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 26,
+      "startOffset": 23,
+      "word": "nah"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 1.69,
+      "endOffset": 31,
+      "phones": [
+        {
+          "duration": 0.23,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.46,
+      "startOffset": 27,
+      "word": "pihr"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 2.94,
+      "endOffset": 36,
+      "phones": [
+        {
+          "duration": 1.16,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.78,
+      "startOffset": 32,
+      "word": "sawn"
+    },
+    {
+      "alignedWord": "alt",
+      "case": "success",
+      "end": 3.29,
+      "endOffset": 40,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "aa_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "t_E"
+        }
+      ],
+      "start": 3.07,
+      "startOffset": 37,
+      "word": "alt"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 3.93,
+      "endOffset": 48,
+      "phones": [
+        {
+          "duration": 0.6,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 3.33,
+      "startOffset": 41,
+      "word": "yohthah"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 4.34,
+      "endOffset": 54,
+      "phones": [
+        {
+          "duration": 0.26,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 4.08,
+      "startOffset": 49,
+      "word": "thung"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 4.94,
+      "endOffset": 62,
+      "phones": [
+        {
+          "duration": 0.45,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 4.49,
+      "startOffset": 55,
+      "word": "neethin"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 69,
+      "startOffset": 63,
+      "word": "spaert"
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "transcript": "ep wark ahn nah plademp nah deesblerner wup aht frish soo askleymbah",
+  "words": [
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 2,
+      "startOffset": 0,
+      "word": "ep"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 1.21,
+      "endOffset": 7,
+      "phones": [
+        {
+          "duration": 1.15,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.06,
+      "startOffset": 3,
+      "word": "wark"
+    },
+    {
+      "alignedWord": "ahn",
+      "case": "success",
+      "end": 1.41,
+      "endOffset": 11,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "ae_B"
+        },
+        {
+          "duration": 0.14,
+          "phone": "n_E"
+        }
+      ],
+      "start": 1.21,
+      "startOffset": 8,
+      "word": "ahn"
+    },
+    {
+      "alignedWord": "nah",
+      "case": "success",
+      "end": 1.59,
+      "endOffset": 15,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "n_B"
+        },
+        {
+          "duration": 0.01,
+          "phone": "aa_E"
+        }
+      ],
+      "start": 1.53,
+      "startOffset": 12,
+      "word": "nah"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 2.76,
+      "endOffset": 23,
+      "phones": [
+        {
+          "duration": 1.17,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.59,
+      "startOffset": 16,
+      "word": "plademp"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 27,
+      "startOffset": 24,
+      "word": "nah"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 39,
+      "startOffset": 28,
+      "word": "deesblerner"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 43,
+      "startOffset": 40,
+      "word": "wup"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 47,
+      "startOffset": 44,
+      "word": "aht"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 3.1799999999999997,
+      "endOffset": 53,
+      "phones": [
+        {
+          "duration": 0.36,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.82,
+      "startOffset": 48,
+      "word": "frish"
+    },
+    {
+      "alignedWord": "soo",
+      "case": "success",
+      "end": 3.3600000000000003,
+      "endOffset": 57,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "uw_E"
+        }
+      ],
+      "start": 3.18,
+      "startOffset": 54,
+      "word": "soo"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 3.94,
+      "endOffset": 68,
+      "phones": [
+        {
+          "duration": 0.58,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 3.36,
+      "startOffset": 58,
+      "word": "askleymbah"
+    }
+  ]
+}

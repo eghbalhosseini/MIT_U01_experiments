@@ -1,0 +1,135 @@
+{
+  "transcript": "daz othree vid peeker miridge nah poswerz nung ree ashdoh pleesht ud",
+  "words": [
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 3,
+      "startOffset": 0,
+      "word": "daz"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 10,
+      "startOffset": 4,
+      "word": "othree"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 14,
+      "startOffset": 11,
+      "word": "vid"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 21,
+      "startOffset": 15,
+      "word": "peeker"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 29,
+      "startOffset": 22,
+      "word": "miridge"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 33,
+      "startOffset": 30,
+      "word": "nah"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 0.3,
+      "endOffset": 41,
+      "phones": [
+        {
+          "duration": 0.29,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.01,
+      "startOffset": 34,
+      "word": "poswerz"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 0.61,
+      "endOffset": 46,
+      "phones": [
+        {
+          "duration": 0.25,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.36,
+      "startOffset": 42,
+      "word": "nung"
+    },
+    {
+      "alignedWord": "ree",
+      "case": "success",
+      "end": 0.86,
+      "endOffset": 50,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "r_B"
+        },
+        {
+          "duration": 0.12,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 0.64,
+      "startOffset": 47,
+      "word": "ree"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 1.0,
+      "endOffset": 57,
+      "phones": [
+        {
+          "duration": 0.14,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.86,
+      "startOffset": 51,
+      "word": "ashdoh"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 2.68,
+      "endOffset": 65,
+      "phones": [
+        {
+          "duration": 1.62,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.06,
+      "startOffset": 58,
+      "word": "pleesht"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 3.1199999999999997,
+      "endOffset": 68,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 3.03,
+      "startOffset": 66,
+      "word": "ud"
+    }
+  ]
+}

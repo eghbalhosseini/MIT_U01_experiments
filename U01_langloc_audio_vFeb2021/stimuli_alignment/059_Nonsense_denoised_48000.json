@@ -1,0 +1,182 @@
+{
+  "transcript": "ejin hayderk lerer ree thool ned aht jan soo guk neh fathakad",
+  "words": [
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 4,
+      "startOffset": 0,
+      "word": "ejin"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 1.01,
+      "endOffset": 12,
+      "phones": [
+        {
+          "duration": 0.96,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.05,
+      "startOffset": 5,
+      "word": "hayderk"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 1.54,
+      "endOffset": 18,
+      "phones": [
+        {
+          "duration": 0.49,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.05,
+      "startOffset": 13,
+      "word": "lerer"
+    },
+    {
+      "alignedWord": "ree",
+      "case": "success",
+      "end": 1.69,
+      "endOffset": 22,
+      "phones": [
+        {
+          "duration": 0.13,
+          "phone": "r_B"
+        },
+        {
+          "duration": 0.01,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 1.55,
+      "startOffset": 19,
+      "word": "ree"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 2.16,
+      "endOffset": 28,
+      "phones": [
+        {
+          "duration": 0.47,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.69,
+      "startOffset": 23,
+      "word": "thool"
+    },
+    {
+      "alignedWord": "ned",
+      "case": "success",
+      "end": 2.49,
+      "endOffset": 32,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "n_B"
+        },
+        {
+          "duration": 0.13,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "d_E"
+        }
+      ],
+      "start": 2.16,
+      "startOffset": 29,
+      "word": "ned"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 2.63,
+      "endOffset": 36,
+      "phones": [
+        {
+          "duration": 0.12,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.51,
+      "startOffset": 33,
+      "word": "aht"
+    },
+    {
+      "alignedWord": "jan",
+      "case": "success",
+      "end": 3.19,
+      "endOffset": 40,
+      "phones": [
+        {
+          "duration": 0.2,
+          "phone": "jh_B"
+        },
+        {
+          "duration": 0.17,
+          "phone": "ae_I"
+        },
+        {
+          "duration": 0.17,
+          "phone": "n_E"
+        }
+      ],
+      "start": 2.65,
+      "startOffset": 37,
+      "word": "jan"
+    },
+    {
+      "alignedWord": "soo",
+      "case": "success",
+      "end": 3.48,
+      "endOffset": 44,
+      "phones": [
+        {
+          "duration": 0.16,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.11,
+          "phone": "uw_E"
+        }
+      ],
+      "start": 3.21,
+      "startOffset": 41,
+      "word": "soo"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 4.49,
+      "endOffset": 48,
+      "phones": [
+        {
+          "duration": 1.01,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 3.48,
+      "startOffset": 45,
+      "word": "guk"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 52,
+      "startOffset": 49,
+      "word": "neh"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 61,
+      "startOffset": 53,
+      "word": "fathakad"
+    }
+  ]
+}

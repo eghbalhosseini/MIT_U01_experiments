@@ -1,0 +1,157 @@
+{
+  "transcript": "nah theygend thuv aolderk aht foo fim yehs thung aht dhaor theperis",
+  "words": [
+    {
+      "alignedWord": "nah",
+      "case": "success",
+      "end": 0.09,
+      "endOffset": 3,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "n_B"
+        },
+        {
+          "duration": 0.01,
+          "phone": "aa_E"
+        }
+      ],
+      "start": 0.03,
+      "startOffset": 0,
+      "word": "nah"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 12,
+      "startOffset": 4,
+      "word": "theygend"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 0.85,
+      "endOffset": 17,
+      "phones": [
+        {
+          "duration": 0.76,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.09,
+      "startOffset": 13,
+      "word": "thuv"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 1.32,
+      "endOffset": 25,
+      "phones": [
+        {
+          "duration": 0.44,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.88,
+      "startOffset": 18,
+      "word": "aolderk"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 1.54,
+      "endOffset": 29,
+      "phones": [
+        {
+          "duration": 0.18,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.36,
+      "startOffset": 26,
+      "word": "aht"
+    },
+    {
+      "alignedWord": "foo",
+      "case": "success",
+      "end": 1.78,
+      "endOffset": 33,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "f_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "uw_E"
+        }
+      ],
+      "start": 1.6,
+      "startOffset": 30,
+      "word": "foo"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 2.34,
+      "endOffset": 37,
+      "phones": [
+        {
+          "duration": 0.56,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.78,
+      "startOffset": 34,
+      "word": "fim"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 2.91,
+      "endOffset": 42,
+      "phones": [
+        {
+          "duration": 0.25,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.66,
+      "startOffset": 38,
+      "word": "yehs"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 3.7,
+      "endOffset": 48,
+      "phones": [
+        {
+          "duration": 0.73,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.97,
+      "startOffset": 43,
+      "word": "thung"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 52,
+      "startOffset": 49,
+      "word": "aht"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 58,
+      "startOffset": 53,
+      "word": "dhaor"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 67,
+      "startOffset": 59,
+      "word": "theperis"
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "transcript": "yard aht diflesht nah sawn dukt tarry biyley ashgowlt nan aht yoy",
+  "words": [
+    {
+      "alignedWord": "yard",
+      "case": "success",
+      "end": 0.43,
+      "endOffset": 4,
+      "phones": [
+        {
+          "duration": 0.13,
+          "phone": "y_B"
+        },
+        {
+          "duration": 0.11,
+          "phone": "aa_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "d_E"
+        }
+      ],
+      "start": 0.06,
+      "startOffset": 0,
+      "word": "yard"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 8,
+      "startOffset": 5,
+      "word": "aht"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 17,
+      "startOffset": 9,
+      "word": "diflesht"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 21,
+      "startOffset": 18,
+      "word": "nah"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 1.31,
+      "endOffset": 26,
+      "phones": [
+        {
+          "duration": 0.87,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.44,
+      "startOffset": 22,
+      "word": "sawn"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 2.29,
+      "endOffset": 31,
+      "phones": [
+        {
+          "duration": 0.75,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.54,
+      "startOffset": 27,
+      "word": "dukt"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 3.31,
+      "endOffset": 37,
+      "phones": [
+        {
+          "duration": 0.96,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.35,
+      "startOffset": 32,
+      "word": "tarry"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 3.9799999999999995,
+      "endOffset": 44,
+      "phones": [
+        {
+          "duration": 0.47,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 3.51,
+      "startOffset": 38,
+      "word": "biyley"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 53,
+      "startOffset": 45,
+      "word": "ashgowlt"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 57,
+      "startOffset": 54,
+      "word": "nan"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 4.42,
+      "endOffset": 61,
+      "phones": [
+        {
+          "duration": 0.29,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 4.13,
+      "startOffset": 58,
+      "word": "aht"
+    },
+    {
+      "alignedWord": "yoy",
+      "case": "success",
+      "end": 4.84,
+      "endOffset": 65,
+      "phones": [
+        {
+          "duration": 0.12,
+          "phone": "y_B"
+        },
+        {
+          "duration": 0.25,
+          "phone": "oy_E"
+        }
+      ],
+      "start": 4.47,
+      "startOffset": 62,
+      "word": "yoy"
+    }
+  ]
+}

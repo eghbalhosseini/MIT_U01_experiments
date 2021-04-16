@@ -1,0 +1,161 @@
+{
+  "transcript": "iz foo naed aht naysavam digishoowee foo kum ing nahts ahn byoowkt",
+  "words": [
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 0.26,
+      "endOffset": 2,
+      "phones": [
+        {
+          "duration": 0.25,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.01,
+      "startOffset": 0,
+      "word": "iz"
+    },
+    {
+      "alignedWord": "foo",
+      "case": "success",
+      "end": 0.47,
+      "endOffset": 6,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "f_B"
+        },
+        {
+          "duration": 0.12,
+          "phone": "uw_E"
+        }
+      ],
+      "start": 0.26,
+      "startOffset": 3,
+      "word": "foo"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 11,
+      "startOffset": 7,
+      "word": "naed"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 15,
+      "startOffset": 12,
+      "word": "aht"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 24,
+      "startOffset": 16,
+      "word": "naysavam"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 2.12,
+      "endOffset": 36,
+      "phones": [
+        {
+          "duration": 1.65,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.47,
+      "startOffset": 25,
+      "word": "digishoowee"
+    },
+    {
+      "alignedWord": "foo",
+      "case": "success",
+      "end": 2.43,
+      "endOffset": 40,
+      "phones": [
+        {
+          "duration": 0.12,
+          "phone": "f_B"
+        },
+        {
+          "duration": 0.15,
+          "phone": "uw_E"
+        }
+      ],
+      "start": 2.16,
+      "startOffset": 37,
+      "word": "foo"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 2.79,
+      "endOffset": 44,
+      "phones": [
+        {
+          "duration": 0.36,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.43,
+      "startOffset": 41,
+      "word": "kum"
+    },
+    {
+      "alignedWord": "ing",
+      "case": "success",
+      "end": 2.9,
+      "endOffset": 48,
+      "phones": [
+        {
+          "duration": 0.01,
+          "phone": "ih_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "ng_E"
+        }
+      ],
+      "start": 2.79,
+      "startOffset": 45,
+      "word": "ing"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 3.38,
+      "endOffset": 54,
+      "phones": [
+        {
+          "duration": 0.48,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.9,
+      "startOffset": 49,
+      "word": "nahts"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 58,
+      "startOffset": 55,
+      "word": "ahn"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 3.75,
+      "endOffset": 66,
+      "phones": [
+        {
+          "duration": 0.3,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 3.45,
+      "startOffset": 59,
+      "word": "byoowkt"
+    }
+  ]
+}

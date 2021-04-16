@@ -1,0 +1,135 @@
+{
+  "transcript": "av nuh tasmee nuh welths agthitehz thuv nah sayl thung ploowree efrelragehs",
+  "words": [
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 2,
+      "startOffset": 0,
+      "word": "av"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 6,
+      "startOffset": 3,
+      "word": "nuh"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 0.9700000000000001,
+      "endOffset": 13,
+      "phones": [
+        {
+          "duration": 0.92,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.05,
+      "startOffset": 7,
+      "word": "tasmee"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 1.54,
+      "endOffset": 17,
+      "phones": [
+        {
+          "duration": 0.53,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.01,
+      "startOffset": 14,
+      "word": "nuh"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 3.6,
+      "endOffset": 24,
+      "phones": [
+        {
+          "duration": 2.0,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.6,
+      "startOffset": 18,
+      "word": "welths"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 4.08,
+      "endOffset": 34,
+      "phones": [
+        {
+          "duration": 0.43,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 3.65,
+      "startOffset": 25,
+      "word": "agthitehz"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 4.9,
+      "endOffset": 39,
+      "phones": [
+        {
+          "duration": 0.77,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 4.13,
+      "startOffset": 35,
+      "word": "thuv"
+    },
+    {
+      "alignedWord": "nah",
+      "case": "success",
+      "end": 4.93,
+      "endOffset": 43,
+      "phones": [
+        {
+          "duration": 0.01,
+          "phone": "n_B"
+        },
+        {
+          "duration": 0.01,
+          "phone": "aa_E"
+        }
+      ],
+      "start": 4.91,
+      "startOffset": 40,
+      "word": "nah"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 48,
+      "startOffset": 44,
+      "word": "sayl"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 54,
+      "startOffset": 49,
+      "word": "thung"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 63,
+      "startOffset": 55,
+      "word": "ploowree"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 75,
+      "startOffset": 64,
+      "word": "efrelragehs"
+    }
+  ]
+}

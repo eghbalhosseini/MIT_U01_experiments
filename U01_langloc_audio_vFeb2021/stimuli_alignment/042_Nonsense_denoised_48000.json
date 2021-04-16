@@ -1,0 +1,153 @@
+{
+  "transcript": "eekif thim eyee thut okder zee alteyd frest dihh ther gewee thaez",
+  "words": [
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 5,
+      "startOffset": 0,
+      "word": "eekif"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 10,
+      "startOffset": 6,
+      "word": "thim"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 15,
+      "startOffset": 11,
+      "word": "eyee"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 0.64,
+      "endOffset": 20,
+      "phones": [
+        {
+          "duration": 0.63,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.01,
+      "startOffset": 16,
+      "word": "thut"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 0.9400000000000001,
+      "endOffset": 26,
+      "phones": [
+        {
+          "duration": 0.26,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.68,
+      "startOffset": 21,
+      "word": "okder"
+    },
+    {
+      "alignedWord": "zee",
+      "case": "success",
+      "end": 1.04,
+      "endOffset": 30,
+      "phones": [
+        {
+          "duration": 0.01,
+          "phone": "z_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 0.94,
+      "startOffset": 27,
+      "word": "zee"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 1.22,
+      "endOffset": 37,
+      "phones": [
+        {
+          "duration": 0.18,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.04,
+      "startOffset": 31,
+      "word": "alteyd"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 1.75,
+      "endOffset": 43,
+      "phones": [
+        {
+          "duration": 0.48,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.27,
+      "startOffset": 38,
+      "word": "frest"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 2.19,
+      "endOffset": 48,
+      "phones": [
+        {
+          "duration": 0.19,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.0,
+      "startOffset": 44,
+      "word": "dihh"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 3.1900000000000004,
+      "endOffset": 53,
+      "phones": [
+        {
+          "duration": 0.95,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.24,
+      "startOffset": 49,
+      "word": "ther"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 4.11,
+      "endOffset": 59,
+      "phones": [
+        {
+          "duration": 0.87,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 3.24,
+      "startOffset": 54,
+      "word": "gewee"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 65,
+      "startOffset": 60,
+      "word": "thaez"
+    }
+  ]
+}

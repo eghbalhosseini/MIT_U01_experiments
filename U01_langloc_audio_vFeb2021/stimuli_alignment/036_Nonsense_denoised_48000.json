@@ -1,0 +1,135 @@
+{
+  "transcript": "sajit vim tolz ihn lerhal nah fergayeenz brol wersiks kledz alt chus",
+  "words": [
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 5,
+      "startOffset": 0,
+      "word": "sajit"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 9,
+      "startOffset": 6,
+      "word": "vim"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 14,
+      "startOffset": 10,
+      "word": "tolz"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 1.25,
+      "endOffset": 18,
+      "phones": [
+        {
+          "duration": 1.16,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.09,
+      "startOffset": 15,
+      "word": "ihn"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 1.84,
+      "endOffset": 25,
+      "phones": [
+        {
+          "duration": 0.56,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.28,
+      "startOffset": 19,
+      "word": "lerhal"
+    },
+    {
+      "alignedWord": "nah",
+      "case": "success",
+      "end": 2.2800000000000002,
+      "endOffset": 29,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "n_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "aa_E"
+        }
+      ],
+      "start": 2.1,
+      "startOffset": 26,
+      "word": "nah"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 4.04,
+      "endOffset": 40,
+      "phones": [
+        {
+          "duration": 1.75,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.29,
+      "startOffset": 30,
+      "word": "fergayeenz"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 4.29,
+      "endOffset": 45,
+      "phones": [
+        {
+          "duration": 0.18,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 4.11,
+      "startOffset": 41,
+      "word": "brol"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 4.59,
+      "endOffset": 53,
+      "phones": [
+        {
+          "duration": 0.26,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 4.33,
+      "startOffset": 46,
+      "word": "wersiks"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 59,
+      "startOffset": 54,
+      "word": "kledz"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 63,
+      "startOffset": 60,
+      "word": "alt"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 68,
+      "startOffset": 64,
+      "word": "chus"
+    }
+  ]
+}

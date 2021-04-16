@@ -1,0 +1,135 @@
+{
+  "transcript": "nah mishtingk ahn nah shaveree mer rowpk sah maon sah neh dareebriz",
+  "words": [
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 3,
+      "startOffset": 0,
+      "word": "nah"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 0.01,
+      "endOffset": 13,
+      "phones": [
+        {
+          "duration": 0.01,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.0,
+      "startOffset": 4,
+      "word": "mishtingk"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 17,
+      "startOffset": 14,
+      "word": "ahn"
+    },
+    {
+      "alignedWord": "nah",
+      "case": "success",
+      "end": 0.12,
+      "endOffset": 21,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "n_B"
+        },
+        {
+          "duration": 0.01,
+          "phone": "aa_E"
+        }
+      ],
+      "start": 0.04,
+      "startOffset": 18,
+      "word": "nah"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 0.64,
+      "endOffset": 30,
+      "phones": [
+        {
+          "duration": 0.52,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.12,
+      "startOffset": 22,
+      "word": "shaveree"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 1.62,
+      "endOffset": 34,
+      "phones": [
+        {
+          "duration": 0.95,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.67,
+      "startOffset": 31,
+      "word": "mer"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 2.74,
+      "endOffset": 40,
+      "phones": [
+        {
+          "duration": 1.07,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.67,
+      "startOffset": 35,
+      "word": "rowpk"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 3.66,
+      "endOffset": 44,
+      "phones": [
+        {
+          "duration": 0.85,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.81,
+      "startOffset": 41,
+      "word": "sah"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 49,
+      "startOffset": 45,
+      "word": "maon"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 53,
+      "startOffset": 50,
+      "word": "sah"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 57,
+      "startOffset": 54,
+      "word": "neh"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 67,
+      "startOffset": 58,
+      "word": "dareebriz"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "transcript": "nah vaeddy veths thraihr alt nah pally ningz choe tup thaong yaong",
+  "words": [
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 3,
+      "startOffset": 0,
+      "word": "nah"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 10,
+      "startOffset": 4,
+      "word": "vaeddy"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 16,
+      "startOffset": 11,
+      "word": "veths"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 1.52,
+      "endOffset": 24,
+      "phones": [
+        {
+          "duration": 1.51,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.01,
+      "startOffset": 17,
+      "word": "thraihr"
+    },
+    {
+      "alignedWord": "alt",
+      "case": "success",
+      "end": 2.05,
+      "endOffset": 28,
+      "phones": [
+        {
+          "duration": 0.16,
+          "phone": "aa_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "t_E"
+        }
+      ],
+      "start": 1.79,
+      "startOffset": 25,
+      "word": "alt"
+    },
+    {
+      "alignedWord": "nah",
+      "case": "success",
+      "end": 2.18,
+      "endOffset": 32,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "n_B"
+        },
+        {
+          "duration": 0.02,
+          "phone": "aa_E"
+        }
+      ],
+      "start": 2.08,
+      "startOffset": 29,
+      "word": "nah"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 3.0,
+      "endOffset": 38,
+      "phones": [
+        {
+          "duration": 0.73,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.27,
+      "startOffset": 33,
+      "word": "pally"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 3.65,
+      "endOffset": 44,
+      "phones": [
+        {
+          "duration": 0.62,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 3.03,
+      "startOffset": 39,
+      "word": "ningz"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 4.39,
+      "endOffset": 49,
+      "phones": [
+        {
+          "duration": 0.61,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 3.78,
+      "startOffset": 45,
+      "word": "choe"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 53,
+      "startOffset": 50,
+      "word": "tup"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 60,
+      "startOffset": 54,
+      "word": "thaong"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 66,
+      "startOffset": 61,
+      "word": "yaong"
+    }
+  ]
+}

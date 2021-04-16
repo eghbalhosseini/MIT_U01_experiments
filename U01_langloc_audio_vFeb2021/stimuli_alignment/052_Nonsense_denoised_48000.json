@@ -1,0 +1,169 @@
+{
+  "transcript": "nah abrazaf thung yerlish adauws nah blik alt koh ree vaths spaksabeesh",
+  "words": [
+    {
+      "alignedWord": "nah",
+      "case": "success",
+      "end": 0.16,
+      "endOffset": 3,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "n_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "aa_E"
+        }
+      ],
+      "start": 0.03,
+      "startOffset": 0,
+      "word": "nah"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 0.89,
+      "endOffset": 11,
+      "phones": [
+        {
+          "duration": 0.67,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.22,
+      "startOffset": 4,
+      "word": "abrazaf"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 17,
+      "startOffset": 12,
+      "word": "thung"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 25,
+      "startOffset": 18,
+      "word": "yerlish"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 32,
+      "startOffset": 26,
+      "word": "adauws"
+    },
+    {
+      "alignedWord": "nah",
+      "case": "success",
+      "end": 0.99,
+      "endOffset": 36,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "n_B"
+        },
+        {
+          "duration": 0.01,
+          "phone": "aa_E"
+        }
+      ],
+      "start": 0.9,
+      "startOffset": 33,
+      "word": "nah"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 2.85,
+      "endOffset": 41,
+      "phones": [
+        {
+          "duration": 1.07,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.78,
+      "startOffset": 37,
+      "word": "blik"
+    },
+    {
+      "alignedWord": "alt",
+      "case": "success",
+      "end": 3.2,
+      "endOffset": 45,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "aa_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "t_E"
+        }
+      ],
+      "start": 2.97,
+      "startOffset": 42,
+      "word": "alt"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 3.5100000000000002,
+      "endOffset": 49,
+      "phones": [
+        {
+          "duration": 0.27,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 3.24,
+      "startOffset": 46,
+      "word": "koh"
+    },
+    {
+      "alignedWord": "ree",
+      "case": "success",
+      "end": 3.74,
+      "endOffset": 53,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "r_B"
+        },
+        {
+          "duration": 0.12,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 3.52,
+      "startOffset": 50,
+      "word": "ree"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 4.8500000000000005,
+      "endOffset": 59,
+      "phones": [
+        {
+          "duration": 1.11,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 3.74,
+      "startOffset": 54,
+      "word": "vaths"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 71,
+      "startOffset": 60,
+      "word": "spaksabeesh"
+    }
+  ]
+}

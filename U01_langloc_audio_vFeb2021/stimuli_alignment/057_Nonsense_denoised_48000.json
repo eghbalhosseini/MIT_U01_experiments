@@ -1,0 +1,170 @@
+{
+  "transcript": "meegah sef dit ahk adzapeshk soo diblash nah seyat ahn nah nichfim",
+  "words": [
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 6,
+      "startOffset": 0,
+      "word": "meegah"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 10,
+      "startOffset": 7,
+      "word": "sef"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 1.09,
+      "endOffset": 14,
+      "phones": [
+        {
+          "duration": 1.08,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.01,
+      "startOffset": 11,
+      "word": "dit"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 1.39,
+      "endOffset": 18,
+      "phones": [
+        {
+          "duration": 0.2,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.19,
+      "startOffset": 15,
+      "word": "ahk"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 2.34,
+      "endOffset": 28,
+      "phones": [
+        {
+          "duration": 0.87,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.47,
+      "startOffset": 19,
+      "word": "adzapeshk"
+    },
+    {
+      "alignedWord": "soo",
+      "case": "success",
+      "end": 2.59,
+      "endOffset": 32,
+      "phones": [
+        {
+          "duration": 0.15,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "uw_E"
+        }
+      ],
+      "start": 2.34,
+      "startOffset": 29,
+      "word": "soo"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 3.76,
+      "endOffset": 40,
+      "phones": [
+        {
+          "duration": 1.17,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.59,
+      "startOffset": 33,
+      "word": "diblash"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 44,
+      "startOffset": 41,
+      "word": "nah"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 4.2700000000000005,
+      "endOffset": 50,
+      "phones": [
+        {
+          "duration": 0.4,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 3.87,
+      "startOffset": 45,
+      "word": "seyat"
+    },
+    {
+      "alignedWord": "ahn",
+      "case": "success",
+      "end": 4.369999999999999,
+      "endOffset": 54,
+      "phones": [
+        {
+          "duration": 0.01,
+          "phone": "ae_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "n_E"
+        }
+      ],
+      "start": 4.27,
+      "startOffset": 51,
+      "word": "ahn"
+    },
+    {
+      "alignedWord": "nah",
+      "case": "success",
+      "end": 4.39,
+      "endOffset": 58,
+      "phones": [
+        {
+          "duration": 0.01,
+          "phone": "n_B"
+        },
+        {
+          "duration": 0.01,
+          "phone": "aa_E"
+        }
+      ],
+      "start": 4.37,
+      "startOffset": 55,
+      "word": "nah"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 4.83,
+      "endOffset": 66,
+      "phones": [
+        {
+          "duration": 0.44,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 4.39,
+      "startOffset": 59,
+      "word": "nichfim"
+    }
+  ]
+}

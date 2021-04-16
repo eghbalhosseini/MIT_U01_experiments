@@ -1,0 +1,152 @@
+{
+  "transcript": "hiyaps thaht ahd thetty erree alt thaed fit konny aoz nah gebish",
+  "words": [
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 1.9,
+      "endOffset": 6,
+      "phones": [
+        {
+          "duration": 1.89,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.01,
+      "startOffset": 0,
+      "word": "hiyaps"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 2.27,
+      "endOffset": 12,
+      "phones": [
+        {
+          "duration": 0.22,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.05,
+      "startOffset": 7,
+      "word": "thaht"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 2.65,
+      "endOffset": 16,
+      "phones": [
+        {
+          "duration": 0.33,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.32,
+      "startOffset": 13,
+      "word": "ahd"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 23,
+      "startOffset": 17,
+      "word": "thetty"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 3.3200000000000003,
+      "endOffset": 29,
+      "phones": [
+        {
+          "duration": 0.43,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.89,
+      "startOffset": 24,
+      "word": "erree"
+    },
+    {
+      "alignedWord": "alt",
+      "case": "success",
+      "end": 3.5,
+      "endOffset": 33,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "aa_B"
+        },
+        {
+          "duration": 0.01,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.01,
+          "phone": "t_E"
+        }
+      ],
+      "start": 3.37,
+      "startOffset": 30,
+      "word": "alt"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 4.13,
+      "endOffset": 39,
+      "phones": [
+        {
+          "duration": 0.63,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 3.5,
+      "startOffset": 34,
+      "word": "thaed"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 43,
+      "startOffset": 40,
+      "word": "fit"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 49,
+      "startOffset": 44,
+      "word": "konny"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 53,
+      "startOffset": 50,
+      "word": "aoz"
+    },
+    {
+      "alignedWord": "nah",
+      "case": "success",
+      "end": 4.159999999999999,
+      "endOffset": 57,
+      "phones": [
+        {
+          "duration": 0.01,
+          "phone": "n_B"
+        },
+        {
+          "duration": 0.01,
+          "phone": "aa_E"
+        }
+      ],
+      "start": 4.14,
+      "startOffset": 54,
+      "word": "nah"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 64,
+      "startOffset": 58,
+      "word": "gebish"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "transcript": "nah rahp thuv dootvid nah sweeir shahver thung yerd nah shawrhawt pleechingz",
+  "words": [
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 3,
+      "startOffset": 0,
+      "word": "nah"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 0.6900000000000001,
+      "endOffset": 8,
+      "phones": [
+        {
+          "duration": 0.68,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.01,
+      "startOffset": 4,
+      "word": "rahp"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 0.98,
+      "endOffset": 13,
+      "phones": [
+        {
+          "duration": 0.23,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.75,
+      "startOffset": 9,
+      "word": "thuv"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 2.2800000000000002,
+      "endOffset": 21,
+      "phones": [
+        {
+          "duration": 1.24,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.04,
+      "startOffset": 14,
+      "word": "dootvid"
+    },
+    {
+      "alignedWord": "nah",
+      "case": "success",
+      "end": 2.42,
+      "endOffset": 25,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "n_B"
+        },
+        {
+          "duration": 0.01,
+          "phone": "aa_E"
+        }
+      ],
+      "start": 2.35,
+      "startOffset": 22,
+      "word": "nah"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 3.5599999999999996,
+      "endOffset": 32,
+      "phones": [
+        {
+          "duration": 1.14,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.42,
+      "startOffset": 26,
+      "word": "sweeir"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 4.17,
+      "endOffset": 40,
+      "phones": [
+        {
+          "duration": 0.54,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 3.63,
+      "startOffset": 33,
+      "word": "shahver"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 46,
+      "startOffset": 41,
+      "word": "thung"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 51,
+      "startOffset": 47,
+      "word": "yerd"
+    },
+    {
+      "alignedWord": "nah",
+      "case": "success",
+      "end": 4.199999999999999,
+      "endOffset": 55,
+      "phones": [
+        {
+          "duration": 0.01,
+          "phone": "n_B"
+        },
+        {
+          "duration": 0.01,
+          "phone": "aa_E"
+        }
+      ],
+      "start": 4.18,
+      "startOffset": 52,
+      "word": "nah"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 65,
+      "startOffset": 56,
+      "word": "shawrhawt"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 76,
+      "startOffset": 66,
+      "word": "pleechingz"
+    }
+  ]
+}

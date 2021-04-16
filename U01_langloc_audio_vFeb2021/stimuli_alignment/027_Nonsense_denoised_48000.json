@@ -1,0 +1,117 @@
+{
+  "transcript": "nah zaizflam peyp aht pihr dukrawcht sah kwoosinst yerd nah fokaz fogalerdamee",
+  "words": [
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 3,
+      "startOffset": 0,
+      "word": "nah"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 12,
+      "startOffset": 4,
+      "word": "zaizflam"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 17,
+      "startOffset": 13,
+      "word": "peyp"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 21,
+      "startOffset": 18,
+      "word": "aht"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 26,
+      "startOffset": 22,
+      "word": "pihr"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 36,
+      "startOffset": 27,
+      "word": "dukrawcht"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 40,
+      "startOffset": 37,
+      "word": "sah"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 1.25,
+      "endOffset": 50,
+      "phones": [
+        {
+          "duration": 1.24,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.01,
+      "startOffset": 41,
+      "word": "kwoosinst"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 3.42,
+      "endOffset": 55,
+      "phones": [
+        {
+          "duration": 2.08,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.34,
+      "startOffset": 51,
+      "word": "yerd"
+    },
+    {
+      "alignedWord": "nah",
+      "case": "success",
+      "end": 3.54,
+      "endOffset": 59,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "n_B"
+        },
+        {
+          "duration": 0.01,
+          "phone": "aa_E"
+        }
+      ],
+      "start": 3.44,
+      "startOffset": 56,
+      "word": "nah"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 4.72,
+      "endOffset": 65,
+      "phones": [
+        {
+          "duration": 1.18,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 3.54,
+      "startOffset": 60,
+      "word": "fokaz"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 78,
+      "startOffset": 66,
+      "word": "fogalerdamee"
+    }
+  ]
+}

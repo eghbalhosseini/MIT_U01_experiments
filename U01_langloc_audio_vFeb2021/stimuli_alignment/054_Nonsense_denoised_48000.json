@@ -1,0 +1,139 @@
+{
+  "transcript": "athker aht zapuh duht weys nuh toowk chaoyeks alt dooweyn drays ralzerstuv",
+  "words": [
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 6,
+      "startOffset": 0,
+      "word": "athker"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 10,
+      "startOffset": 7,
+      "word": "aht"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 16,
+      "startOffset": 11,
+      "word": "zapuh"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 21,
+      "startOffset": 17,
+      "word": "duht"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 26,
+      "startOffset": 22,
+      "word": "weys"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 1.49,
+      "endOffset": 30,
+      "phones": [
+        {
+          "duration": 1.48,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.01,
+      "startOffset": 27,
+      "word": "nuh"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 2.33,
+      "endOffset": 36,
+      "phones": [
+        {
+          "duration": 0.49,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.84,
+      "startOffset": 31,
+      "word": "toowk"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 3.13,
+      "endOffset": 45,
+      "phones": [
+        {
+          "duration": 0.71,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.42,
+      "startOffset": 37,
+      "word": "chaoyeks"
+    },
+    {
+      "alignedWord": "alt",
+      "case": "success",
+      "end": 3.4,
+      "endOffset": 49,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "aa_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "t_E"
+        }
+      ],
+      "start": 3.17,
+      "startOffset": 46,
+      "word": "alt"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 3.85,
+      "endOffset": 57,
+      "phones": [
+        {
+          "duration": 0.44,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 3.41,
+      "startOffset": 50,
+      "word": "dooweyn"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 4.91,
+      "endOffset": 63,
+      "phones": [
+        {
+          "duration": 1.03,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 3.88,
+      "startOffset": 58,
+      "word": "drays"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 74,
+      "startOffset": 64,
+      "word": "ralzerstuv"
+    }
+  ]
+}

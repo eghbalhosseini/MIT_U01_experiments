@@ -1,0 +1,148 @@
+{
+  "transcript": "tor nah teerelsho fapah thaor aht trez fles alt aht broosadib todge",
+  "words": [
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 3,
+      "startOffset": 0,
+      "word": "tor"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 7,
+      "startOffset": 4,
+      "word": "nah"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 17,
+      "startOffset": 8,
+      "word": "teerelsho"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 23,
+      "startOffset": 18,
+      "word": "fapah"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 1.12,
+      "endOffset": 29,
+      "phones": [
+        {
+          "duration": 1.11,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.01,
+      "startOffset": 24,
+      "word": "thaor"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 1.9,
+      "endOffset": 33,
+      "phones": [
+        {
+          "duration": 0.72,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.18,
+      "startOffset": 30,
+      "word": "aht"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 2.02,
+      "endOffset": 38,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.95,
+      "startOffset": 34,
+      "word": "trez"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 2.77,
+      "endOffset": 43,
+      "phones": [
+        {
+          "duration": 0.69,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.08,
+      "startOffset": 39,
+      "word": "fles"
+    },
+    {
+      "alignedWord": "alt",
+      "case": "success",
+      "end": 2.9899999999999998,
+      "endOffset": 47,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "aa_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.01,
+          "phone": "t_E"
+        }
+      ],
+      "start": 2.82,
+      "startOffset": 44,
+      "word": "alt"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 3.14,
+      "endOffset": 51,
+      "phones": [
+        {
+          "duration": 0.15,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.99,
+      "startOffset": 48,
+      "word": "aht"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 3.83,
+      "endOffset": 61,
+      "phones": [
+        {
+          "duration": 0.64,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 3.19,
+      "startOffset": 52,
+      "word": "broosadib"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 67,
+      "startOffset": 62,
+      "word": "todge"
+    }
+  ]
+}

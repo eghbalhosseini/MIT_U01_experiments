@@ -1,0 +1,130 @@
+{
+  "transcript": "ditrayn nah nas leyer zichdichulz nah skayn sah dayga thung daz ditheyd",
+  "words": [
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 0.73,
+      "endOffset": 7,
+      "phones": [
+        {
+          "duration": 0.47,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.26,
+      "startOffset": 0,
+      "word": "ditrayn"
+    },
+    {
+      "alignedWord": "nah",
+      "case": "success",
+      "end": 0.85,
+      "endOffset": 11,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "n_B"
+        },
+        {
+          "duration": 0.01,
+          "phone": "aa_E"
+        }
+      ],
+      "start": 0.75,
+      "startOffset": 8,
+      "word": "nah"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 2.54,
+      "endOffset": 15,
+      "phones": [
+        {
+          "duration": 1.69,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.85,
+      "startOffset": 12,
+      "word": "nas"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 21,
+      "startOffset": 16,
+      "word": "leyer"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 33,
+      "startOffset": 22,
+      "word": "zichdichulz"
+    },
+    {
+      "alignedWord": "nah",
+      "case": "success",
+      "end": 2.9899999999999998,
+      "endOffset": 37,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "n_B"
+        },
+        {
+          "duration": 0.01,
+          "phone": "aa_E"
+        }
+      ],
+      "start": 2.9,
+      "startOffset": 34,
+      "word": "nah"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 5.42,
+      "endOffset": 43,
+      "phones": [
+        {
+          "duration": 2.43,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.99,
+      "startOffset": 38,
+      "word": "skayn"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 47,
+      "startOffset": 44,
+      "word": "sah"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 53,
+      "startOffset": 48,
+      "word": "dayga"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 59,
+      "startOffset": 54,
+      "word": "thung"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 63,
+      "startOffset": 60,
+      "word": "daz"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 71,
+      "startOffset": 64,
+      "word": "ditheyd"
+    }
+  ]
+}

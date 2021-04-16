@@ -1,0 +1,169 @@
+{
+  "transcript": "nah foo baysh sangks derrig snikwee alt briflazer woop thud soo brai-kweesig",
+  "words": [
+    {
+      "alignedWord": "nah",
+      "case": "success",
+      "end": 0.16,
+      "endOffset": 3,
+      "phones": [
+        {
+          "duration": 0.01,
+          "phone": "n_B"
+        },
+        {
+          "duration": 0.01,
+          "phone": "aa_E"
+        }
+      ],
+      "start": 0.14,
+      "startOffset": 0,
+      "word": "nah"
+    },
+    {
+      "alignedWord": "foo",
+      "case": "success",
+      "end": 0.47,
+      "endOffset": 7,
+      "phones": [
+        {
+          "duration": 0.13,
+          "phone": "f_B"
+        },
+        {
+          "duration": 0.18,
+          "phone": "uw_E"
+        }
+      ],
+      "start": 0.16,
+      "startOffset": 4,
+      "word": "foo"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 13,
+      "startOffset": 8,
+      "word": "baysh"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 20,
+      "startOffset": 14,
+      "word": "sangks"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 27,
+      "startOffset": 21,
+      "word": "derrig"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 2.4299999999999997,
+      "endOffset": 35,
+      "phones": [
+        {
+          "duration": 1.96,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.47,
+      "startOffset": 28,
+      "word": "snikwee"
+    },
+    {
+      "alignedWord": "alt",
+      "case": "success",
+      "end": 2.69,
+      "endOffset": 39,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "aa_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "t_E"
+        }
+      ],
+      "start": 2.48,
+      "startOffset": 36,
+      "word": "alt"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 3.5,
+      "endOffset": 49,
+      "phones": [
+        {
+          "duration": 0.77,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.73,
+      "startOffset": 40,
+      "word": "briflazer"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 4.18,
+      "endOffset": 54,
+      "phones": [
+        {
+          "duration": 0.65,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 3.53,
+      "startOffset": 50,
+      "word": "woop"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 59,
+      "startOffset": 55,
+      "word": "thud"
+    },
+    {
+      "alignedWord": "soo",
+      "case": "success",
+      "end": 4.43,
+      "endOffset": 63,
+      "phones": [
+        {
+          "duration": 0.13,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.12,
+          "phone": "uw_E"
+        }
+      ],
+      "start": 4.18,
+      "startOffset": 60,
+      "word": "soo"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 5.16,
+      "endOffset": 68,
+      "phones": [
+        {
+          "duration": 0.73,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 4.43,
+      "startOffset": 64,
+      "word": "brai-kweesig"
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "transcript": "fahts thung yethin fid gerayweep towlih soo nay aht blach heym nohl",
+  "words": [
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 5,
+      "startOffset": 0,
+      "word": "fahts"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 0.38,
+      "endOffset": 11,
+      "phones": [
+        {
+          "duration": 0.24,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.14,
+      "startOffset": 6,
+      "word": "thung"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 1.2,
+      "endOffset": 18,
+      "phones": [
+        {
+          "duration": 0.72,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.48,
+      "startOffset": 12,
+      "word": "yethin"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 1.42,
+      "endOffset": 22,
+      "phones": [
+        {
+          "duration": 0.18,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.24,
+      "startOffset": 19,
+      "word": "fid"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 2.05,
+      "endOffset": 32,
+      "phones": [
+        {
+          "duration": 0.62,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.43,
+      "startOffset": 23,
+      "word": "gerayweep"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 2.62,
+      "endOffset": 39,
+      "phones": [
+        {
+          "duration": 0.37,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.25,
+      "startOffset": 33,
+      "word": "towlih"
+    },
+    {
+      "alignedWord": "soo",
+      "case": "success",
+      "end": 2.85,
+      "endOffset": 43,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.12,
+          "phone": "uw_E"
+        }
+      ],
+      "start": 2.62,
+      "startOffset": 40,
+      "word": "soo"
+    },
+    {
+      "alignedWord": "nay",
+      "case": "success",
+      "end": 2.87,
+      "endOffset": 47,
+      "phones": [
+        {
+          "duration": 0.01,
+          "phone": "n_B"
+        },
+        {
+          "duration": 0.01,
+          "phone": "ey_E"
+        }
+      ],
+      "start": 2.85,
+      "startOffset": 44,
+      "word": "nay"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 3.99,
+      "endOffset": 51,
+      "phones": [
+        {
+          "duration": 1.12,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.87,
+      "startOffset": 48,
+      "word": "aht"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 57,
+      "startOffset": 52,
+      "word": "blach"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 62,
+      "startOffset": 58,
+      "word": "heym"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 67,
+      "startOffset": 63,
+      "word": "nohl"
+    }
+  ]
+}

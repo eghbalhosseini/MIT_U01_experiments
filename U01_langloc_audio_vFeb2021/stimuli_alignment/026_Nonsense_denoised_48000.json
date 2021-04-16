@@ -1,0 +1,121 @@
+{
+  "transcript": "nah pooveewer thung thetty terreed adaws nah remp ahn nah zohser thehz",
+  "words": [
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 3,
+      "startOffset": 0,
+      "word": "nah"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 13,
+      "startOffset": 4,
+      "word": "pooveewer"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 19,
+      "startOffset": 14,
+      "word": "thung"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 26,
+      "startOffset": 20,
+      "word": "thetty"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 34,
+      "startOffset": 27,
+      "word": "terreed"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 2.6500000000000004,
+      "endOffset": 40,
+      "phones": [
+        {
+          "duration": 2.47,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.18,
+      "startOffset": 35,
+      "word": "adaws"
+    },
+    {
+      "alignedWord": "nah",
+      "case": "success",
+      "end": 2.92,
+      "endOffset": 44,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "n_B"
+        },
+        {
+          "duration": 0.01,
+          "phone": "aa_E"
+        }
+      ],
+      "start": 2.85,
+      "startOffset": 41,
+      "word": "nah"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 3.6399999999999997,
+      "endOffset": 49,
+      "phones": [
+        {
+          "duration": 0.72,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.92,
+      "startOffset": 45,
+      "word": "remp"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 53,
+      "startOffset": 50,
+      "word": "ahn"
+    },
+    {
+      "alignedWord": "nah",
+      "case": "success",
+      "end": 3.66,
+      "endOffset": 57,
+      "phones": [
+        {
+          "duration": 0.01,
+          "phone": "n_B"
+        },
+        {
+          "duration": 0.01,
+          "phone": "aa_E"
+        }
+      ],
+      "start": 3.64,
+      "startOffset": 54,
+      "word": "nah"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 64,
+      "startOffset": 58,
+      "word": "zohser"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 70,
+      "startOffset": 65,
+      "word": "thehz"
+    }
+  ]
+}

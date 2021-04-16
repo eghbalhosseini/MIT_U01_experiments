@@ -1,0 +1,148 @@
+{
+  "transcript": "desherwae bidvah nept tor aht dap alt thert ther yung drays sitiyahgree",
+  "words": [
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 1.57,
+      "endOffset": 9,
+      "phones": [
+        {
+          "duration": 0.33,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.24,
+      "startOffset": 0,
+      "word": "desherwae"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 1.89,
+      "endOffset": 16,
+      "phones": [
+        {
+          "duration": 0.23,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.66,
+      "startOffset": 10,
+      "word": "bidvah"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 2.47,
+      "endOffset": 21,
+      "phones": [
+        {
+          "duration": 0.43,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.04,
+      "startOffset": 17,
+      "word": "nept"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 2.69,
+      "endOffset": 25,
+      "phones": [
+        {
+          "duration": 0.17,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.52,
+      "startOffset": 22,
+      "word": "tor"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 3.0700000000000003,
+      "endOffset": 29,
+      "phones": [
+        {
+          "duration": 0.33,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.74,
+      "startOffset": 26,
+      "word": "aht"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 3.7800000000000002,
+      "endOffset": 33,
+      "phones": [
+        {
+          "duration": 0.66,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 3.12,
+      "startOffset": 30,
+      "word": "dap"
+    },
+    {
+      "alignedWord": "alt",
+      "case": "success",
+      "end": 3.8099999999999996,
+      "endOffset": 37,
+      "phones": [
+        {
+          "duration": 0.01,
+          "phone": "aa_B"
+        },
+        {
+          "duration": 0.01,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.01,
+          "phone": "t_E"
+        }
+      ],
+      "start": 3.78,
+      "startOffset": 34,
+      "word": "alt"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 43,
+      "startOffset": 38,
+      "word": "thert"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 48,
+      "startOffset": 44,
+      "word": "ther"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 53,
+      "startOffset": 49,
+      "word": "yung"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 59,
+      "startOffset": 54,
+      "word": "drays"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 71,
+      "startOffset": 60,
+      "word": "sitiyahgree"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "transcript": "ter pleknudged aasimz alteyd thad aht reen ahn lowmz aalt maoskak lihft",
+  "words": [
+    {
+      "alignedWord": "ter",
+      "case": "success",
+      "end": 0.2,
+      "endOffset": 3,
+      "phones": [
+        {
+          "duration": 0.12,
+          "phone": "t_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "er_E"
+        }
+      ],
+      "start": 0.0,
+      "startOffset": 0,
+      "word": "ter"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 14,
+      "startOffset": 4,
+      "word": "pleknudged"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 21,
+      "startOffset": 15,
+      "word": "aasimz"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 0.94,
+      "endOffset": 28,
+      "phones": [
+        {
+          "duration": 0.74,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.2,
+      "startOffset": 22,
+      "word": "alteyd"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 1.6099999999999999,
+      "endOffset": 33,
+      "phones": [
+        {
+          "duration": 0.41,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.2,
+      "startOffset": 29,
+      "word": "thad"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 2.53,
+      "endOffset": 37,
+      "phones": [
+        {
+          "duration": 0.88,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.65,
+      "startOffset": 34,
+      "word": "aht"
+    },
+    {
+      "alignedWord": "reen",
+      "case": "success",
+      "end": 2.8499999999999996,
+      "endOffset": 42,
+      "phones": [
+        {
+          "duration": 0.13,
+          "phone": "r_B"
+        },
+        {
+          "duration": 0.12,
+          "phone": "iy_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "n_E"
+        }
+      ],
+      "start": 2.55,
+      "startOffset": 38,
+      "word": "reen"
+    },
+    {
+      "alignedWord": "ahn",
+      "case": "success",
+      "end": 2.87,
+      "endOffset": 46,
+      "phones": [
+        {
+          "duration": 0.01,
+          "phone": "ae_B"
+        },
+        {
+          "duration": 0.01,
+          "phone": "n_E"
+        }
+      ],
+      "start": 2.85,
+      "startOffset": 43,
+      "word": "ahn"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 3.39,
+      "endOffset": 52,
+      "phones": [
+        {
+          "duration": 0.52,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.87,
+      "startOffset": 47,
+      "word": "lowmz"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 4.23,
+      "endOffset": 57,
+      "phones": [
+        {
+          "duration": 0.78,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 3.45,
+      "startOffset": 53,
+      "word": "aalt"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 65,
+      "startOffset": 58,
+      "word": "maoskak"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 71,
+      "startOffset": 66,
+      "word": "lihft"
+    }
+  ]
+}

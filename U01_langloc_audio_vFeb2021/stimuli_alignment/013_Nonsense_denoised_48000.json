@@ -1,0 +1,148 @@
+{
+  "transcript": "thizik thung dahz stowhidge thim ree jhed dahv ree thul fetty mehgree",
+  "words": [
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 2.04,
+      "endOffset": 6,
+      "phones": [
+        {
+          "duration": 1.95,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.09,
+      "startOffset": 0,
+      "word": "thizik"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 12,
+      "startOffset": 7,
+      "word": "thung"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 17,
+      "startOffset": 13,
+      "word": "dahz"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 27,
+      "startOffset": 18,
+      "word": "stowhidge"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 2.7600000000000002,
+      "endOffset": 32,
+      "phones": [
+        {
+          "duration": 0.52,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.24,
+      "startOffset": 28,
+      "word": "thim"
+    },
+    {
+      "alignedWord": "ree",
+      "case": "success",
+      "end": 2.93,
+      "endOffset": 36,
+      "phones": [
+        {
+          "duration": 0.13,
+          "phone": "r_B"
+        },
+        {
+          "duration": 0.01,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 2.79,
+      "startOffset": 33,
+      "word": "ree"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 3.37,
+      "endOffset": 41,
+      "phones": [
+        {
+          "duration": 0.44,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.93,
+      "startOffset": 37,
+      "word": "jhed"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 3.61,
+      "endOffset": 46,
+      "phones": [
+        {
+          "duration": 0.19,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 3.42,
+      "startOffset": 42,
+      "word": "dahv"
+    },
+    {
+      "alignedWord": "ree",
+      "case": "success",
+      "end": 3.6999999999999997,
+      "endOffset": 50,
+      "phones": [
+        {
+          "duration": 0.01,
+          "phone": "r_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 3.61,
+      "startOffset": 47,
+      "word": "ree"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 4.0200000000000005,
+      "endOffset": 55,
+      "phones": [
+        {
+          "duration": 0.32,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 3.7,
+      "startOffset": 51,
+      "word": "thul"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 61,
+      "startOffset": 56,
+      "word": "fetty"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 69,
+      "startOffset": 62,
+      "word": "mehgree"
+    }
+  ]
+}

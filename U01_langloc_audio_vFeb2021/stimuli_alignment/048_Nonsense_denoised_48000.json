@@ -1,0 +1,134 @@
+{
+  "transcript": "bab rups ekteethawee aev nah raldalee thung tabolch soo ned aht zeyz",
+  "words": [
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 3,
+      "startOffset": 0,
+      "word": "bab"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 8,
+      "startOffset": 4,
+      "word": "rups"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 20,
+      "startOffset": 9,
+      "word": "ekteethawee"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 24,
+      "startOffset": 21,
+      "word": "aev"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 28,
+      "startOffset": 25,
+      "word": "nah"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 37,
+      "startOffset": 29,
+      "word": "raldalee"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 0.71,
+      "endOffset": 43,
+      "phones": [
+        {
+          "duration": 0.7,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.01,
+      "startOffset": 38,
+      "word": "thung"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 4.0600000000000005,
+      "endOffset": 51,
+      "phones": [
+        {
+          "duration": 2.89,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.17,
+      "startOffset": 44,
+      "word": "tabolch"
+    },
+    {
+      "alignedWord": "soo",
+      "case": "success",
+      "end": 4.31,
+      "endOffset": 55,
+      "phones": [
+        {
+          "duration": 0.17,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "uw_E"
+        }
+      ],
+      "start": 4.06,
+      "startOffset": 52,
+      "word": "soo"
+    },
+    {
+      "alignedWord": "ned",
+      "case": "success",
+      "end": 4.77,
+      "endOffset": 59,
+      "phones": [
+        {
+          "duration": 0.14,
+          "phone": "n_B"
+        },
+        {
+          "duration": 0.11,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.21,
+          "phone": "d_E"
+        }
+      ],
+      "start": 4.31,
+      "startOffset": 56,
+      "word": "ned"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 5.28,
+      "endOffset": 63,
+      "phones": [
+        {
+          "duration": 0.5,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 4.78,
+      "startOffset": 60,
+      "word": "aht"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 68,
+      "startOffset": 64,
+      "word": "zeyz"
+    }
+  ]
+}

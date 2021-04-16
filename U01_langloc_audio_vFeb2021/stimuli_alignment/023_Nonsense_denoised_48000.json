@@ -1,0 +1,148 @@
+{
+  "transcript": "deezor deyst fawts aht tavoowsho ree trehst felee bayld in fiht aownif",
+  "words": [
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 6,
+      "startOffset": 0,
+      "word": "deezor"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 12,
+      "startOffset": 7,
+      "word": "deyst"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 1.15,
+      "endOffset": 18,
+      "phones": [
+        {
+          "duration": 1.14,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.01,
+      "startOffset": 13,
+      "word": "fawts"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 1.3199999999999998,
+      "endOffset": 22,
+      "phones": [
+        {
+          "duration": 0.12,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.2,
+      "startOffset": 19,
+      "word": "aht"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 2.08,
+      "endOffset": 32,
+      "phones": [
+        {
+          "duration": 0.69,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.39,
+      "startOffset": 23,
+      "word": "tavoowsho"
+    },
+    {
+      "alignedWord": "ree",
+      "case": "success",
+      "end": 2.7100000000000004,
+      "endOffset": 36,
+      "phones": [
+        {
+          "duration": 0.12,
+          "phone": "r_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 2.49,
+      "startOffset": 33,
+      "word": "ree"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 3.8200000000000003,
+      "endOffset": 43,
+      "phones": [
+        {
+          "duration": 1.11,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.71,
+      "startOffset": 37,
+      "word": "trehst"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 49,
+      "startOffset": 44,
+      "word": "felee"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 55,
+      "startOffset": 50,
+      "word": "bayld"
+    },
+    {
+      "alignedWord": "in",
+      "case": "success",
+      "end": 4.04,
+      "endOffset": 58,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "ih_B"
+        },
+        {
+          "duration": 0.11,
+          "phone": "n_E"
+        }
+      ],
+      "start": 3.84,
+      "startOffset": 56,
+      "word": "in"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 4.58,
+      "endOffset": 63,
+      "phones": [
+        {
+          "duration": 0.48,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 4.1,
+      "startOffset": 59,
+      "word": "fiht"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 70,
+      "startOffset": 64,
+      "word": "aownif"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "transcript": "tihutt thim thung thetty bayerl zupey ree sward uht dwaen uht siyil",
+  "words": [
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 1.27,
+      "endOffset": 6,
+      "phones": [
+        {
+          "duration": 1.26,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.01,
+      "startOffset": 0,
+      "word": "tihutt"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 11,
+      "startOffset": 7,
+      "word": "thim"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 17,
+      "startOffset": 12,
+      "word": "thung"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 24,
+      "startOffset": 18,
+      "word": "thetty"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 31,
+      "startOffset": 25,
+      "word": "bayerl"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 2.33,
+      "endOffset": 37,
+      "phones": [
+        {
+          "duration": 0.96,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.37,
+      "startOffset": 32,
+      "word": "zupey"
+    },
+    {
+      "alignedWord": "ree",
+      "case": "success",
+      "end": 2.8200000000000003,
+      "endOffset": 41,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "r_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 2.64,
+      "startOffset": 38,
+      "word": "ree"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 3.3899999999999997,
+      "endOffset": 47,
+      "phones": [
+        {
+          "duration": 0.57,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.82,
+      "startOffset": 42,
+      "word": "sward"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 4.39,
+      "endOffset": 51,
+      "phones": [
+        {
+          "duration": 0.93,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 3.46,
+      "startOffset": 48,
+      "word": "uht"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 57,
+      "startOffset": 52,
+      "word": "dwaen"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 61,
+      "startOffset": 58,
+      "word": "uht"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 67,
+      "startOffset": 62,
+      "word": "siyil"
+    }
+  ]
+}

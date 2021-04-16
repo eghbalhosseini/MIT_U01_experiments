@@ -1,0 +1,117 @@
+{
+  "transcript": "ashgoh zich mokst rakwis ahdaws nah dinks zee klip diyaiyvid sah choh",
+  "words": [
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 0.5800000000000001,
+      "endOffset": 6,
+      "phones": [
+        {
+          "duration": 0.44,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.14,
+      "startOffset": 0,
+      "word": "ashgoh"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 11,
+      "startOffset": 7,
+      "word": "zich"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 17,
+      "startOffset": 12,
+      "word": "mokst"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 24,
+      "startOffset": 18,
+      "word": "rakwis"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 31,
+      "startOffset": 25,
+      "word": "ahdaws"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 35,
+      "startOffset": 32,
+      "word": "nah"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 2.71,
+      "endOffset": 41,
+      "phones": [
+        {
+          "duration": 2.06,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.65,
+      "startOffset": 36,
+      "word": "dinks"
+    },
+    {
+      "alignedWord": "zee",
+      "case": "success",
+      "end": 3.23,
+      "endOffset": 45,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "z_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 3.06,
+      "startOffset": 42,
+      "word": "zee"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 4.48,
+      "endOffset": 50,
+      "phones": [
+        {
+          "duration": 1.25,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 3.23,
+      "startOffset": 46,
+      "word": "klip"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 60,
+      "startOffset": 51,
+      "word": "diyaiyvid"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 64,
+      "startOffset": 61,
+      "word": "sah"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 69,
+      "startOffset": 65,
+      "word": "choh"
+    }
+  ]
+}

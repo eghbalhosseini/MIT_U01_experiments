@@ -1,0 +1,121 @@
+{
+  "transcript": "nah kriger thav thung peysk nay nah guybwank thahng puvvy sooh jerlayth",
+  "words": [
+    {
+      "alignedWord": "nah",
+      "case": "success",
+      "end": 1.8,
+      "endOffset": 3,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "n_B"
+        },
+        {
+          "duration": 0.01,
+          "phone": "aa_E"
+        }
+      ],
+      "start": 1.69,
+      "startOffset": 0,
+      "word": "nah"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 2.8,
+      "endOffset": 10,
+      "phones": [
+        {
+          "duration": 1.0,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.8,
+      "startOffset": 4,
+      "word": "kriger"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 4.78,
+      "endOffset": 15,
+      "phones": [
+        {
+          "duration": 1.54,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 3.24,
+      "startOffset": 11,
+      "word": "thav"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 21,
+      "startOffset": 16,
+      "word": "thung"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 27,
+      "startOffset": 22,
+      "word": "peysk"
+    },
+    {
+      "alignedWord": "nay",
+      "case": "success",
+      "end": 4.8,
+      "endOffset": 31,
+      "phones": [
+        {
+          "duration": 0.01,
+          "phone": "n_B"
+        },
+        {
+          "duration": 0.01,
+          "phone": "ey_E"
+        }
+      ],
+      "start": 4.78,
+      "startOffset": 28,
+      "word": "nay"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 35,
+      "startOffset": 32,
+      "word": "nah"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 44,
+      "startOffset": 36,
+      "word": "guybwank"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 51,
+      "startOffset": 45,
+      "word": "thahng"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 57,
+      "startOffset": 52,
+      "word": "puvvy"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 62,
+      "startOffset": 58,
+      "word": "sooh"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 71,
+      "startOffset": 63,
+      "word": "jerlayth"
+    }
+  ]
+}

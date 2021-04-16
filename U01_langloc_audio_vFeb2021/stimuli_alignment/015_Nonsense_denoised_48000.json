@@ -1,0 +1,134 @@
+{
+  "transcript": "athker nah vikes chah aht sneddy wuthiy zee bum dahz tweem arowsh",
+  "words": [
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 6,
+      "startOffset": 0,
+      "word": "athker"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 10,
+      "startOffset": 7,
+      "word": "nah"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 16,
+      "startOffset": 11,
+      "word": "vikes"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 21,
+      "startOffset": 17,
+      "word": "chah"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 25,
+      "startOffset": 22,
+      "word": "aht"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 32,
+      "startOffset": 26,
+      "word": "sneddy"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 2.19,
+      "endOffset": 39,
+      "phones": [
+        {
+          "duration": 2.14,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.05,
+      "startOffset": 33,
+      "word": "wuthiy"
+    },
+    {
+      "alignedWord": "zee",
+      "case": "success",
+      "end": 2.41,
+      "endOffset": 43,
+      "phones": [
+        {
+          "duration": 0.01,
+          "phone": "z_B"
+        },
+        {
+          "duration": 0.21,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 2.19,
+      "startOffset": 40,
+      "word": "zee"
+    },
+    {
+      "alignedWord": "bum",
+      "case": "success",
+      "end": 2.71,
+      "endOffset": 47,
+      "phones": [
+        {
+          "duration": 0.01,
+          "phone": "b_B"
+        },
+        {
+          "duration": 0.01,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.01,
+          "phone": "m_E"
+        }
+      ],
+      "start": 2.68,
+      "startOffset": 44,
+      "word": "bum"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 2.89,
+      "endOffset": 52,
+      "phones": [
+        {
+          "duration": 0.18,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.71,
+      "startOffset": 48,
+      "word": "dahz"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 4.49,
+      "endOffset": 58,
+      "phones": [
+        {
+          "duration": 1.22,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 3.27,
+      "startOffset": 53,
+      "word": "tweem"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 65,
+      "startOffset": 59,
+      "word": "arowsh"
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "transcript": "jayn pepiv aht skiser alt thet ree alderk aht beeztah tor difgant",
+  "words": [
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 0.35000000000000003,
+      "endOffset": 4,
+      "phones": [
+        {
+          "duration": 0.34,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.01,
+      "startOffset": 0,
+      "word": "jayn"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 0.62,
+      "endOffset": 10,
+      "phones": [
+        {
+          "duration": 0.24,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.38,
+      "startOffset": 5,
+      "word": "pepiv"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 0.9500000000000001,
+      "endOffset": 14,
+      "phones": [
+        {
+          "duration": 0.28,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.67,
+      "startOffset": 11,
+      "word": "aht"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 1.76,
+      "endOffset": 21,
+      "phones": [
+        {
+          "duration": 0.76,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.0,
+      "startOffset": 15,
+      "word": "skiser"
+    },
+    {
+      "alignedWord": "alt",
+      "case": "success",
+      "end": 2.0500000000000003,
+      "endOffset": 25,
+      "phones": [
+        {
+          "duration": 0.12,
+          "phone": "aa_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "t_E"
+        }
+      ],
+      "start": 1.82,
+      "startOffset": 22,
+      "word": "alt"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 2.27,
+      "endOffset": 30,
+      "phones": [
+        {
+          "duration": 0.21,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.06,
+      "startOffset": 26,
+      "word": "thet"
+    },
+    {
+      "alignedWord": "ree",
+      "case": "success",
+      "end": 2.49,
+      "endOffset": 34,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "r_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 2.29,
+      "startOffset": 31,
+      "word": "ree"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 2.8800000000000003,
+      "endOffset": 41,
+      "phones": [
+        {
+          "duration": 0.39,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.49,
+      "startOffset": 35,
+      "word": "alderk"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 3.08,
+      "endOffset": 45,
+      "phones": [
+        {
+          "duration": 0.14,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.94,
+      "startOffset": 42,
+      "word": "aht"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 4.37,
+      "endOffset": 53,
+      "phones": [
+        {
+          "duration": 1.21,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 3.16,
+      "startOffset": 46,
+      "word": "beeztah"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 57,
+      "startOffset": 54,
+      "word": "tor"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 65,
+      "startOffset": 58,
+      "word": "difgant"
+    }
+  ]
+}

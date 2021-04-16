@@ -1,0 +1,153 @@
+{
+  "transcript": "nih imadrant yerd foo theeteft kam thuv fiht kamfoohelts mer int ogjer",
+  "words": [
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 0.21000000000000002,
+      "endOffset": 3,
+      "phones": [
+        {
+          "duration": 0.2,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.01,
+      "startOffset": 0,
+      "word": "nih"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 0.73,
+      "endOffset": 12,
+      "phones": [
+        {
+          "duration": 0.46,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.27,
+      "startOffset": 4,
+      "word": "imadrant"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 1.1600000000000001,
+      "endOffset": 17,
+      "phones": [
+        {
+          "duration": 0.39,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.77,
+      "startOffset": 13,
+      "word": "yerd"
+    },
+    {
+      "alignedWord": "foo",
+      "case": "success",
+      "end": 1.3599999999999999,
+      "endOffset": 21,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "f_B"
+        },
+        {
+          "duration": 0.13,
+          "phone": "uw_E"
+        }
+      ],
+      "start": 1.16,
+      "startOffset": 18,
+      "word": "foo"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 2.97,
+      "endOffset": 30,
+      "phones": [
+        {
+          "duration": 1.61,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.36,
+      "startOffset": 22,
+      "word": "theeteft"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 4.17,
+      "endOffset": 34,
+      "phones": [
+        {
+          "duration": 1.11,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 3.06,
+      "startOffset": 31,
+      "word": "kam"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 4.359999999999999,
+      "endOffset": 39,
+      "phones": [
+        {
+          "duration": 0.14,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 4.22,
+      "startOffset": 35,
+      "word": "thuv"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 4.84,
+      "endOffset": 44,
+      "phones": [
+        {
+          "duration": 0.39,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 4.45,
+      "startOffset": 40,
+      "word": "fiht"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 56,
+      "startOffset": 45,
+      "word": "kamfoohelts"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 60,
+      "startOffset": 57,
+      "word": "mer"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 64,
+      "startOffset": 61,
+      "word": "int"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 70,
+      "startOffset": 65,
+      "word": "ogjer"
+    }
+  ]
+}

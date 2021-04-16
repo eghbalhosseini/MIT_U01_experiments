@@ -1,0 +1,178 @@
+{
+  "transcript": "int nah wapaf nah towsfer thaht dootfid alt nept soo nah bathripaf",
+  "words": [
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 0.24,
+      "endOffset": 3,
+      "phones": [
+        {
+          "duration": 0.15,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.09,
+      "startOffset": 0,
+      "word": "int"
+    },
+    {
+      "alignedWord": "nah",
+      "case": "success",
+      "end": 0.36,
+      "endOffset": 7,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "n_B"
+        },
+        {
+          "duration": 0.01,
+          "phone": "aa_E"
+        }
+      ],
+      "start": 0.27,
+      "startOffset": 4,
+      "word": "nah"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 1.02,
+      "endOffset": 13,
+      "phones": [
+        {
+          "duration": 0.66,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.36,
+      "startOffset": 8,
+      "word": "wapaf"
+    },
+    {
+      "alignedWord": "nah",
+      "case": "success",
+      "end": 1.27,
+      "endOffset": 17,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "n_B"
+        },
+        {
+          "duration": 0.01,
+          "phone": "aa_E"
+        }
+      ],
+      "start": 1.2,
+      "startOffset": 14,
+      "word": "nah"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 1.87,
+      "endOffset": 25,
+      "phones": [
+        {
+          "duration": 0.6,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.27,
+      "startOffset": 18,
+      "word": "towsfer"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 31,
+      "startOffset": 26,
+      "word": "thaht"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 39,
+      "startOffset": 32,
+      "word": "dootfid"
+    },
+    {
+      "alignedWord": "alt",
+      "case": "success",
+      "end": 2.0100000000000002,
+      "endOffset": 43,
+      "phones": [
+        {
+          "duration": 0.04,
+          "phone": "aa_B"
+        },
+        {
+          "duration": 0.01,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "t_E"
+        }
+      ],
+      "start": 1.87,
+      "startOffset": 40,
+      "word": "alt"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 2.5199999999999996,
+      "endOffset": 48,
+      "phones": [
+        {
+          "duration": 0.51,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.01,
+      "startOffset": 44,
+      "word": "nept"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 52,
+      "startOffset": 49,
+      "word": "soo"
+    },
+    {
+      "alignedWord": "nah",
+      "case": "success",
+      "end": 2.8299999999999996,
+      "endOffset": 56,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "n_B"
+        },
+        {
+          "duration": 0.01,
+          "phone": "aa_E"
+        }
+      ],
+      "start": 2.76,
+      "startOffset": 53,
+      "word": "nah"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 3.9699999999999998,
+      "endOffset": 66,
+      "phones": [
+        {
+          "duration": 1.14,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.83,
+      "startOffset": 57,
+      "word": "bathripaf"
+    }
+  ]
+}

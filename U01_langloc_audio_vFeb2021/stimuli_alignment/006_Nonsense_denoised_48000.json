@@ -1,0 +1,153 @@
+{
+  "transcript": "nayth braemz thung herhidge int ragevah fid hein dukt athker nah jits",
+  "words": [
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 0.01,
+      "endOffset": 5,
+      "phones": [
+        {
+          "duration": 0.01,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.0,
+      "startOffset": 0,
+      "word": "nayth"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 12,
+      "startOffset": 6,
+      "word": "braemz"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 18,
+      "startOffset": 13,
+      "word": "thung"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 27,
+      "startOffset": 19,
+      "word": "herhidge"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 31,
+      "startOffset": 28,
+      "word": "int"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 0.36,
+      "endOffset": 39,
+      "phones": [
+        {
+          "duration": 0.21,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.15,
+      "startOffset": 32,
+      "word": "ragevah"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 1.83,
+      "endOffset": 43,
+      "phones": [
+        {
+          "duration": 1.43,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.4,
+      "startOffset": 40,
+      "word": "fid"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 2.73,
+      "endOffset": 48,
+      "phones": [
+        {
+          "duration": 0.83,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.9,
+      "startOffset": 44,
+      "word": "hein"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 4.15,
+      "endOffset": 53,
+      "phones": [
+        {
+          "duration": 1.02,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 3.13,
+      "startOffset": 49,
+      "word": "dukt"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 4.75,
+      "endOffset": 60,
+      "phones": [
+        {
+          "duration": 0.56,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 4.19,
+      "startOffset": 54,
+      "word": "athker"
+    },
+    {
+      "alignedWord": "nah",
+      "case": "success",
+      "end": 4.8500000000000005,
+      "endOffset": 64,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "n_B"
+        },
+        {
+          "duration": 0.01,
+          "phone": "aa_E"
+        }
+      ],
+      "start": 4.78,
+      "startOffset": 61,
+      "word": "nah"
+    },
+    {
+      "alignedWord": "&lt;unk&gt;",
+      "case": "success",
+      "end": 5.26,
+      "endOffset": 69,
+      "phones": [
+        {
+          "duration": 0.41,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 4.85,
+      "startOffset": 65,
+      "word": "jits"
+    }
+  ]
+}
