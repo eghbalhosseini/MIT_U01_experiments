@@ -40,7 +40,7 @@
       "word": "the"
     },
     {
-      "alignedWord": "bus",
+      "alignedWord": "bus-stop",
       "case": "success",
       "end": 0.56,
       "endOffset": 10,
@@ -60,34 +60,7 @@
       ],
       "start": 0.32,
       "startOffset": 7,
-      "word": "bus"
-    },
-    {
-      "alignedWord": "stop",
-      "case": "success",
-      "end": 0.91,
-      "endOffset": 15,
-      "phones": [
-        {
-          "duration": 0.03,
-          "phone": "s_B"
-        },
-        {
-          "duration": 0.09,
-          "phone": "t_I"
-        },
-        {
-          "duration": 0.13,
-          "phone": "aa_I"
-        },
-        {
-          "duration": 0.1,
-          "phone": "p_E"
-        }
-      ],
-      "start": 0.56,
-      "startOffset": 11,
-      "word": "stop"
+      "word": "bus-stop"
     },
     {
       "alignedWord": "jason",

@@ -171,7 +171,7 @@
       "word": "the"
     },
     {
-      "alignedWord": "parking",
+      "alignedWord": "parking-lot",
       "case": "success",
       "end": 2.26,
       "endOffset": 40,
@@ -203,30 +203,7 @@
       ],
       "start": 1.88,
       "startOffset": 33,
-      "word": "parking"
-    },
-    {
-      "alignedWord": "lot",
-      "case": "success",
-      "end": 2.54,
-      "endOffset": 44,
-      "phones": [
-        {
-          "duration": 0.08,
-          "phone": "l_B"
-        },
-        {
-          "duration": 0.11,
-          "phone": "aa_I"
-        },
-        {
-          "duration": 0.09,
-          "phone": "t_E"
-        }
-      ],
-      "start": 2.26,
-      "startOffset": 41,
-      "word": "lot"
+      "word": "parking-lot"
     },
     {
       "alignedWord": "but",

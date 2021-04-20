@@ -279,7 +279,7 @@
       "word": "to"
     },
     {
-      "alignedWord": "dry",
+      "alignedWord": "dry-cleaning",
       "case": "success",
       "end": 3.62,
       "endOffset": 69,
@@ -299,38 +299,7 @@
       ],
       "start": 3.33,
       "startOffset": 66,
-      "word": "dry"
-    },
-    {
-      "alignedWord": "cleaning",
-      "case": "success",
-      "end": 3.92,
-      "endOffset": 78,
-      "phones": [
-        {
-          "duration": 0.08,
-          "phone": "k_B"
-        },
-        {
-          "duration": 0.04,
-          "phone": "l_I"
-        },
-        {
-          "duration": 0.09,
-          "phone": "iy_I"
-        },
-        {
-          "duration": 0.03,
-          "phone": "n_I"
-        },
-        {
-          "duration": 0.06,
-          "phone": "ih_I"
-        }
-      ],
-      "start": 3.62,
-      "startOffset": 70,
-      "word": "cleaning"
+      "word": "dry-cleaning"
     }
   ]
 }
