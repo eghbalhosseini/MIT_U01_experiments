@@ -28,7 +28,7 @@ assert(length(json_files)==length(wave_files));
 json_parent=json_file(1).folder;
 handfix_json_dir=sprintf('%s_handfix',json_parent);
 %% analyze the data 
-for i=1:length(wave_files)
+for i=2:2:length(wave_files)
    % read alignment file 
    JSONFILE_fix_name= strrep(json_files{i},'.json','_handfix.json'); 
    JSONFILE_fix_name= strrep(JSONFILE_fix_name,json_parent,handfix_json_dir); 
@@ -70,8 +70,8 @@ for i=1:length(wave_files)
             dataIn.(sprintf('word_%d',kk+1))=[dataIn.(sprintf('word_%d',kk))(end)+0.005,dataIn.(sprintf('word_%d',kk+1))(end)];% add 1 ms
         end 
     end
-    brushAudio(wave,Fs,transcript,i,dataIn);
-    waitfor(findobj('type','figure','number',1));
+    %brushAudio(wave,Fs,transcript,i,dataIn);
+    %waitfor(findobj('type','figure','number',1));
     %audio_align = jsondecode(fileread(json_files{i}));
     word_align=audio_align.words;
     field_names={'case','endOffset','startOffset','word','start','end'};
