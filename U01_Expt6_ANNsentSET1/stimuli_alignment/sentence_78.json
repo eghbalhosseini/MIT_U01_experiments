@@ -1,0 +1,227 @@
+{
+  "transcript": "The ones that I made changes to are in red.",
+  "words": [
+    {
+      "alignedWord": "the",
+      "case": "success",
+      "end": 0.11,
+      "endOffset": 3,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "ah_E"
+        }
+      ],
+      "start": 0.0,
+      "startOffset": 0,
+      "word": "The"
+    },
+    {
+      "alignedWord": "ones",
+      "case": "success",
+      "end": 0.38,
+      "endOffset": 8,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "w_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "z_E"
+        }
+      ],
+      "start": 0.11,
+      "startOffset": 4,
+      "word": "ones"
+    },
+    {
+      "alignedWord": "that",
+      "case": "success",
+      "end": 0.53,
+      "endOffset": 13,
+      "phones": [
+        {
+          "duration": 0.04,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "t_E"
+        }
+      ],
+      "start": 0.38,
+      "startOffset": 9,
+      "word": "that"
+    },
+    {
+      "alignedWord": "i",
+      "case": "success",
+      "end": 0.5900000000000001,
+      "endOffset": 15,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "ay_S"
+        }
+      ],
+      "start": 0.53,
+      "startOffset": 14,
+      "word": "I"
+    },
+    {
+      "alignedWord": "made",
+      "case": "success",
+      "end": 0.7999999999999999,
+      "endOffset": 20,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "m_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ey_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "d_E"
+        }
+      ],
+      "start": 0.59,
+      "startOffset": 16,
+      "word": "made"
+    },
+    {
+      "alignedWord": "changes",
+      "case": "success",
+      "end": 1.24,
+      "endOffset": 28,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "ch_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "ey_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "jh_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "z_E"
+        }
+      ],
+      "start": 0.8,
+      "startOffset": 21,
+      "word": "changes"
+    },
+    {
+      "alignedWord": "to",
+      "case": "success",
+      "end": 1.5899999999999999,
+      "endOffset": 31,
+      "phones": [
+        {
+          "duration": 0.13,
+          "phone": "t_B"
+        },
+        {
+          "duration": 0.22,
+          "phone": "uw_E"
+        }
+      ],
+      "start": 1.24,
+      "startOffset": 29,
+      "word": "to"
+    },
+    {
+      "alignedWord": "are",
+      "case": "success",
+      "end": 1.77,
+      "endOffset": 35,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "aa_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "r_E"
+        }
+      ],
+      "start": 1.62,
+      "startOffset": 32,
+      "word": "are"
+    },
+    {
+      "alignedWord": "in",
+      "case": "success",
+      "end": 1.98,
+      "endOffset": 38,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "ih_B"
+        },
+        {
+          "duration": 0.11,
+          "phone": "n_E"
+        }
+      ],
+      "start": 1.77,
+      "startOffset": 36,
+      "word": "in"
+    },
+    {
+      "alignedWord": "red",
+      "case": "success",
+      "end": 2.17,
+      "endOffset": 42,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "r_B"
+        },
+        {
+          "duration": 0.11,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.01,
+          "phone": "d_E"
+        }
+      ],
+      "start": 1.98,
+      "startOffset": 39,
+      "word": "red"
+    }
+  ]
+}

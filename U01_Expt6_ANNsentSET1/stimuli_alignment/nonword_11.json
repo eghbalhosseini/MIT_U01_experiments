@@ -1,0 +1,153 @@
+{
+  "transcript": "orlan clerf cre fo deconds gwoyed porla u cre ucong fowned anc",
+  "words": [
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 0.29000000000000004,
+      "endOffset": 5,
+      "phones": [
+        {
+          "duration": 0.13,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.16,
+      "startOffset": 0,
+      "word": "orlan"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 0.9099999999999999,
+      "endOffset": 11,
+      "phones": [
+        {
+          "duration": 0.58,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.33,
+      "startOffset": 6,
+      "word": "clerf"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 2.14,
+      "endOffset": 15,
+      "phones": [
+        {
+          "duration": 0.93,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.21,
+      "startOffset": 12,
+      "word": "cre"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 3.05,
+      "endOffset": 18,
+      "phones": [
+        {
+          "duration": 0.88,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.17,
+      "startOffset": 16,
+      "word": "fo"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 3.5,
+      "endOffset": 26,
+      "phones": [
+        {
+          "duration": 0.41,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 3.09,
+      "startOffset": 19,
+      "word": "deconds"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 4.4,
+      "endOffset": 33,
+      "phones": [
+        {
+          "duration": 0.76,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 3.64,
+      "startOffset": 27,
+      "word": "gwoyed"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 4.77,
+      "endOffset": 39,
+      "phones": [
+        {
+          "duration": 0.31,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 4.46,
+      "startOffset": 34,
+      "word": "porla"
+    },
+    {
+      "alignedWord": "u",
+      "case": "success",
+      "end": 4.789999999999999,
+      "endOffset": 41,
+      "phones": [
+        {
+          "duration": 0.01,
+          "phone": "y_B"
+        },
+        {
+          "duration": 0.01,
+          "phone": "uw_E"
+        }
+      ],
+      "start": 4.77,
+      "startOffset": 40,
+      "word": "u"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 45,
+      "startOffset": 42,
+      "word": "cre"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 51,
+      "startOffset": 46,
+      "word": "ucong"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 58,
+      "startOffset": 52,
+      "word": "fowned"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 62,
+      "startOffset": 59,
+      "word": "anc"
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "transcript": "Or they weren't eyewitnesses and are just lying.",
+  "words": [
+    {
+      "alignedWord": "or",
+      "case": "success",
+      "end": 0.24000000000000002,
+      "endOffset": 2,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "ao_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "r_E"
+        }
+      ],
+      "start": 0.1,
+      "startOffset": 0,
+      "word": "Or"
+    },
+    {
+      "alignedWord": "they",
+      "case": "success",
+      "end": 0.42,
+      "endOffset": 7,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "ey_E"
+        }
+      ],
+      "start": 0.24,
+      "startOffset": 3,
+      "word": "they"
+    },
+    {
+      "alignedWord": "weren't",
+      "case": "success",
+      "end": 0.71,
+      "endOffset": 15,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "w_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "er_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "t_E"
+        }
+      ],
+      "start": 0.42,
+      "startOffset": 8,
+      "word": "weren't"
+    },
+    {
+      "alignedWord": "eyewitnesses",
+      "case": "success",
+      "end": 1.62,
+      "endOffset": 28,
+      "phones": [
+        {
+          "duration": 0.19,
+          "phone": "ay_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "w_I"
+        },
+        {
+          "duration": 0.03,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "t_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "s_I"
+        },
+        {
+          "duration": 0.17,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.16,
+          "phone": "z_E"
+        }
+      ],
+      "start": 0.74,
+      "startOffset": 16,
+      "word": "eyewitnesses"
+    },
+    {
+      "alignedWord": "and",
+      "case": "success",
+      "end": 1.8499999999999999,
+      "endOffset": 32,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "ae_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "d_E"
+        }
+      ],
+      "start": 1.64,
+      "startOffset": 29,
+      "word": "and"
+    },
+    {
+      "alignedWord": "are",
+      "case": "success",
+      "end": 1.9300000000000002,
+      "endOffset": 36,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "aa_B"
+        },
+        {
+          "duration": 0.03,
+          "phone": "r_E"
+        }
+      ],
+      "start": 1.85,
+      "startOffset": 33,
+      "word": "are"
+    },
+    {
+      "alignedWord": "just",
+      "case": "success",
+      "end": 2.19,
+      "endOffset": 41,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "jh_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "s_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "t_E"
+        }
+      ],
+      "start": 1.93,
+      "startOffset": 37,
+      "word": "just"
+    },
+    {
+      "alignedWord": "lying",
+      "case": "success",
+      "end": 2.57,
+      "endOffset": 47,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "l_B"
+        },
+        {
+          "duration": 0.19,
+          "phone": "ay_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.01,
+          "phone": "ng_E"
+        }
+      ],
+      "start": 2.19,
+      "startOffset": 42,
+      "word": "lying"
+    }
+  ]
+}

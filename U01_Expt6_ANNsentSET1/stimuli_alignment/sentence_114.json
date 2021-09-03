@@ -1,0 +1,178 @@
+{
+  "transcript": "He could go to Paris, for example.",
+  "words": [
+    {
+      "alignedWord": "he",
+      "case": "success",
+      "end": 0.18000000000000002,
+      "endOffset": 2,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "hh_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 0.01,
+      "startOffset": 0,
+      "word": "He"
+    },
+    {
+      "alignedWord": "could",
+      "case": "success",
+      "end": 0.42,
+      "endOffset": 8,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "k_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "uh_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "d_E"
+        }
+      ],
+      "start": 0.18,
+      "startOffset": 3,
+      "word": "could"
+    },
+    {
+      "alignedWord": "go",
+      "case": "success",
+      "end": 0.58,
+      "endOffset": 11,
+      "phones": [
+        {
+          "duration": 0.04,
+          "phone": "g_B"
+        },
+        {
+          "duration": 0.12,
+          "phone": "ow_E"
+        }
+      ],
+      "start": 0.42,
+      "startOffset": 9,
+      "word": "go"
+    },
+    {
+      "alignedWord": "to",
+      "case": "success",
+      "end": 0.74,
+      "endOffset": 14,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "t_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ah_E"
+        }
+      ],
+      "start": 0.61,
+      "startOffset": 12,
+      "word": "to"
+    },
+    {
+      "alignedWord": "paris",
+      "case": "success",
+      "end": 1.3599999999999999,
+      "endOffset": 20,
+      "phones": [
+        {
+          "duration": 0.12,
+          "phone": "p_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.11,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.19,
+          "phone": "s_E"
+        }
+      ],
+      "start": 0.74,
+      "startOffset": 15,
+      "word": "Paris"
+    },
+    {
+      "alignedWord": "for",
+      "case": "success",
+      "end": 1.59,
+      "endOffset": 25,
+      "phones": [
+        {
+          "duration": 0.13,
+          "phone": "f_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "er_E"
+        }
+      ],
+      "start": 1.37,
+      "startOffset": 22,
+      "word": "for"
+    },
+    {
+      "alignedWord": "example",
+      "case": "success",
+      "end": 1.9700000000000002,
+      "endOffset": 33,
+      "phones": [
+        {
+          "duration": 0.04,
+          "phone": "ih_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "g_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "z_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ae_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "m_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "p_I"
+        },
+        {
+          "duration": 0.01,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.01,
+          "phone": "l_E"
+        }
+      ],
+      "start": 1.59,
+      "startOffset": 26,
+      "word": "example"
+    }
+  ]
+}

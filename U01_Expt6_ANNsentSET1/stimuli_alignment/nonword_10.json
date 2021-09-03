@@ -1,0 +1,134 @@
+{
+  "transcript": "las grawn ub skish ruchel emer gwoyed gham u phon udd shoile",
+  "words": [
+    {
+      "alignedWord": "las",
+      "case": "success",
+      "end": 0.21000000000000002,
+      "endOffset": 3,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "l_B"
+        },
+        {
+          "duration": 0.04,
+          "phone": "aa_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "s_E"
+        }
+      ],
+      "start": 0.01,
+      "startOffset": 0,
+      "word": "las"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 1.6199999999999999,
+      "endOffset": 9,
+      "phones": [
+        {
+          "duration": 1.41,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.21,
+      "startOffset": 4,
+      "word": "grawn"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 2.3899999999999997,
+      "endOffset": 12,
+      "phones": [
+        {
+          "duration": 0.73,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.66,
+      "startOffset": 10,
+      "word": "ub"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 3.9499999999999997,
+      "endOffset": 18,
+      "phones": [
+        {
+          "duration": 1.44,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.51,
+      "startOffset": 13,
+      "word": "skish"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 25,
+      "startOffset": 19,
+      "word": "ruchel"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 30,
+      "startOffset": 26,
+      "word": "emer"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 37,
+      "startOffset": 31,
+      "word": "gwoyed"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 42,
+      "startOffset": 38,
+      "word": "gham"
+    },
+    {
+      "alignedWord": "u",
+      "case": "success",
+      "end": 3.97,
+      "endOffset": 44,
+      "phones": [
+        {
+          "duration": 0.01,
+          "phone": "y_B"
+        },
+        {
+          "duration": 0.01,
+          "phone": "uw_E"
+        }
+      ],
+      "start": 3.95,
+      "startOffset": 43,
+      "word": "u"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 49,
+      "startOffset": 45,
+      "word": "phon"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 53,
+      "startOffset": 50,
+      "word": "udd"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 60,
+      "startOffset": 54,
+      "word": "shoile"
+    }
+  ]
+}

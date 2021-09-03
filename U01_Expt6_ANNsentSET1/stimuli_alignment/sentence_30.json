@@ -1,0 +1,101 @@
+{
+  "transcript": "I'm still a beginner.",
+  "words": [
+    {
+      "alignedWord": "i'm",
+      "case": "success",
+      "end": 0.41,
+      "endOffset": 3,
+      "phones": [
+        {
+          "duration": 0.19,
+          "phone": "ay_B"
+        },
+        {
+          "duration": 0.11,
+          "phone": "m_E"
+        }
+      ],
+      "start": 0.11,
+      "startOffset": 0,
+      "word": "I'm"
+    },
+    {
+      "alignedWord": "still",
+      "case": "success",
+      "end": 0.72,
+      "endOffset": 9,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "t_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "l_E"
+        }
+      ],
+      "start": 0.41,
+      "startOffset": 4,
+      "word": "still"
+    },
+    {
+      "alignedWord": "a",
+      "case": "success",
+      "end": 0.78,
+      "endOffset": 11,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "ah_S"
+        }
+      ],
+      "start": 0.72,
+      "startOffset": 10,
+      "word": "a"
+    },
+    {
+      "alignedWord": "beginner",
+      "case": "success",
+      "end": 1.1800000000000002,
+      "endOffset": 20,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "b_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "g_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "er_E"
+        }
+      ],
+      "start": 0.78,
+      "startOffset": 12,
+      "word": "beginner"
+    }
+  ]
+}

@@ -1,0 +1,346 @@
+{
+  "transcript": "If all this is really happening, he said, then I must keep my eyes open.",
+  "words": [
+    {
+      "alignedWord": "if",
+      "case": "success",
+      "end": 0.18,
+      "endOffset": 2,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "ih_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "f_E"
+        }
+      ],
+      "start": 0.0,
+      "startOffset": 0,
+      "word": "If"
+    },
+    {
+      "alignedWord": "all",
+      "case": "success",
+      "end": 0.48,
+      "endOffset": 6,
+      "phones": [
+        {
+          "duration": 0.16,
+          "phone": "ao_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "l_E"
+        }
+      ],
+      "start": 0.22,
+      "startOffset": 3,
+      "word": "all"
+    },
+    {
+      "alignedWord": "this",
+      "case": "success",
+      "end": 0.6699999999999999,
+      "endOffset": 11,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "s_E"
+        }
+      ],
+      "start": 0.48,
+      "startOffset": 7,
+      "word": "this"
+    },
+    {
+      "alignedWord": "is",
+      "case": "success",
+      "end": 0.8600000000000001,
+      "endOffset": 14,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "ih_B"
+        },
+        {
+          "duration": 0.12,
+          "phone": "z_E"
+        }
+      ],
+      "start": 0.67,
+      "startOffset": 12,
+      "word": "is"
+    },
+    {
+      "alignedWord": "really",
+      "case": "success",
+      "end": 1.18,
+      "endOffset": 21,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "r_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "iy_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 0.86,
+      "startOffset": 15,
+      "word": "really"
+    },
+    {
+      "alignedWord": "happening",
+      "case": "success",
+      "end": 1.75,
+      "endOffset": 31,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "hh_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "ae_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "p_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.03,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.13,
+          "phone": "ng_E"
+        }
+      ],
+      "start": 1.18,
+      "startOffset": 22,
+      "word": "happening"
+    },
+    {
+      "alignedWord": "he",
+      "case": "success",
+      "end": 1.92,
+      "endOffset": 35,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "hh_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 1.76,
+      "startOffset": 33,
+      "word": "he"
+    },
+    {
+      "alignedWord": "said",
+      "case": "success",
+      "end": 2.28,
+      "endOffset": 40,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.11,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.14,
+          "phone": "d_E"
+        }
+      ],
+      "start": 1.92,
+      "startOffset": 36,
+      "word": "said"
+    },
+    {
+      "alignedWord": "then",
+      "case": "success",
+      "end": 2.9200000000000004,
+      "endOffset": 46,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "n_E"
+        }
+      ],
+      "start": 2.72,
+      "startOffset": 42,
+      "word": "then"
+    },
+    {
+      "alignedWord": "i",
+      "case": "success",
+      "end": 3.01,
+      "endOffset": 48,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "ay_S"
+        }
+      ],
+      "start": 2.92,
+      "startOffset": 47,
+      "word": "I"
+    },
+    {
+      "alignedWord": "must",
+      "case": "success",
+      "end": 3.3499999999999996,
+      "endOffset": 53,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "m_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "s_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "t_E"
+        }
+      ],
+      "start": 3.01,
+      "startOffset": 49,
+      "word": "must"
+    },
+    {
+      "alignedWord": "keep",
+      "case": "success",
+      "end": 3.56,
+      "endOffset": 58,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "k_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "iy_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "p_E"
+        }
+      ],
+      "start": 3.35,
+      "startOffset": 54,
+      "word": "keep"
+    },
+    {
+      "alignedWord": "my",
+      "case": "success",
+      "end": 3.74,
+      "endOffset": 61,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "m_B"
+        },
+        {
+          "duration": 0.12,
+          "phone": "ay_E"
+        }
+      ],
+      "start": 3.56,
+      "startOffset": 59,
+      "word": "my"
+    },
+    {
+      "alignedWord": "eyes",
+      "case": "success",
+      "end": 4.0200000000000005,
+      "endOffset": 66,
+      "phones": [
+        {
+          "duration": 0.19,
+          "phone": "ay_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "z_E"
+        }
+      ],
+      "start": 3.74,
+      "startOffset": 62,
+      "word": "eyes"
+    },
+    {
+      "alignedWord": "open",
+      "case": "success",
+      "end": 4.3999999999999995,
+      "endOffset": 71,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "ow_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "p_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "n_E"
+        }
+      ],
+      "start": 4.05,
+      "startOffset": 67,
+      "word": "open"
+    }
+  ]
+}

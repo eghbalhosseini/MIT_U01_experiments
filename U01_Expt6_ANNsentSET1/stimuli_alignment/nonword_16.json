@@ -1,0 +1,140 @@
+{
+  "transcript": "olp swowling bamped cre mevys uzz cre ly triened tweted olp oth",
+  "words": [
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 1.2799999999999998,
+      "endOffset": 3,
+      "phones": [
+        {
+          "duration": 1.14,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.14,
+      "startOffset": 0,
+      "word": "olp"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 1.7599999999999998,
+      "endOffset": 12,
+      "phones": [
+        {
+          "duration": 0.37,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.39,
+      "startOffset": 4,
+      "word": "swowling"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 1.99,
+      "endOffset": 19,
+      "phones": [
+        {
+          "duration": 0.2,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.79,
+      "startOffset": 13,
+      "word": "bamped"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 2.39,
+      "endOffset": 23,
+      "phones": [
+        {
+          "duration": 0.37,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.02,
+      "startOffset": 20,
+      "word": "cre"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 3.75,
+      "endOffset": 29,
+      "phones": [
+        {
+          "duration": 1.03,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.72,
+      "startOffset": 24,
+      "word": "mevys"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 3.9899999999999998,
+      "endOffset": 33,
+      "phones": [
+        {
+          "duration": 0.21,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 3.78,
+      "startOffset": 30,
+      "word": "uzz"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 4.32,
+      "endOffset": 37,
+      "phones": [
+        {
+          "duration": 0.27,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 4.05,
+      "startOffset": 34,
+      "word": "cre"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 40,
+      "startOffset": 38,
+      "word": "ly"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 48,
+      "startOffset": 41,
+      "word": "triened"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 55,
+      "startOffset": 49,
+      "word": "tweted"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 59,
+      "startOffset": 56,
+      "word": "olp"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 63,
+      "startOffset": 60,
+      "word": "oth"
+    }
+  ]
+}

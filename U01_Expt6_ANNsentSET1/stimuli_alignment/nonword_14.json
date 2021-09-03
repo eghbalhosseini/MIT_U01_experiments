@@ -1,0 +1,135 @@
+{
+  "transcript": "skauge cre bune ro cump lainter smasp cre vag ure quaben hien",
+  "words": [
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 6,
+      "startOffset": 0,
+      "word": "skauge"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 0.31,
+      "endOffset": 10,
+      "phones": [
+        {
+          "duration": 0.3,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.01,
+      "startOffset": 7,
+      "word": "cre"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 1.02,
+      "endOffset": 15,
+      "phones": [
+        {
+          "duration": 0.67,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.35,
+      "startOffset": 11,
+      "word": "bune"
+    },
+    {
+      "alignedWord": "ro",
+      "case": "success",
+      "end": 1.33,
+      "endOffset": 18,
+      "phones": [
+        {
+          "duration": 0.13,
+          "phone": "r_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "ow_E"
+        }
+      ],
+      "start": 1.1,
+      "startOffset": 16,
+      "word": "ro"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 2.52,
+      "endOffset": 23,
+      "phones": [
+        {
+          "duration": 1.19,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.33,
+      "startOffset": 19,
+      "word": "cump"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 3.1599999999999997,
+      "endOffset": 31,
+      "phones": [
+        {
+          "duration": 0.59,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.57,
+      "startOffset": 24,
+      "word": "lainter"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 4.04,
+      "endOffset": 37,
+      "phones": [
+        {
+          "duration": 0.8,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 3.24,
+      "startOffset": 32,
+      "word": "smasp"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 41,
+      "startOffset": 38,
+      "word": "cre"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 45,
+      "startOffset": 42,
+      "word": "vag"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 49,
+      "startOffset": 46,
+      "word": "ure"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 56,
+      "startOffset": 50,
+      "word": "quaben"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 61,
+      "startOffset": 57,
+      "word": "hien"
+    }
+  ]
+}

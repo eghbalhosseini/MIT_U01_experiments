@@ -1,0 +1,339 @@
+{
+  "transcript": "A blinding sunlight drowned all this at times in a sudden recrudescence of glare.",
+  "words": [
+    {
+      "alignedWord": "a",
+      "case": "success",
+      "end": 0.13,
+      "endOffset": 1,
+      "phones": [
+        {
+          "duration": 0.13,
+          "phone": "ah_S"
+        }
+      ],
+      "start": 0.0,
+      "startOffset": 0,
+      "word": "A"
+    },
+    {
+      "alignedWord": "blinding",
+      "case": "success",
+      "end": 0.61,
+      "endOffset": 10,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "b_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ay_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "d_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "ng_E"
+        }
+      ],
+      "start": 0.13,
+      "startOffset": 2,
+      "word": "blinding"
+    },
+    {
+      "alignedWord": "sunlight",
+      "case": "success",
+      "end": 1.13,
+      "endOffset": 19,
+      "phones": [
+        {
+          "duration": 0.12,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.11,
+          "phone": "ay_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "t_E"
+        }
+      ],
+      "start": 0.62,
+      "startOffset": 11,
+      "word": "sunlight"
+    },
+    {
+      "alignedWord": "drowned",
+      "case": "success",
+      "end": 1.5,
+      "endOffset": 27,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "d_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "aw_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "d_E"
+        }
+      ],
+      "start": 1.14,
+      "startOffset": 20,
+      "word": "drowned"
+    },
+    {
+      "alignedWord": "all",
+      "case": "success",
+      "end": 1.78,
+      "endOffset": 31,
+      "phones": [
+        {
+          "duration": 0.17,
+          "phone": "ao_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "l_E"
+        }
+      ],
+      "start": 1.51,
+      "startOffset": 28,
+      "word": "all"
+    },
+    {
+      "alignedWord": "this",
+      "case": "success",
+      "end": 2.0,
+      "endOffset": 36,
+      "phones": [
+        {
+          "duration": 0.04,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "s_E"
+        }
+      ],
+      "start": 1.79,
+      "startOffset": 32,
+      "word": "this"
+    },
+    {
+      "alignedWord": "at",
+      "case": "success",
+      "end": 2.13,
+      "endOffset": 39,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "ae_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "t_E"
+        }
+      ],
+      "start": 2.0,
+      "startOffset": 37,
+      "word": "at"
+    },
+    {
+      "alignedWord": "times",
+      "case": "success",
+      "end": 2.67,
+      "endOffset": 45,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "t_B"
+        },
+        {
+          "duration": 0.22,
+          "phone": "ay_I"
+        },
+        {
+          "duration": 0.11,
+          "phone": "m_I"
+        },
+        {
+          "duration": 0.12,
+          "phone": "z_E"
+        }
+      ],
+      "start": 2.13,
+      "startOffset": 40,
+      "word": "times"
+    },
+    {
+      "alignedWord": "in",
+      "case": "success",
+      "end": 3.0,
+      "endOffset": 48,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "ih_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "n_E"
+        }
+      ],
+      "start": 2.86,
+      "startOffset": 46,
+      "word": "in"
+    },
+    {
+      "alignedWord": "a",
+      "case": "success",
+      "end": 3.08,
+      "endOffset": 50,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "ah_S"
+        }
+      ],
+      "start": 3.0,
+      "startOffset": 49,
+      "word": "a"
+    },
+    {
+      "alignedWord": "sudden",
+      "case": "success",
+      "end": 3.47,
+      "endOffset": 57,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.11,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.01,
+          "phone": "d_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "n_E"
+        }
+      ],
+      "start": 3.08,
+      "startOffset": 51,
+      "word": "sudden"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 4.2700000000000005,
+      "endOffset": 71,
+      "phones": [
+        {
+          "duration": 0.8,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 3.47,
+      "startOffset": 58,
+      "word": "recrudescence"
+    },
+    {
+      "alignedWord": "of",
+      "case": "success",
+      "end": 4.44,
+      "endOffset": 74,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "ah_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "v_E"
+        }
+      ],
+      "start": 4.28,
+      "startOffset": 72,
+      "word": "of"
+    },
+    {
+      "alignedWord": "glare",
+      "case": "success",
+      "end": 4.79,
+      "endOffset": 80,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "g_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.13,
+          "phone": "r_E"
+        }
+      ],
+      "start": 4.44,
+      "startOffset": 75,
+      "word": "glare"
+    }
+  ]
+}

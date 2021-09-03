@@ -1,0 +1,126 @@
+{
+  "transcript": "pleskless gor spey prorive cre olp stush loble dwere u memp mith",
+  "words": [
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 9,
+      "startOffset": 0,
+      "word": "pleskless"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 13,
+      "startOffset": 10,
+      "word": "gor"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 18,
+      "startOffset": 14,
+      "word": "spey"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 26,
+      "startOffset": 19,
+      "word": "prorive"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 30,
+      "startOffset": 27,
+      "word": "cre"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 1.7200000000000002,
+      "endOffset": 34,
+      "phones": [
+        {
+          "duration": 1.58,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.14,
+      "startOffset": 31,
+      "word": "olp"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 2.04,
+      "endOffset": 40,
+      "phones": [
+        {
+          "duration": 0.25,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.79,
+      "startOffset": 35,
+      "word": "stush"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 3.26,
+      "endOffset": 46,
+      "phones": [
+        {
+          "duration": 1.19,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.07,
+      "startOffset": 41,
+      "word": "loble"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 4.0600000000000005,
+      "endOffset": 52,
+      "phones": [
+        {
+          "duration": 0.75,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 3.31,
+      "startOffset": 47,
+      "word": "dwere"
+    },
+    {
+      "alignedWord": "u",
+      "case": "success",
+      "end": 4.079999999999999,
+      "endOffset": 54,
+      "phones": [
+        {
+          "duration": 0.01,
+          "phone": "y_B"
+        },
+        {
+          "duration": 0.01,
+          "phone": "uw_E"
+        }
+      ],
+      "start": 4.06,
+      "startOffset": 53,
+      "word": "u"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 59,
+      "startOffset": 55,
+      "word": "memp"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 64,
+      "startOffset": 60,
+      "word": "mith"
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "transcript": "She put them in the sink to soak.",
+  "words": [
+    {
+      "alignedWord": "she",
+      "case": "success",
+      "end": 0.22,
+      "endOffset": 3,
+      "phones": [
+        {
+          "duration": 0.14,
+          "phone": "sh_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 0.01,
+      "startOffset": 0,
+      "word": "She"
+    },
+    {
+      "alignedWord": "put",
+      "case": "success",
+      "end": 0.45,
+      "endOffset": 7,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "p_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "uh_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "t_E"
+        }
+      ],
+      "start": 0.22,
+      "startOffset": 4,
+      "word": "put"
+    },
+    {
+      "alignedWord": "them",
+      "case": "success",
+      "end": 0.5900000000000001,
+      "endOffset": 12,
+      "phones": [
+        {
+          "duration": 0.03,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "m_E"
+        }
+      ],
+      "start": 0.45,
+      "startOffset": 8,
+      "word": "them"
+    },
+    {
+      "alignedWord": "in",
+      "case": "success",
+      "end": 0.71,
+      "endOffset": 15,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "ih_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "n_E"
+        }
+      ],
+      "start": 0.59,
+      "startOffset": 13,
+      "word": "in"
+    },
+    {
+      "alignedWord": "the",
+      "case": "success",
+      "end": 0.82,
+      "endOffset": 19,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ah_E"
+        }
+      ],
+      "start": 0.71,
+      "startOffset": 16,
+      "word": "the"
+    },
+    {
+      "alignedWord": "sink",
+      "case": "success",
+      "end": 1.17,
+      "endOffset": 24,
+      "phones": [
+        {
+          "duration": 0.13,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ng_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "k_E"
+        }
+      ],
+      "start": 0.82,
+      "startOffset": 20,
+      "word": "sink"
+    },
+    {
+      "alignedWord": "to",
+      "case": "success",
+      "end": 1.38,
+      "endOffset": 27,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "t_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "ih_E"
+        }
+      ],
+      "start": 1.21,
+      "startOffset": 25,
+      "word": "to"
+    },
+    {
+      "alignedWord": "soak",
+      "case": "success",
+      "end": 1.7999999999999998,
+      "endOffset": 32,
+      "phones": [
+        {
+          "duration": 0.12,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.14,
+          "phone": "ow_I"
+        },
+        {
+          "duration": 0.16,
+          "phone": "k_E"
+        }
+      ],
+      "start": 1.38,
+      "startOffset": 28,
+      "word": "soak"
+    }
+  ]
+}

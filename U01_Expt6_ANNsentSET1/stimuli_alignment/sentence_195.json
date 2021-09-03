@@ -1,0 +1,224 @@
+{
+  "transcript": "Staff is super friendly, treat you as a friend.",
+  "words": [
+    {
+      "alignedWord": "staff",
+      "case": "success",
+      "end": 0.47,
+      "endOffset": 5,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "t_I"
+        },
+        {
+          "duration": 0.11,
+          "phone": "ae_I"
+        },
+        {
+          "duration": 0.11,
+          "phone": "f_E"
+        }
+      ],
+      "start": 0.06,
+      "startOffset": 0,
+      "word": "Staff"
+    },
+    {
+      "alignedWord": "is",
+      "case": "success",
+      "end": 0.58,
+      "endOffset": 8,
+      "phones": [
+        {
+          "duration": 0.04,
+          "phone": "ih_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "z_E"
+        }
+      ],
+      "start": 0.47,
+      "startOffset": 6,
+      "word": "is"
+    },
+    {
+      "alignedWord": "super",
+      "case": "success",
+      "end": 0.96,
+      "endOffset": 14,
+      "phones": [
+        {
+          "duration": 0.15,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "uw_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "p_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "er_E"
+        }
+      ],
+      "start": 0.58,
+      "startOffset": 9,
+      "word": "super"
+    },
+    {
+      "alignedWord": "friendly",
+      "case": "success",
+      "end": 1.48,
+      "endOffset": 23,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "f_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.18,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 0.96,
+      "startOffset": 15,
+      "word": "friendly"
+    },
+    {
+      "alignedWord": "treat",
+      "case": "success",
+      "end": 2.03,
+      "endOffset": 30,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "t_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "iy_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "t_E"
+        }
+      ],
+      "start": 1.72,
+      "startOffset": 25,
+      "word": "treat"
+    },
+    {
+      "alignedWord": "you",
+      "case": "success",
+      "end": 2.17,
+      "endOffset": 34,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "y_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "uw_E"
+        }
+      ],
+      "start": 2.03,
+      "startOffset": 31,
+      "word": "you"
+    },
+    {
+      "alignedWord": "as",
+      "case": "success",
+      "end": 2.32,
+      "endOffset": 37,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "ae_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "z_E"
+        }
+      ],
+      "start": 2.17,
+      "startOffset": 35,
+      "word": "as"
+    },
+    {
+      "alignedWord": "a",
+      "case": "success",
+      "end": 2.3899999999999997,
+      "endOffset": 39,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "ah_S"
+        }
+      ],
+      "start": 2.32,
+      "startOffset": 38,
+      "word": "a"
+    },
+    {
+      "alignedWord": "friend",
+      "case": "success",
+      "end": 2.7600000000000002,
+      "endOffset": 46,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "f_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "d_E"
+        }
+      ],
+      "start": 2.39,
+      "startOffset": 40,
+      "word": "friend"
+    }
+  ]
+}

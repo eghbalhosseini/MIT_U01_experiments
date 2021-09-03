@@ -1,0 +1,285 @@
+{
+  "transcript": "A narrow road, and on the slopes acres and acres of stone.",
+  "words": [
+    {
+      "alignedWord": "a",
+      "case": "success",
+      "end": 0.2,
+      "endOffset": 1,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "ah_S"
+        }
+      ],
+      "start": 0.12,
+      "startOffset": 0,
+      "word": "A"
+    },
+    {
+      "alignedWord": "narrow",
+      "case": "success",
+      "end": 0.6799999999999999,
+      "endOffset": 8,
+      "phones": [
+        {
+          "duration": 0.12,
+          "phone": "n_B"
+        },
+        {
+          "duration": 0.13,
+          "phone": "ae_I"
+        },
+        {
+          "duration": 0.13,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "ow_E"
+        }
+      ],
+      "start": 0.2,
+      "startOffset": 2,
+      "word": "narrow"
+    },
+    {
+      "alignedWord": "road",
+      "case": "success",
+      "end": 1.15,
+      "endOffset": 13,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "r_B"
+        },
+        {
+          "duration": 0.22,
+          "phone": "ow_I"
+        },
+        {
+          "duration": 0.16,
+          "phone": "d_E"
+        }
+      ],
+      "start": 0.68,
+      "startOffset": 9,
+      "word": "road"
+    },
+    {
+      "alignedWord": "and",
+      "case": "success",
+      "end": 1.52,
+      "endOffset": 18,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "ae_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.02,
+          "phone": "d_E"
+        }
+      ],
+      "start": 1.37,
+      "startOffset": 15,
+      "word": "and"
+    },
+    {
+      "alignedWord": "on",
+      "case": "success",
+      "end": 1.7,
+      "endOffset": 21,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "ao_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "n_E"
+        }
+      ],
+      "start": 1.53,
+      "startOffset": 19,
+      "word": "on"
+    },
+    {
+      "alignedWord": "the",
+      "case": "success",
+      "end": 1.81,
+      "endOffset": 25,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "ah_E"
+        }
+      ],
+      "start": 1.7,
+      "startOffset": 22,
+      "word": "the"
+    },
+    {
+      "alignedWord": "slopes",
+      "case": "success",
+      "end": 2.34,
+      "endOffset": 32,
+      "phones": [
+        {
+          "duration": 0.14,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "ow_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "p_I"
+        },
+        {
+          "duration": 0.11,
+          "phone": "s_E"
+        }
+      ],
+      "start": 1.81,
+      "startOffset": 26,
+      "word": "slopes"
+    },
+    {
+      "alignedWord": "acres",
+      "case": "success",
+      "end": 3.03,
+      "endOffset": 38,
+      "phones": [
+        {
+          "duration": 0.15,
+          "phone": "ey_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "k_I"
+        },
+        {
+          "duration": 0.17,
+          "phone": "er_I"
+        },
+        {
+          "duration": 0.16,
+          "phone": "z_E"
+        }
+      ],
+      "start": 2.46,
+      "startOffset": 33,
+      "word": "acres"
+    },
+    {
+      "alignedWord": "and",
+      "case": "success",
+      "end": 3.3000000000000003,
+      "endOffset": 42,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "ae_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "d_E"
+        }
+      ],
+      "start": 3.1,
+      "startOffset": 39,
+      "word": "and"
+    },
+    {
+      "alignedWord": "acres",
+      "case": "success",
+      "end": 3.8200000000000003,
+      "endOffset": 48,
+      "phones": [
+        {
+          "duration": 0.19,
+          "phone": "ey_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "k_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "er_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "z_E"
+        }
+      ],
+      "start": 3.33,
+      "startOffset": 43,
+      "word": "acres"
+    },
+    {
+      "alignedWord": "of",
+      "case": "success",
+      "end": 4.04,
+      "endOffset": 51,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "ah_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "v_E"
+        }
+      ],
+      "start": 3.85,
+      "startOffset": 49,
+      "word": "of"
+    },
+    {
+      "alignedWord": "stone",
+      "case": "success",
+      "end": 4.5,
+      "endOffset": 57,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "t_I"
+        },
+        {
+          "duration": 0.15,
+          "phone": "ow_I"
+        },
+        {
+          "duration": 0.13,
+          "phone": "n_E"
+        }
+      ],
+      "start": 4.04,
+      "startOffset": 52,
+      "word": "stone"
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "transcript": "That's not what we need in our country, folks.",
+  "words": [
+    {
+      "alignedWord": "that's",
+      "case": "success",
+      "end": 0.34,
+      "endOffset": 6,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "ae_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "t_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "s_E"
+        }
+      ],
+      "start": 0.0,
+      "startOffset": 0,
+      "word": "That's"
+    },
+    {
+      "alignedWord": "not",
+      "case": "success",
+      "end": 0.55,
+      "endOffset": 10,
+      "phones": [
+        {
+          "duration": 0.03,
+          "phone": "n_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "aa_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "t_E"
+        }
+      ],
+      "start": 0.34,
+      "startOffset": 7,
+      "word": "not"
+    },
+    {
+      "alignedWord": "what",
+      "case": "success",
+      "end": 0.7000000000000001,
+      "endOffset": 15,
+      "phones": [
+        {
+          "duration": 0.02,
+          "phone": "w_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "t_E"
+        }
+      ],
+      "start": 0.55,
+      "startOffset": 11,
+      "word": "what"
+    },
+    {
+      "alignedWord": "we",
+      "case": "success",
+      "end": 0.85,
+      "endOffset": 18,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "w_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 0.7,
+      "startOffset": 16,
+      "word": "we"
+    },
+    {
+      "alignedWord": "need",
+      "case": "success",
+      "end": 1.07,
+      "endOffset": 23,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "n_B"
+        },
+        {
+          "duration": 0.11,
+          "phone": "iy_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "d_E"
+        }
+      ],
+      "start": 0.85,
+      "startOffset": 19,
+      "word": "need"
+    },
+    {
+      "alignedWord": "in",
+      "case": "success",
+      "end": 1.2000000000000002,
+      "endOffset": 26,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "ih_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "n_E"
+        }
+      ],
+      "start": 1.07,
+      "startOffset": 24,
+      "word": "in"
+    },
+    {
+      "alignedWord": "our",
+      "case": "success",
+      "end": 1.3499999999999999,
+      "endOffset": 30,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "aa_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "r_E"
+        }
+      ],
+      "start": 1.2,
+      "startOffset": 27,
+      "word": "our"
+    },
+    {
+      "alignedWord": "country",
+      "case": "success",
+      "end": 1.79,
+      "endOffset": 38,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "k_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "t_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 1.35,
+      "startOffset": 31,
+      "word": "country"
+    },
+    {
+      "alignedWord": "folks",
+      "case": "success",
+      "end": 2.13,
+      "endOffset": 45,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "f_B"
+        },
+        {
+          "duration": 0.13,
+          "phone": "ow_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "k_I"
+        },
+        {
+          "duration": 0.01,
+          "phone": "s_E"
+        }
+      ],
+      "start": 1.79,
+      "startOffset": 40,
+      "word": "folks"
+    }
+  ]
+}

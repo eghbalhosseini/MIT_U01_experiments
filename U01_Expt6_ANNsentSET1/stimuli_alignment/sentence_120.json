@@ -1,0 +1,197 @@
+{
+  "transcript": "That's what keeps us coming back for more.",
+  "words": [
+    {
+      "alignedWord": "that's",
+      "case": "success",
+      "end": 0.54,
+      "endOffset": 6,
+      "phones": [
+        {
+          "duration": 0.15,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.16,
+          "phone": "ae_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "t_I"
+        },
+        {
+          "duration": 0.12,
+          "phone": "s_E"
+        }
+      ],
+      "start": 0.03,
+      "startOffset": 0,
+      "word": "That's"
+    },
+    {
+      "alignedWord": "what",
+      "case": "success",
+      "end": 0.7100000000000001,
+      "endOffset": 11,
+      "phones": [
+        {
+          "duration": 0.04,
+          "phone": "w_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "t_E"
+        }
+      ],
+      "start": 0.54,
+      "startOffset": 7,
+      "word": "what"
+    },
+    {
+      "alignedWord": "keeps",
+      "case": "success",
+      "end": 1.01,
+      "endOffset": 17,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "k_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "iy_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "p_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "s_E"
+        }
+      ],
+      "start": 0.71,
+      "startOffset": 12,
+      "word": "keeps"
+    },
+    {
+      "alignedWord": "us",
+      "case": "success",
+      "end": 1.19,
+      "endOffset": 20,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "ah_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "s_E"
+        }
+      ],
+      "start": 1.01,
+      "startOffset": 18,
+      "word": "us"
+    },
+    {
+      "alignedWord": "coming",
+      "case": "success",
+      "end": 1.51,
+      "endOffset": 27,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "k_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "m_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "ng_E"
+        }
+      ],
+      "start": 1.19,
+      "startOffset": 21,
+      "word": "coming"
+    },
+    {
+      "alignedWord": "back",
+      "case": "success",
+      "end": 1.79,
+      "endOffset": 32,
+      "phones": [
+        {
+          "duration": 0.04,
+          "phone": "b_B"
+        },
+        {
+          "duration": 0.13,
+          "phone": "ae_I"
+        },
+        {
+          "duration": 0.11,
+          "phone": "k_E"
+        }
+      ],
+      "start": 1.51,
+      "startOffset": 28,
+      "word": "back"
+    },
+    {
+      "alignedWord": "for",
+      "case": "success",
+      "end": 1.94,
+      "endOffset": 36,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "f_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "er_E"
+        }
+      ],
+      "start": 1.79,
+      "startOffset": 33,
+      "word": "for"
+    },
+    {
+      "alignedWord": "more",
+      "case": "success",
+      "end": 2.3,
+      "endOffset": 41,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "m_B"
+        },
+        {
+          "duration": 0.18,
+          "phone": "ao_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "r_E"
+        }
+      ],
+      "start": 1.94,
+      "startOffset": 37,
+      "word": "more"
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "transcript": "Very glad that we went with them.",
+  "words": [
+    {
+      "alignedWord": "very",
+      "case": "success",
+      "end": 0.44,
+      "endOffset": 4,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "v_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.13,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 0.02,
+      "startOffset": 0,
+      "word": "Very"
+    },
+    {
+      "alignedWord": "glad",
+      "case": "success",
+      "end": 0.86,
+      "endOffset": 9,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "g_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.18,
+          "phone": "ae_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "d_E"
+        }
+      ],
+      "start": 0.44,
+      "startOffset": 5,
+      "word": "glad"
+    },
+    {
+      "alignedWord": "that",
+      "case": "success",
+      "end": 1.05,
+      "endOffset": 14,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "ae_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "t_E"
+        }
+      ],
+      "start": 0.87,
+      "startOffset": 10,
+      "word": "that"
+    },
+    {
+      "alignedWord": "we",
+      "case": "success",
+      "end": 1.1800000000000002,
+      "endOffset": 17,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "w_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 1.05,
+      "startOffset": 15,
+      "word": "we"
+    },
+    {
+      "alignedWord": "went",
+      "case": "success",
+      "end": 1.39,
+      "endOffset": 22,
+      "phones": [
+        {
+          "duration": 0.04,
+          "phone": "w_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "t_E"
+        }
+      ],
+      "start": 1.18,
+      "startOffset": 18,
+      "word": "went"
+    },
+    {
+      "alignedWord": "with",
+      "case": "success",
+      "end": 1.5499999999999998,
+      "endOffset": 27,
+      "phones": [
+        {
+          "duration": 0.04,
+          "phone": "w_B"
+        },
+        {
+          "duration": 0.04,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "th_E"
+        }
+      ],
+      "start": 1.39,
+      "startOffset": 23,
+      "word": "with"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 32,
+      "startOffset": 28,
+      "word": "them"
+    }
+  ]
+}

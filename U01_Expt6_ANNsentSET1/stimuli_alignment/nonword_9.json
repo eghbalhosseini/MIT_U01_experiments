@@ -1,0 +1,174 @@
+{
+  "transcript": "poby narsh sollter fo coed skec whos cre meeple fe pises cre",
+  "words": [
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 4,
+      "startOffset": 0,
+      "word": "poby"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 0.01,
+      "endOffset": 10,
+      "phones": [
+        {
+          "duration": 0.01,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.0,
+      "startOffset": 5,
+      "word": "narsh"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 0.4,
+      "endOffset": 18,
+      "phones": [
+        {
+          "duration": 0.26,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.14,
+      "startOffset": 11,
+      "word": "sollter"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 1.41,
+      "endOffset": 21,
+      "phones": [
+        {
+          "duration": 0.95,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.46,
+      "startOffset": 19,
+      "word": "fo"
+    },
+    {
+      "alignedWord": "coed",
+      "case": "success",
+      "end": 1.82,
+      "endOffset": 26,
+      "phones": [
+        {
+          "duration": 0.12,
+          "phone": "k_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "ow_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "d_E"
+        }
+      ],
+      "start": 1.49,
+      "startOffset": 22,
+      "word": "coed"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 2.42,
+      "endOffset": 31,
+      "phones": [
+        {
+          "duration": 0.6,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.82,
+      "startOffset": 27,
+      "word": "skec"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 3.13,
+      "endOffset": 36,
+      "phones": [
+        {
+          "duration": 0.67,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.46,
+      "startOffset": 32,
+      "word": "whos"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 40,
+      "startOffset": 37,
+      "word": "cre"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 47,
+      "startOffset": 41,
+      "word": "meeple"
+    },
+    {
+      "alignedWord": "fe",
+      "case": "success",
+      "end": 3.3899999999999997,
+      "endOffset": 50,
+      "phones": [
+        {
+          "duration": 0.13,
+          "phone": "f_B"
+        },
+        {
+          "duration": 0.13,
+          "phone": "ey_E"
+        }
+      ],
+      "start": 3.13,
+      "startOffset": 48,
+      "word": "fe"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 3.84,
+      "endOffset": 56,
+      "phones": [
+        {
+          "duration": 0.4,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 3.44,
+      "startOffset": 51,
+      "word": "pises"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 3.9699999999999998,
+      "endOffset": 60,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 3.88,
+      "startOffset": 57,
+      "word": "cre"
+    }
+  ]
+}

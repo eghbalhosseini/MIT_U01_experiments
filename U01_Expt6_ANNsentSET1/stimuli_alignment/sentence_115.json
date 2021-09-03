@@ -1,0 +1,139 @@
+{
+  "transcript": "It means they've gone too far.",
+  "words": [
+    {
+      "alignedWord": "it",
+      "case": "success",
+      "end": 0.19,
+      "endOffset": 2,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "ih_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "t_E"
+        }
+      ],
+      "start": 0.0,
+      "startOffset": 0,
+      "word": "It"
+    },
+    {
+      "alignedWord": "means",
+      "case": "success",
+      "end": 0.55,
+      "endOffset": 8,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "m_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "iy_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "z_E"
+        }
+      ],
+      "start": 0.19,
+      "startOffset": 3,
+      "word": "means"
+    },
+    {
+      "alignedWord": "they've",
+      "case": "success",
+      "end": 0.77,
+      "endOffset": 16,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "ey_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "v_E"
+        }
+      ],
+      "start": 0.55,
+      "startOffset": 9,
+      "word": "they've"
+    },
+    {
+      "alignedWord": "gone",
+      "case": "success",
+      "end": 1.04,
+      "endOffset": 21,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "g_B"
+        },
+        {
+          "duration": 0.13,
+          "phone": "ao_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "n_E"
+        }
+      ],
+      "start": 0.77,
+      "startOffset": 17,
+      "word": "gone"
+    },
+    {
+      "alignedWord": "too",
+      "case": "success",
+      "end": 1.33,
+      "endOffset": 25,
+      "phones": [
+        {
+          "duration": 0.14,
+          "phone": "t_B"
+        },
+        {
+          "duration": 0.15,
+          "phone": "uw_E"
+        }
+      ],
+      "start": 1.04,
+      "startOffset": 22,
+      "word": "too"
+    },
+    {
+      "alignedWord": "far",
+      "case": "success",
+      "end": 1.74,
+      "endOffset": 29,
+      "phones": [
+        {
+          "duration": 0.16,
+          "phone": "f_B"
+        },
+        {
+          "duration": 0.17,
+          "phone": "aa_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "r_E"
+        }
+      ],
+      "start": 1.33,
+      "startOffset": 26,
+      "word": "far"
+    }
+  ]
+}

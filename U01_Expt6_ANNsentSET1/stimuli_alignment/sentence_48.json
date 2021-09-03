@@ -1,0 +1,316 @@
+{
+  "transcript": "Another thing that can cause a king snake to stop eating is shedding.",
+  "words": [
+    {
+      "alignedWord": "another",
+      "case": "success",
+      "end": 0.47,
+      "endOffset": 7,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "ah_B"
+        },
+        {
+          "duration": 0.12,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "dh_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "er_E"
+        }
+      ],
+      "start": 0.04,
+      "startOffset": 0,
+      "word": "Another"
+    },
+    {
+      "alignedWord": "thing",
+      "case": "success",
+      "end": 0.78,
+      "endOffset": 13,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "th_B"
+        },
+        {
+          "duration": 0.11,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "ng_E"
+        }
+      ],
+      "start": 0.47,
+      "startOffset": 8,
+      "word": "thing"
+    },
+    {
+      "alignedWord": "that",
+      "case": "success",
+      "end": 0.9600000000000001,
+      "endOffset": 18,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.03,
+          "phone": "ae_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "t_E"
+        }
+      ],
+      "start": 0.79,
+      "startOffset": 14,
+      "word": "that"
+    },
+    {
+      "alignedWord": "can",
+      "case": "success",
+      "end": 1.1199999999999999,
+      "endOffset": 22,
+      "phones": [
+        {
+          "duration": 0.04,
+          "phone": "k_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "n_E"
+        }
+      ],
+      "start": 0.96,
+      "startOffset": 19,
+      "word": "can"
+    },
+    {
+      "alignedWord": "cause",
+      "case": "success",
+      "end": 1.39,
+      "endOffset": 28,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "k_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "ao_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "z_E"
+        }
+      ],
+      "start": 1.14,
+      "startOffset": 23,
+      "word": "cause"
+    },
+    {
+      "alignedWord": "a",
+      "case": "success",
+      "end": 1.47,
+      "endOffset": 30,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "ah_S"
+        }
+      ],
+      "start": 1.39,
+      "startOffset": 29,
+      "word": "a"
+    },
+    {
+      "alignedWord": "king",
+      "case": "success",
+      "end": 1.76,
+      "endOffset": 35,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "k_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "ng_E"
+        }
+      ],
+      "start": 1.47,
+      "startOffset": 31,
+      "word": "king"
+    },
+    {
+      "alignedWord": "snake",
+      "case": "success",
+      "end": 2.14,
+      "endOffset": 41,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.11,
+          "phone": "ey_I"
+        },
+        {
+          "duration": 0.11,
+          "phone": "k_E"
+        }
+      ],
+      "start": 1.76,
+      "startOffset": 36,
+      "word": "snake"
+    },
+    {
+      "alignedWord": "to",
+      "case": "success",
+      "end": 2.31,
+      "endOffset": 44,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "t_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ih_E"
+        }
+      ],
+      "start": 2.16,
+      "startOffset": 42,
+      "word": "to"
+    },
+    {
+      "alignedWord": "stop",
+      "case": "success",
+      "end": 2.6,
+      "endOffset": 49,
+      "phones": [
+        {
+          "duration": 0.04,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "t_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "aa_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "p_E"
+        }
+      ],
+      "start": 2.31,
+      "startOffset": 45,
+      "word": "stop"
+    },
+    {
+      "alignedWord": "eating",
+      "case": "success",
+      "end": 3.06,
+      "endOffset": 56,
+      "phones": [
+        {
+          "duration": 0.16,
+          "phone": "iy_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "t_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.17,
+          "phone": "ng_E"
+        }
+      ],
+      "start": 2.61,
+      "startOffset": 50,
+      "word": "eating"
+    },
+    {
+      "alignedWord": "is",
+      "case": "success",
+      "end": 3.57,
+      "endOffset": 59,
+      "phones": [
+        {
+          "duration": 0.12,
+          "phone": "ih_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "z_E"
+        }
+      ],
+      "start": 3.38,
+      "startOffset": 57,
+      "word": "is"
+    },
+    {
+      "alignedWord": "shedding",
+      "case": "success",
+      "end": 3.84,
+      "endOffset": 68,
+      "phones": [
+        {
+          "duration": 0.15,
+          "phone": "sh_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.02,
+          "phone": "d_I"
+        },
+        {
+          "duration": 0.01,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.01,
+          "phone": "ng_E"
+        }
+      ],
+      "start": 3.57,
+      "startOffset": 60,
+      "word": "shedding"
+    }
+  ]
+}

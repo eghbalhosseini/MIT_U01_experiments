@@ -1,0 +1,131 @@
+{
+  "transcript": "feged cre decuse gantance ub outmide yaim cre olsaire naments cre boin",
+  "words": [
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 0.01,
+      "endOffset": 5,
+      "phones": [
+        {
+          "duration": 0.01,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.0,
+      "startOffset": 0,
+      "word": "feged"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 1.59,
+      "endOffset": 9,
+      "phones": [
+        {
+          "duration": 1.31,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.28,
+      "startOffset": 6,
+      "word": "cre"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 2.6500000000000004,
+      "endOffset": 16,
+      "phones": [
+        {
+          "duration": 0.79,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.86,
+      "startOffset": 10,
+      "word": "decuse"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 3.87,
+      "endOffset": 25,
+      "phones": [
+        {
+          "duration": 1.18,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.69,
+      "startOffset": 17,
+      "word": "gantance"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 4.22,
+      "endOffset": 28,
+      "phones": [
+        {
+          "duration": 0.32,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 3.9,
+      "startOffset": 26,
+      "word": "ub"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 4.8100000000000005,
+      "endOffset": 36,
+      "phones": [
+        {
+          "duration": 0.44,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 4.37,
+      "startOffset": 29,
+      "word": "outmide"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 41,
+      "startOffset": 37,
+      "word": "yaim"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 45,
+      "startOffset": 42,
+      "word": "cre"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 53,
+      "startOffset": 46,
+      "word": "olsaire"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 61,
+      "startOffset": 54,
+      "word": "naments"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 65,
+      "startOffset": 62,
+      "word": "cre"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 70,
+      "startOffset": 66,
+      "word": "boin"
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "transcript": "He was a blond-haired boy of five or six.",
+  "words": [
+    {
+      "alignedWord": "he",
+      "case": "success",
+      "end": 0.17,
+      "endOffset": 2,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "hh_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 0.01,
+      "startOffset": 0,
+      "word": "He"
+    },
+    {
+      "alignedWord": "was",
+      "case": "success",
+      "end": 0.34,
+      "endOffset": 6,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "w_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "z_E"
+        }
+      ],
+      "start": 0.17,
+      "startOffset": 3,
+      "word": "was"
+    },
+    {
+      "alignedWord": "a",
+      "case": "success",
+      "end": 0.38,
+      "endOffset": 8,
+      "phones": [
+        {
+          "duration": 0.04,
+          "phone": "ah_S"
+        }
+      ],
+      "start": 0.34,
+      "startOffset": 7,
+      "word": "a"
+    },
+    {
+      "alignedWord": "blond",
+      "case": "success",
+      "end": 0.73,
+      "endOffset": 14,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "b_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "aa_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "d_E"
+        }
+      ],
+      "start": 0.38,
+      "startOffset": 9,
+      "word": "blond"
+    },
+    {
+      "alignedWord": "haired",
+      "case": "success",
+      "end": 1.0,
+      "endOffset": 21,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "hh_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "d_E"
+        }
+      ],
+      "start": 0.73,
+      "startOffset": 15,
+      "word": "haired"
+    },
+    {
+      "alignedWord": "boy",
+      "case": "success",
+      "end": 1.4,
+      "endOffset": 25,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "b_B"
+        },
+        {
+          "duration": 0.32,
+          "phone": "oy_E"
+        }
+      ],
+      "start": 1.0,
+      "startOffset": 22,
+      "word": "boy"
+    },
+    {
+      "alignedWord": "of",
+      "case": "success",
+      "end": 1.65,
+      "endOffset": 28,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "ah_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "v_E"
+        }
+      ],
+      "start": 1.45,
+      "startOffset": 26,
+      "word": "of"
+    },
+    {
+      "alignedWord": "five",
+      "case": "success",
+      "end": 2.03,
+      "endOffset": 33,
+      "phones": [
+        {
+          "duration": 0.13,
+          "phone": "f_B"
+        },
+        {
+          "duration": 0.15,
+          "phone": "ay_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "v_E"
+        }
+      ],
+      "start": 1.66,
+      "startOffset": 29,
+      "word": "five"
+    },
+    {
+      "alignedWord": "or",
+      "case": "success",
+      "end": 2.11,
+      "endOffset": 36,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "er_S"
+        }
+      ],
+      "start": 2.03,
+      "startOffset": 34,
+      "word": "or"
+    },
+    {
+      "alignedWord": "six",
+      "case": "success",
+      "end": 2.63,
+      "endOffset": 40,
+      "phones": [
+        {
+          "duration": 0.12,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.11,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.11,
+          "phone": "k_I"
+        },
+        {
+          "duration": 0.18,
+          "phone": "s_E"
+        }
+      ],
+      "start": 2.11,
+      "startOffset": 37,
+      "word": "six"
+    }
+  ]
+}

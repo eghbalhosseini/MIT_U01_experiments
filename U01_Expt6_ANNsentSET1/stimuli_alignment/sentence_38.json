@@ -1,0 +1,250 @@
+{
+  "transcript": "you'll be more or less settled by the time she arrives.",
+  "words": [
+    {
+      "alignedWord": "you'll",
+      "case": "success",
+      "end": 0.21,
+      "endOffset": 6,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "y_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "uw_I"
+        },
+        {
+          "duration": 0.03,
+          "phone": "l_E"
+        }
+      ],
+      "start": 0.0,
+      "startOffset": 0,
+      "word": "you'll"
+    },
+    {
+      "alignedWord": "be",
+      "case": "success",
+      "end": 0.37,
+      "endOffset": 9,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "b_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 0.22,
+      "startOffset": 7,
+      "word": "be"
+    },
+    {
+      "alignedWord": "more",
+      "case": "success",
+      "end": 0.6599999999999999,
+      "endOffset": 14,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "m_B"
+        },
+        {
+          "duration": 0.15,
+          "phone": "ao_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "r_E"
+        }
+      ],
+      "start": 0.37,
+      "startOffset": 10,
+      "word": "more"
+    },
+    {
+      "alignedWord": "or",
+      "case": "success",
+      "end": 0.75,
+      "endOffset": 17,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "er_S"
+        }
+      ],
+      "start": 0.66,
+      "startOffset": 15,
+      "word": "or"
+    },
+    {
+      "alignedWord": "less",
+      "case": "success",
+      "end": 0.99,
+      "endOffset": 22,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "l_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "s_E"
+        }
+      ],
+      "start": 0.75,
+      "startOffset": 18,
+      "word": "less"
+    },
+    {
+      "alignedWord": "settled",
+      "case": "success",
+      "end": 1.3900000000000001,
+      "endOffset": 30,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.02,
+          "phone": "t_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "d_E"
+        }
+      ],
+      "start": 0.99,
+      "startOffset": 23,
+      "word": "settled"
+    },
+    {
+      "alignedWord": "by",
+      "case": "success",
+      "end": 1.54,
+      "endOffset": 33,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "b_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "ay_E"
+        }
+      ],
+      "start": 1.41,
+      "startOffset": 31,
+      "word": "by"
+    },
+    {
+      "alignedWord": "the",
+      "case": "success",
+      "end": 1.67,
+      "endOffset": 37,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "ah_E"
+        }
+      ],
+      "start": 1.54,
+      "startOffset": 34,
+      "word": "the"
+    },
+    {
+      "alignedWord": "time",
+      "case": "success",
+      "end": 1.96,
+      "endOffset": 42,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "t_B"
+        },
+        {
+          "duration": 0.11,
+          "phone": "ay_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "m_E"
+        }
+      ],
+      "start": 1.68,
+      "startOffset": 38,
+      "word": "time"
+    },
+    {
+      "alignedWord": "she",
+      "case": "success",
+      "end": 2.14,
+      "endOffset": 46,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "sh_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 1.96,
+      "startOffset": 43,
+      "word": "she"
+    },
+    {
+      "alignedWord": "arrives",
+      "case": "success",
+      "end": 2.6500000000000004,
+      "endOffset": 54,
+      "phones": [
+        {
+          "duration": 0.13,
+          "phone": "er_B"
+        },
+        {
+          "duration": 0.19,
+          "phone": "ay_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "v_I"
+        },
+        {
+          "duration": 0.12,
+          "phone": "z_E"
+        }
+      ],
+      "start": 2.14,
+      "startOffset": 47,
+      "word": "arrives"
+    }
+  ]
+}

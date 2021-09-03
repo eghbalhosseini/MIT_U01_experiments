@@ -1,0 +1,151 @@
+{
+  "transcript": "cre twuped ner zook las im tebing cre pition cre gaif ub",
+  "words": [
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 3,
+      "startOffset": 0,
+      "word": "cre"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 10,
+      "startOffset": 4,
+      "word": "twuped"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 1.14,
+      "endOffset": 14,
+      "phones": [
+        {
+          "duration": 1.13,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.01,
+      "startOffset": 11,
+      "word": "ner"
+    },
+    {
+      "alignedWord": "zook",
+      "case": "success",
+      "end": 1.23,
+      "endOffset": 19,
+      "phones": [
+        {
+          "duration": 0.01,
+          "phone": "z_B"
+        },
+        {
+          "duration": 0.01,
+          "phone": "uh_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "k_E"
+        }
+      ],
+      "start": 1.14,
+      "startOffset": 15,
+      "word": "zook"
+    },
+    {
+      "alignedWord": "las",
+      "case": "success",
+      "end": 1.66,
+      "endOffset": 23,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "l_B"
+        },
+        {
+          "duration": 0.16,
+          "phone": "aa_I"
+        },
+        {
+          "duration": 0.16,
+          "phone": "s_E"
+        }
+      ],
+      "start": 1.23,
+      "startOffset": 20,
+      "word": "las"
+    },
+    {
+      "alignedWord": "im",
+      "case": "success",
+      "end": 2.08,
+      "endOffset": 26,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "ih_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "m_E"
+        }
+      ],
+      "start": 1.87,
+      "startOffset": 24,
+      "word": "im"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 2.64,
+      "endOffset": 33,
+      "phones": [
+        {
+          "duration": 0.56,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.08,
+      "startOffset": 27,
+      "word": "tebing"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 3.95,
+      "endOffset": 37,
+      "phones": [
+        {
+          "duration": 1.28,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.67,
+      "startOffset": 34,
+      "word": "cre"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 44,
+      "startOffset": 38,
+      "word": "pition"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 48,
+      "startOffset": 45,
+      "word": "cre"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 53,
+      "startOffset": 49,
+      "word": "gaif"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 56,
+      "startOffset": 54,
+      "word": "ub"
+    }
+  ]
+}

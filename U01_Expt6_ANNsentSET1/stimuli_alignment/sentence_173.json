@@ -1,0 +1,193 @@
+{
+  "transcript": "On the third landing, a door stood ajar.",
+  "words": [
+    {
+      "alignedWord": "on",
+      "case": "success",
+      "end": 0.23,
+      "endOffset": 2,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "ao_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "n_E"
+        }
+      ],
+      "start": 0.09,
+      "startOffset": 0,
+      "word": "On"
+    },
+    {
+      "alignedWord": "the",
+      "case": "success",
+      "end": 0.35,
+      "endOffset": 6,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ah_E"
+        }
+      ],
+      "start": 0.23,
+      "startOffset": 3,
+      "word": "the"
+    },
+    {
+      "alignedWord": "third",
+      "case": "success",
+      "end": 0.73,
+      "endOffset": 12,
+      "phones": [
+        {
+          "duration": 0.15,
+          "phone": "th_B"
+        },
+        {
+          "duration": 0.13,
+          "phone": "er_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "d_E"
+        }
+      ],
+      "start": 0.35,
+      "startOffset": 7,
+      "word": "third"
+    },
+    {
+      "alignedWord": "landing",
+      "case": "success",
+      "end": 1.2999999999999998,
+      "endOffset": 20,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "l_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "ae_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "d_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.2,
+          "phone": "ng_E"
+        }
+      ],
+      "start": 0.73,
+      "startOffset": 13,
+      "word": "landing"
+    },
+    {
+      "alignedWord": "a",
+      "case": "success",
+      "end": 1.6099999999999999,
+      "endOffset": 23,
+      "phones": [
+        {
+          "duration": 0.12,
+          "phone": "ah_S"
+        }
+      ],
+      "start": 1.49,
+      "startOffset": 22,
+      "word": "a"
+    },
+    {
+      "alignedWord": "door",
+      "case": "success",
+      "end": 2.02,
+      "endOffset": 28,
+      "phones": [
+        {
+          "duration": 0.12,
+          "phone": "d_B"
+        },
+        {
+          "duration": 0.17,
+          "phone": "ao_I"
+        },
+        {
+          "duration": 0.12,
+          "phone": "r_E"
+        }
+      ],
+      "start": 1.61,
+      "startOffset": 24,
+      "word": "door"
+    },
+    {
+      "alignedWord": "stood",
+      "case": "success",
+      "end": 2.32,
+      "endOffset": 34,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "t_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "uh_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "d_E"
+        }
+      ],
+      "start": 2.02,
+      "startOffset": 29,
+      "word": "stood"
+    },
+    {
+      "alignedWord": "ajar",
+      "case": "success",
+      "end": 2.6799999999999997,
+      "endOffset": 39,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "ah_B"
+        },
+        {
+          "duration": 0.13,
+          "phone": "jh_I"
+        },
+        {
+          "duration": 0.15,
+          "phone": "aa_I"
+        },
+        {
+          "duration": 0.01,
+          "phone": "r_E"
+        }
+      ],
+      "start": 2.32,
+      "startOffset": 35,
+      "word": "ajar"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "transcript": "lafeing clist ank smec boncy og u gnuth las tinores u udd",
+  "words": [
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 1.69,
+      "endOffset": 7,
+      "phones": [
+        {
+          "duration": 1.54,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.15,
+      "startOffset": 0,
+      "word": "lafeing"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 13,
+      "startOffset": 8,
+      "word": "clist"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 17,
+      "startOffset": 14,
+      "word": "ank"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 22,
+      "startOffset": 18,
+      "word": "smec"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 28,
+      "startOffset": 23,
+      "word": "boncy"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 31,
+      "startOffset": 29,
+      "word": "og"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 33,
+      "startOffset": 32,
+      "word": "u"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 2.8600000000000003,
+      "endOffset": 39,
+      "phones": [
+        {
+          "duration": 0.7,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.16,
+      "startOffset": 34,
+      "word": "gnuth"
+    },
+    {
+      "alignedWord": "las",
+      "case": "success",
+      "end": 3.19,
+      "endOffset": 43,
+      "phones": [
+        {
+          "duration": 0.13,
+          "phone": "l_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "aa_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "s_E"
+        }
+      ],
+      "start": 2.92,
+      "startOffset": 40,
+      "word": "las"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 3.74,
+      "endOffset": 51,
+      "phones": [
+        {
+          "duration": 0.55,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 3.19,
+      "startOffset": 44,
+      "word": "tinores"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 53,
+      "startOffset": 52,
+      "word": "u"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 3.98,
+      "endOffset": 57,
+      "phones": [
+        {
+          "duration": 0.18,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 3.8,
+      "startOffset": 54,
+      "word": "udd"
+    }
+  ]
+}

@@ -1,0 +1,321 @@
+{
+  "transcript": "Sighing, he threw down his cigarette and went inside, straightening his tie.",
+  "words": [
+    {
+      "alignedWord": "sighing",
+      "case": "success",
+      "end": 0.64,
+      "endOffset": 7,
+      "phones": [
+        {
+          "duration": 0.14,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.18,
+          "phone": "ay_I"
+        },
+        {
+          "duration": 0.11,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.16,
+          "phone": "ng_E"
+        }
+      ],
+      "start": 0.05,
+      "startOffset": 0,
+      "word": "Sighing"
+    },
+    {
+      "alignedWord": "he",
+      "case": "success",
+      "end": 1.11,
+      "endOffset": 11,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "hh_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 0.92,
+      "startOffset": 9,
+      "word": "he"
+    },
+    {
+      "alignedWord": "threw",
+      "case": "success",
+      "end": 1.3800000000000001,
+      "endOffset": 17,
+      "phones": [
+        {
+          "duration": 0.12,
+          "phone": "th_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "uw_E"
+        }
+      ],
+      "start": 1.11,
+      "startOffset": 12,
+      "word": "threw"
+    },
+    {
+      "alignedWord": "down",
+      "case": "success",
+      "end": 1.5599999999999998,
+      "endOffset": 22,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "d_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "aw_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "n_E"
+        }
+      ],
+      "start": 1.38,
+      "startOffset": 18,
+      "word": "down"
+    },
+    {
+      "alignedWord": "his",
+      "case": "success",
+      "end": 1.74,
+      "endOffset": 26,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "hh_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "z_E"
+        }
+      ],
+      "start": 1.56,
+      "startOffset": 23,
+      "word": "his"
+    },
+    {
+      "alignedWord": "cigarette",
+      "case": "success",
+      "end": 2.23,
+      "endOffset": 36,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "g_I"
+        },
+        {
+          "duration": 0.11,
+          "phone": "er_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "t_E"
+        }
+      ],
+      "start": 1.74,
+      "startOffset": 27,
+      "word": "cigarette"
+    },
+    {
+      "alignedWord": "and",
+      "case": "success",
+      "end": 2.45,
+      "endOffset": 40,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "ae_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "d_E"
+        }
+      ],
+      "start": 2.25,
+      "startOffset": 37,
+      "word": "and"
+    },
+    {
+      "alignedWord": "went",
+      "case": "success",
+      "end": 2.6500000000000004,
+      "endOffset": 45,
+      "phones": [
+        {
+          "duration": 0.02,
+          "phone": "w_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "t_E"
+        }
+      ],
+      "start": 2.45,
+      "startOffset": 41,
+      "word": "went"
+    },
+    {
+      "alignedWord": "inside",
+      "case": "success",
+      "end": 3.26,
+      "endOffset": 52,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "ih_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.11,
+          "phone": "s_I"
+        },
+        {
+          "duration": 0.19,
+          "phone": "ay_I"
+        },
+        {
+          "duration": 0.15,
+          "phone": "d_E"
+        }
+      ],
+      "start": 2.65,
+      "startOffset": 46,
+      "word": "inside"
+    },
+    {
+      "alignedWord": "straightening",
+      "case": "success",
+      "end": 4.140000000000001,
+      "endOffset": 67,
+      "phones": [
+        {
+          "duration": 0.12,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "t_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "ey_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "t_I"
+        },
+        {
+          "duration": 0.03,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ng_E"
+        }
+      ],
+      "start": 3.58,
+      "startOffset": 54,
+      "word": "straightening"
+    },
+    {
+      "alignedWord": "his",
+      "case": "success",
+      "end": 4.3,
+      "endOffset": 71,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "hh_B"
+        },
+        {
+          "duration": 0.04,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "z_E"
+        }
+      ],
+      "start": 4.14,
+      "startOffset": 68,
+      "word": "his"
+    },
+    {
+      "alignedWord": "tie",
+      "case": "success",
+      "end": 4.68,
+      "endOffset": 75,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "t_B"
+        },
+        {
+          "duration": 0.27,
+          "phone": "ay_E"
+        }
+      ],
+      "start": 4.31,
+      "startOffset": 72,
+      "word": "tie"
+    }
+  ]
+}
