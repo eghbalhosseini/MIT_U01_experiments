@@ -15,6 +15,7 @@ userdir = strtrim(userdir);
 cfg.PATH_TASK = [userdir '\Desktop\MIT\Task_MIT_Fedorenko\U01_Expt5_stories'];
 cfg.PATH_SOURCEDATA = [userdir '\Desktop\MIT\Data_Stories']; %rawdata root folder
 cfg.SEND_TRIGGERS = 1;
+cfg.KEYBOARD_ID=[];
 
 % % Paths and PTB configuration on test computer
 % cfg.PATH_TASK = '~/git/Task_MIT_Fedorenko/U01_Expt5_stories';

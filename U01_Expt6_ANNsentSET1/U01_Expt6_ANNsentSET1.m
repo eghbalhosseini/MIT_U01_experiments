@@ -112,7 +112,7 @@ if ~isempty(d)
             fprintf('Resuming list %d at trial % \n', list, start);
         else
             % get materials for this set
-            load('all_stimuli.mat')
+            load('stimuli/all_stimuli.mat')
 
             stimuli_idx = all_stimuli.list == num2str(list);
             stimuli = all_stimuli(stimuli_idx,:);
@@ -148,7 +148,7 @@ else
     % run the full list
     
     % get materials for this set
-    load('all_stimuli.mat','all_stimuli')
+    load('stimuli/all_stimuli.mat','all_stimuli')
 
     stimuli_idx = all_stimuli.list == num2str(list);
     stimuli = all_stimuli(stimuli_idx,:);
@@ -210,6 +210,8 @@ screensAll = Screen('Screens'); %Get the screen numbers
 screenNumber = max(screensAll); % Which screen you want to use. "1" is external monitor, "0" is this screen. use external if it is present
 %define colors
 white = WhiteIndex(screenNumber);
+black = BlackIndex(screenNumber);
+flipSyncState=0;
 
 [windowPtr,rect]=PsychImaging('OpenWindow',screenNumber, GREY); %, [0 0 1440 900]
 [screenXpixels, screenYpixels] = Screen('WindowSize', windowPtr);
@@ -226,22 +228,13 @@ Priority(priorityLevel);
 %% Present instructions %%
 
 DrawFormattedText(windowPtr, 'Welcome! \n\n Press Enter to begin', 'center', 'center', 0);
+flipSyncState = ~flipSyncState;
+Screen('FillRect', windowPtr, cfg.SCREEN_SYNC_COLOR .* flipSyncState, cfg.SCREEN_SYNC_RECT);
 Screen('Flip', windowPtr);
 
 %HideCursor;
 
 triggerKey = enterKey;
-% while 1
-%     [keyIsDown, sec, keyCode] = KbCheck(-3);        % -3 = check input from ALL devices
-%     if keyCode(escapeKey)
-%         Screen('CloseAll');
-%         fprintf('Experiment quit by pressing ESCAPE\n');
-%         break;
-%     elseif ismember(find(keyCode,1), triggerKey)        % used to be: keyCode(KbName(triggerKey))
-%         break;
-%     end
-%     WaitSecs(0.001);
-% end
 [~, keyCode] = KbWait([], 2);
 if any(ismember(find(keyCode),escapeKey))
     Screen('CloseAll');
@@ -252,20 +245,11 @@ end
 % present instructions
 DrawFormattedText(windowPtr, ['\n\n' INSTRUCTIONS ], 'center', 'center', 0);
 DrawFormattedText(windowPtr, 'Press the spacebar when you are ready to begin', 'center', screenYpixels .* 0.85,  0);
+flipSyncState = ~flipSyncState;
+Screen('FillRect', windowPtr, cfg.SCREEN_SYNC_COLOR .* flipSyncState, cfg.SCREEN_SYNC_RECT);
 Screen('Flip', windowPtr);
 WaitSecs(0.5); %some buffer time for key press to work
 triggerKey = spaceBar;
-% while 1
-%     [keyIsDown, sec, keyCode] = KbCheck(-3);        % -3 = check input from ALL devices
-%     if keyCode(escapeKey)
-%         Screen('CloseAll');
-%         fprintf('Experiment quit by pressing ESCAPE\n');
-%         break;
-%     elseif ismember(find(keyCode,1), triggerKey)        % used to be: keyCode(KbName(triggerKey))
-%         break;
-%     end
-%     WaitSecs(0.001);
-% end
 [~, keyCode] = KbWait([], 2);
 if any(ismember(find(keyCode),escapeKey))
     Screen('CloseAll');
@@ -296,6 +280,8 @@ for j =start:NUM_STIMULI
     time_info(j,1) = seconds(timeofday(date_time));
     trial_onset(j,1) = GetSecs() - startTime; %save the onset time of the trial
     %go to grey screen
+    flipSyncState = ~flipSyncState;
+    Screen('FillRect', windowPtr, cfg.SCREEN_SYNC_COLOR .* flipSyncState, cfg.SCREEN_SYNC_RECT);
     Screen(windowPtr, 'Flip');
     
     %PLAY AUDIO
@@ -311,8 +297,7 @@ for j =start:NUM_STIMULI
     elseif(condition == "nonword")
         cond_trigger = 0;
     end
-    
-    
+        
     theFile = string(strcat(rootDir ,STIMULI_AUDIO ,stimuli)); %get the current audio file
     [y, freq] = psychwavread(theFile);
     nrchannels = size(y,2); % Number of cols == number of channels
@@ -373,6 +358,8 @@ for j =start:NUM_STIMULI
     
     DrawFormattedText(windowPtr, '+', 'center', 'center', 0);
     DrawFormattedText(windowPtr, '(Press space to continue)', 'center', screenYpixels.*0.60, 0);
+    flipSyncState = ~flipSyncState;
+    Screen('FillRect', windowPtr, cfg.SCREEN_SYNC_COLOR .* flipSyncState, cfg.SCREEN_SYNC_RECT);
     Screen(windowPtr, 'Flip');
     
     %wait for response to continue with task
@@ -415,6 +402,8 @@ end
 time = GetSecs() - startTime
 %end of trial
 DrawFormattedText(windowPtr, 'Thank you! \n\n Press Enter to Exit', 'center', 'center', 0);
+flipSyncState = ~flipSyncState;
+Screen('FillRect', windowPtr, cfg.SCREEN_SYNC_COLOR .* flipSyncState, cfg.SCREEN_SYNC_RECT);
 Screen('Flip', windowPtr);
 WaitSecs(0.5);
 
@@ -430,7 +419,6 @@ while 1
     end
     WaitSecs(0.001);
 end
-
 
 PsychPortAudio('Close');
 ShowCursor;

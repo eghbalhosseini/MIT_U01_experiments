@@ -70,8 +70,21 @@ expt_name = 'U01_Expt5_stories';
 
 %these two arrays correspond to each other
 
+% Initializing Keyboard
+fprintf('Initializing Keyboard...'); 
+if isempty(cfg.KEYBOARD_ID)
+    fprintf('\nNo keyboard selected, using default. Choose KEYBOARD_ID from this table:\n'); 
+    % Detect keyboards attached to system
+    devices = struct2table(PsychHID('Devices'));  
+    disp(devices);
+end
+KbName('UnifyKeyNames')
+keyCodeEscape = KbName('ESCAPE');
 key_mapping = ['a', 'b', 'a', 'b'];
 trigger_response_keys = [KbName('1!'), KbName('2@'), KbName('a'), KbName('s')];
+
+
+
 
 %% Check that the stimulus exists %%
 if ~exist([stimDir, theFile],'file')
@@ -186,7 +199,7 @@ PsychPortAudio('FillBuffer', pahandle, wavedata);
 % Fill the audio playback buffer with the audio data 'wavedata':
 
 %% Load questions
-data = readtable('Natural_Stories_Questions_Answers.xlsx');
+data = readtable('stimuli/Natural_Stories_Questions_Answers.xlsx');
 
 storyNumbers = data{:, 'StoryNum'};
 questions = data{:, 'Question'};
@@ -322,7 +335,7 @@ while current < nStimuli
             WaitSecs(0.001);
         end
     end
-    [keyIsDown, seconds, keyCode] = KbCheck(-3);        % -3 = check input from ALL devices
+    [keyIsDown, keyPressTime, keyCode] = KbCheck(-3);        % -3 = check input from ALL devices
     
     % If the user is pressing a key, then display its code number and name.
     if keyIsDown
@@ -389,40 +402,79 @@ for i = 1:length(pres_questions)
     
     item{i} = i;
     
-    while 1
-        [keyIsDown, seconds, keyCode] = KbCheck(-3);        % -3 = check input from ALL devices
-        if keyCode(escapeKey)
-            
+    acceptable_key = 0;
+    while ~acceptable_key
+        [keyPressTime, keyCode] = KbWait(cfg.KEYBOARD_ID, 2);
+        
+        if any(ismember(find(keyCode),keyCodeEscape))
+
             output = table(item, pres_questions, pres_answersA, pres_answersB, pres_correctAnswers, response, RT);
             writetable(output, dataFile, 'WriteVariableNames', true)
-            
+
             newTiming = cell(length(timing),2);
             for i = 1:length(timing)
                 fprintf(fid, '%s %f\n', stimulusSet{i}.type, timing(i)-expStartTime);
                 newTiming{i,1} = stimulusSet{i}.type;
                 newTiming{i,2} = timing(i)-expStartTime;
             end
-            
+
             fprintf(fid,'\n');
             fclose(fid);
             timing = newTiming;
             eval(['save ', [dataDir expt_name '_story' num2str(storynum) '_' subjID '_run' num2str(run)], ' timing']);
-            
+
             Screen('CloseAll');
             WaitSecs(2)
             error('Experiment quit by pressing ESCAPE\n');
-            break;
-        elseif ismember(find(keyCode,1), triggerKey)
+
+         elseif any(ismember(find(keyCode), triggerKey))
+            acceptable_key = 1;
+             
             index = find(triggerKey == find(keyCode,1));
             response(i,1) = key_mapping(index); % output determined by key_mapping at top of script
-            RT(i, 1) = seconds - stimuli_pres;
+            RT(i, 1) = keyPressTime - stimuli_pres;
             DrawFormattedText(windowPtr, '', 'center', 'center', 0);
             Screen('Flip', windowPtr);
-            break;
+
+        else
+            fprintf('Keycode %d not reconized',find(keyCode,1))
         end
-        WaitSecs(0.001);
     end
     
+%     while 1
+%         [keyIsDown, keyPressTime, keyCode] = KbCheck(-3);        % -3 = check input from ALL devices
+%         if keyCode(escapeKey)
+%             
+%             output = table(item, pres_questions, pres_answersA, pres_answersB, pres_correctAnswers, response, RT);
+%             writetable(output, dataFile, 'WriteVariableNames', true)
+%             
+%             newTiming = cell(length(timing),2);
+%             for i = 1:length(timing)
+%                 fprintf(fid, '%s %f\n', stimulusSet{i}.type, timing(i)-expStartTime);
+%                 newTiming{i,1} = stimulusSet{i}.type;
+%                 newTiming{i,2} = timing(i)-expStartTime;
+%             end
+%             
+%             fprintf(fid,'\n');
+%             fclose(fid);
+%             timing = newTiming;
+%             eval(['save ', [dataDir expt_name '_story' num2str(storynum) '_' subjID '_run' num2str(run)], ' timing']);
+%             
+%             Screen('CloseAll');
+%             WaitSecs(2)
+%             error('Experiment quit by pressing ESCAPE\n');
+%             break;
+%         elseif ismember(find(keyCode,1), triggerKey)
+%             index = find(triggerKey == find(keyCode,1));
+%             response(i,1) = key_mapping(index); % output determined by key_mapping at top of script
+%             RT(i, 1) = keyPressTime - stimuli_pres;
+%             DrawFormattedText(windowPtr, '', 'center', 'center', 0);
+%             Screen('Flip', windowPtr);
+%             break;
+%         end
+%         WaitSecs(0.001);
+%     end
+%     
     %TRIGGER RESPONSE TO QUESTION
     TriggerCode = zeros(1,8);
     TriggerCode(Fixation) = 0;

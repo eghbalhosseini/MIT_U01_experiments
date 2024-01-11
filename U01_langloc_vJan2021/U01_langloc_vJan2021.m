@@ -157,7 +157,7 @@ if ~isempty(d)
         %update the name of the output file with new resume number
         dataFile_csv = [dataFile '_restart' num2str(current_resume_number) '.csv'];
          % get materials for this set
-        load('materials.mat')
+        load('stimuli/materials.mat')
         %run practice run
         if (list == 0)
             stimuli = materials.practice_run;
@@ -181,7 +181,7 @@ else
     % run the full list
     
     % get materials for this set
-    load('materials.mat')
+    load('stimuli/materials.mat')
     
     %run practice run
     if (list == 0)
@@ -228,6 +228,7 @@ screenNumber = max(screensAll); % Which screen you want to use. "1" is external 
 %define colors
 white = WhiteIndex(screenNumber);
 black = BlackIndex(screenNumber);
+flipSyncState=0;
 blue = [0 0 1];
 GREY = 0.6;
 
@@ -245,6 +246,8 @@ Screen('TextStyle', window, 0);
 
 % Wait for scanner
 DrawFormattedText(window, 'You will read sentences one word at a time.\n\n After, you will see a word in blue. \n\n Press 1 if that word was in the sentence you just read \n\n and press 2 if not. \n\nPress SPACE to begin', 'center', 'center', black);
+flipSyncState = ~flipSyncState;
+Screen('FillRect', window, cfg.SCREEN_SYNC_COLOR .* flipSyncState, cfg.SCREEN_SYNC_RECT);
 Screen('Flip', window);
 
 %set text size larger for the stimuli
@@ -328,6 +331,8 @@ for i = start:NUM_STIMULI
         ind = 1;
         Screen('TextSize', window, 40);
         DrawFormattedText(window, 'Take a break \n\n Press the spacebar to continue', 'center', 'center', black);
+        flipSyncState = ~flipSyncState;
+        Screen('FillRect', window, cfg.SCREEN_SYNC_COLOR .* flipSyncState, cfg.SCREEN_SYNC_RECT);
         start_break = Screen('Flip', window);
         Screen('TextSize', window, 80);
 
@@ -357,6 +362,8 @@ for i = start:NUM_STIMULI
     
     if pres{1} == '+'       
         DrawFormattedText(window, '+', 'center', 'center', black);
+        flipSyncState = ~flipSyncState;
+        Screen('FillRect', window, cfg.SCREEN_SYNC_COLOR .* flipSyncState, cfg.SCREEN_SYNC_RECT);
         Screen('Flip', window,onsets(i));
         onset_time = GetSecs() - startTask;
         
@@ -377,6 +384,8 @@ for i = start:NUM_STIMULI
                 
         %pre-stimuli fixation 200 ms
         DrawFormattedText(window, '', 'center', 'center', white);
+        flipSyncState = ~flipSyncState;
+        Screen('FillRect', window, cfg.SCREEN_SYNC_COLOR .* flipSyncState, cfg.SCREEN_SYNC_RECT);
         Screen('Flip', window,onsets(i));
         onset_time = GetSecs() - startTask;
 
@@ -402,7 +411,7 @@ for i = start:NUM_STIMULI
         trigger_sent = 0;
         for word_num = 1:length(pres)
             next_word_onset = word_onsets(word_num+1);
-            
+            flipSyncState = ~flipSyncState;
             while GetSecs()-pre_fixation < next_word_onset
                 
                 %% SEND WORD TRIGGERS HERE %%
@@ -431,6 +440,7 @@ for i = start:NUM_STIMULI
 
                 w = char(pres(word_num));
                 DrawFormattedText(window, upper(w), 'center', 'center', black);
+                Screen('FillRect', window, cfg.SCREEN_SYNC_COLOR .* flipSyncState, cfg.SCREEN_SYNC_RECT);
                 Screen('Flip', window);
 
                 [~, ~, keyCode] = KbCheck(-1);
@@ -457,6 +467,8 @@ for i = start:NUM_STIMULI
         %pre-probe interval (200 ms), probe (1000 ms)and post-probe interval (600 ms)
 
         DrawFormattedText(window, '', 'center', 'center', white);
+        flipSyncState = ~flipSyncState;
+        Screen('FillRect', window, cfg.SCREEN_SYNC_COLOR .* flipSyncState, cfg.SCREEN_SYNC_RECT);
         Screen('Flip', window);
         %TRIGGER second fixation (last 5 bits are ID #14)
         TriggerCode = zeros(1,8);
@@ -481,6 +493,8 @@ for i = start:NUM_STIMULI
 
         %set up the display of the probe
         DrawFormattedText(window, probe, 'center', 'center', blue);
+        flipSyncState = ~flipSyncState;
+        Screen('FillRect', window, cfg.SCREEN_SYNC_COLOR .* flipSyncState, cfg.SCREEN_SYNC_RECT);
         Screen('Flip', window);
         %TRIGGER probe (last 5 bits are ID #16)
         TriggerCode = zeros(1,8);
@@ -505,6 +519,7 @@ for i = start:NUM_STIMULI
         response_period_start = GetSecs;
 
         tigger_sent = 0;
+        flipSyncState = ~flipSyncState;
         while GetSecs < response_period_start + 1.6 %probe for 1.6 seconds (1s + post probe 0.6 s)
             [~, ~, keyCode] = KbCheck(-1);
 
@@ -553,6 +568,7 @@ for i = start:NUM_STIMULI
 
                 
                 DrawFormattedText(window, '' , 'center', 'center', white);
+                Screen('FillRect', window, cfg.SCREEN_SYNC_COLOR .* flipSyncState, cfg.SCREEN_SYNC_RECT);
                 Screen('Flip', window);
             end
 

@@ -16,6 +16,9 @@ cfg.PATH_TASK = [userdir '\Desktop\MIT\Task_MIT_Fedorenko\U01_langloc_audio_vFeb
 cfg.PATH_SOURCEDATA = [userdir '\Desktop\MIT\Data_LangLoc_Audio']; %rawdata root folder
 cfg.SEND_TRIGGERS = 1;
 
+cfg.SCREEN_SYNC_RECT = [0 0 50 50]; %rectangle used for screen sync
+cfg.SCREEN_SYNC_COLOR = [255 255 255]; 
+
 % % Paths and PTB configuration on test computer
 % cfg.PATH_TASK = '~/git/Task_MIT_Fedorenko/U01_langloc_vJan2021';
 % cfg.PATH_SOURCEDATA = '~/Sandbox'; %rawdata root folder

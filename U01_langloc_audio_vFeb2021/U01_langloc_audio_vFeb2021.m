@@ -122,7 +122,7 @@ if ~isempty(d)
             fprintf('Resuming list %d at trial % \n', list, start);
         else
             % get materials for this set
-            load('materials.mat')
+            load('stimuli/materials.mat')
 
             run_label = strcat("run",num2str(list));
             stimuli = materials.(run_label);
@@ -163,7 +163,7 @@ else
     % run the full list
     
     % get materials for this set
-    load('materials.mat')
+    load('stimuli/materials.mat')
 
     run_label = strcat("run",num2str(list));
     stimuli = materials.(run_label);
@@ -228,6 +228,7 @@ screensAll = Screen('Screens'); %Get the screen numbers
 screenNumber = max(screensAll); % Which screen you want to use. "1" is external monitor, "0" is this screen. use external if it is present
 %define colors
 white = WhiteIndex(screenNumber);
+flipSyncState=0;
 
 [windowPtr,rect]=PsychImaging('OpenWindow',screenNumber, GREY); %, [0 0 1440 900]
 [screenXpixels, screenYpixels] = Screen('WindowSize', windowPtr);
@@ -243,6 +244,8 @@ Priority(priorityLevel);
 
 %% Present instructions %%
 
+flipSyncState = ~flipSyncState;
+Screen('FillRect', windowPtr, cfg.SCREEN_SYNC_COLOR .* flipSyncState, cfg.SCREEN_SYNC_RECT);
 DrawFormattedText(windowPtr, 'Welcome! \n\n Press any key to begin', 'center', 'center', 0);
 Screen('Flip', windowPtr);
 
@@ -270,6 +273,8 @@ end
 % present instructions
 DrawFormattedText(windowPtr, ['\n\n' INSTRUCTIONS ], 'center', 'center', 0);
 DrawFormattedText(windowPtr, 'Press any key when you are ready to begin', 'center', screenYpixels .* 0.85,  0);
+flipSyncState = ~flipSyncState;
+Screen('FillRect', windowPtr, cfg.SCREEN_SYNC_COLOR .* flipSyncState, cfg.SCREEN_SYNC_RECT);
 Screen('Flip', windowPtr);
 WaitSecs(0.2); %some buffer time for key press to work
 triggerKey = spaceBar;
@@ -313,6 +318,8 @@ for j =start:NUM_STIMULI
         ind = 1;
         Screen('TextSize', windowPtr, 40);
         DrawFormattedText(windowPtr, 'Take a break \n\n Press the spacebar to continue', 'center', 'center', 0);
+        flipSyncState = ~flipSyncState;
+        Screen('FillRect', windowPtr, cfg.SCREEN_SYNC_COLOR .* flipSyncState, cfg.SCREEN_SYNC_RECT);
         start_break = Screen('Flip', windowPtr);
         Screen('TextSize', windowPtr, 80);
 
@@ -346,6 +353,8 @@ for j =start:NUM_STIMULI
     
     %% STARTING FIXATION
     DrawFormattedText(windowPtr, '+', 'center', 'center', 0);
+    flipSyncState = ~flipSyncState;
+    Screen('FillRect', windowPtr, cfg.SCREEN_SYNC_COLOR .* flipSyncState, cfg.SCREEN_SYNC_RECT);
     fixation_time = Screen(windowPtr, 'Flip');
     %SEND FIXATION TRIGGER
     TriggerCode = zeros(1,8);
@@ -419,6 +428,8 @@ for j =start:NUM_STIMULI
     %% FIXATION and PROBES - total time is 1.8 seconds
     probe = final_probe(j);
     DrawFormattedText(windowPtr, ' ', 'center', 'center', 0);
+    flipSyncState = ~flipSyncState;
+    Screen('FillRect', windowPtr, cfg.SCREEN_SYNC_COLOR .* flipSyncState, cfg.SCREEN_SYNC_RECT);
     start_time = Screen(windowPtr, 'Flip');
     %% SEND FIXATION TRIGGER
     TriggerCode = zeros(1,8);
@@ -437,6 +448,8 @@ for j =start:NUM_STIMULI
         elseif (GetSecs() - start_time < 1.2)
             if(~probe_shown)
                 DrawFormattedText(windowPtr, char(probe), 'center','center',blue);
+                flipSyncState = ~flipSyncState;
+                Screen('FillRect', windowPtr, cfg.SCREEN_SYNC_COLOR .* flipSyncState, cfg.SCREEN_SYNC_RECT);
                 Screen(windowPtr,'Flip');
                 probe_shown = 1;
                 probe_shown_time = GetSecs();
@@ -452,6 +465,8 @@ for j =start:NUM_STIMULI
         else %0.6 s extra time to answer
             if(~final_fixation_shown)
                 DrawFormattedText(windowPtr, '+', 'center', 'center', 0);
+                flipSyncState = ~flipSyncState;
+                Screen('FillRect', windowPtr, cfg.SCREEN_SYNC_COLOR .* flipSyncState, cfg.SCREEN_SYNC_RECT);
                 Screen(windowPtr,'Flip');
                 final_fixation_shown = 1;
                 %% SEND FIXATION TRIGGER
@@ -509,6 +524,8 @@ end
 time = GetSecs() - startTime
 %end of trial
 DrawFormattedText(windowPtr, 'Thank you! \n\n Press Enter to Exit', 'center', 'center', 0);
+flipSyncState = ~flipSyncState;
+Screen('FillRect', windowPtr, cfg.SCREEN_SYNC_COLOR .* flipSyncState, cfg.SCREEN_SYNC_RECT);
 Screen('Flip', windowPtr);
 WaitSecs(0.5);
 

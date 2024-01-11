@@ -8,26 +8,31 @@ handfix_json_dir=sprintf('./U01_Expt6_ANNsentSET1/stimuli_alignment_handfix/');
 % order the files 
 wav_files=dir(strcat(sound_dir,'/*.wav'));
 wave_files=sort(arrayfun(@(x) sprintf('%s/%s',wav_files(x).folder,wav_files(x).name),1:length(wav_files),'uni',false))';
-match=cellfun(@(x) regexp(x,'_\d*','match'),wave_files,'uni',false );
-file_order=cell2mat((cellfun(@(x) str2num(erase(x{find(contains(x,digitsPattern))},'_')),match,'uni',false )));
-[~,sort_id]=sort(file_order);
+wav_name={};
+for Wfile=wave_files'
+    [file_dir,file_name,ext]=fileparts(Wfile);
+    wav_name=[wav_name;file_name];
+end 
+[~,sort_id]=sort(cellfun(@str2num,(extract(wav_name,digitsPattern))))
 wave_files=wave_files(sort_id);
+
 
 json_file=dir(strcat(json_dir,'/*.json'));
 json_files=sort(arrayfun(@(x) sprintf('%s/%s',json_file(x).folder,json_file(x).name),1:length(json_file),'uni',false))';
-
-
-
-match=cellfun(@(x) regexp(x,strcat('stimuli_alignment','/\d*'),'match'),json_files,'uni',false );
-file_order=cell2mat(cellfun(@(x) str2num(erase(x{1},strcat('stimuli_alignment','/'))),match,'uni',false ));
-[~,sort_id]=sort(file_order);
+json_name={};
+for Jfile=json_files'
+    [file_dir,file_name,ext]=fileparts(Jfile);
+    json_name=[json_name;file_name];
+end 
+[~,sort_id]=sort(cellfun(@str2num,(extract(json_name,digitsPattern))))
 json_files=json_files(sort_id);
+
 assert(length(json_files)==length(wave_files));
 json_parent=json_file(1).folder;
 handfix_json_dir=sprintf('%s_handfix',json_parent);
 %% analyze the data 
-for i=180:size(wave_files,1)
-    i
+for i=180%:size(wave_files,1)
+    
    % read alignment file 
    waveFile=wave_files{i};
    JSONFILE_fix_name=waveFile;
